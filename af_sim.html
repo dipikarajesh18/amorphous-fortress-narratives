@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Amorphous Fortress Simulation</title>
+        <style>
+            /* import fonts */
+            @font-face {
+                font-family: DwarfFortress;
+                src: url(other/ibm_vga_9x8.ttf);
+            }
+            @font-face {
+                font-family: IBM_Alt3;
+                src: url(other/ibm_alt3_3.ttf);
+            }
+            @font-face {
+                font-family: Proggy;
+                src: url(other/ProggySquare.ttf);
+            }
+            @font-face {
+                font-family: Jetbrains;
+                src: url(other/jetbrains_mono.ttf);
+            }
+            @font-face {
+                font-family: JetbrainsBold;
+                src: url(other/jetbrains_monobold.ttf);
+            }
+            @font-face {
+                font-family: Fixedsys;
+                src: url(other/FSEX300.ttf);
+            }
+
+
+
+            body{
+                background-color:#000000;
+                color:#fff;
+                font-family: Jetbrains, monospace;
+                text-align:center;
+            }
+
+            #container{
+                width:500px;
+                padding:30px;
+                margin:30px auto auto auto;
+                border:2px dashed #fff;
+                display:block;
+            }
+
+            #stepNo{
+                font-family: JetbrainsBold, monospace;
+                font-size: 14px;
+                margin:auto;
+                color:#fff;
+            }
+
+            #fortRend{
+                border:3px solid #fff;
+                background-color: #090909;
+                width: 320px;
+                height: 300px;
+                margin:10px auto;
+            }
+
+            #fortTextIn{
+                width: 420px;
+                height: 80px;
+                background-color:#090909;
+                color:#fff;
+                font-family: Jetbrains, monospace;
+                text-align:left;
+                font-size: 12px;
+                border:3px solid #fff;
+                margin:20px auto;
+                padding:10px;
+            }
+
+            #devArea{
+                max-width: 500px;
+                margin:10px auto;
+                text-align: center;
+                display:flex;
+                /* border:1px solid white; */
+            }
+            #seedIn{
+                width: 110px;
+                height: 8px;
+                background-color:#090909;
+                color:#fff;
+                font-family: Jetbrains, monospace;
+                text-align:left;
+                margin:auto;
+                font-size: 12px;
+                padding:5px;
+                border:1px solid white;
+            }
+            #fpsIn{
+                width: 40px;
+                height: 8px;
+                background-color:#090909;
+                color:#fff;
+                font-family: Jetbrains, monospace;
+                text-align:left;
+                margin:auto;
+                font-size: 12px;
+                padding:5px;
+                border:1px solid white;
+            }
+            .af-btn{
+                font-family: Jetbrains, monospace;
+                text-align:center;
+                font-size: 12px;
+                font-weight: bold;
+            }
+
+            #playBtn{
+                width: 30px;
+                height: 30px;
+                padding:5px;
+                margin:auto;
+                background-color: #0f0;
+            }
+            #debug{
+                font-family: Jetbrains, monospace;
+                text-align:center;
+                font-size:8px;
+                margin:20px auto 0px auto;
+                color:#f00;
+                width:400px;
+            }
+            #debugBtns{
+                margin:10px auto 0px auto;
+                text-align: center;
+                width: 500px;
+            }
+
+        </style>
+        
+        <script src="af-engine/seedrandom.js"></script>
+        <script src="af-engine/utils.js"></script>
+        <script src="af-engine/engine.js"></script>
+        <script src="af-engine/fortress.js"></script>
+        <script src="af-engine/entity.js"></script>
+
+    </head>
+    <body onload="init()">
+        <div id="container">
+            <div id="stepNo">Step: 0</div>
+            <canvas id="fortRend"></canvas><br>
+            <textarea id="fortTextIn" placeholder="Paste fortress data here!" onblur="importFortress()"></textarea>
+            <div id="devArea">
+                <div style="width:200px;padding-top:2px;">
+                    <input type="text" placeholder="Seed" id="seedIn" onchange="setSeed();">
+                    <input type="number" value="2" placeholder="Steps per second" maxlength="4" id="fpsIn" onchange="setFPS()">
+                </div>
+                <div style="width:100px;">
+                    <button id="playBtn" onclick="toggleSim()">>></button>
+                </div>
+                <div style="width:200px;padding-top:2px;">
+                    <button id="reset" class="af-btn" onclick="reset()">Reset</button>
+                    <button id="exportLog" class="af-btn" onclick="exportLog()">Export Log</button>
+                    <!-- <button id="printLog" class="af-btn" onclick="showLog()">Print Log</button> -->
+                </div>
+            </div>
+            <div id="debug">...</div>
+            <div id="debugBtns">
+                <!-- <button onclick="render()" class="af-btn">RENDER</button> -->
+                <!-- <button onclick="loadEntity()" class="af-btn">Load Entity</button> -->
+                <button onclick="drunkFort()" class="af-btn">Drunk Sokoban</button>
+                <button onclick="hyruleFort()" class="af-btn">Hyrule</button>
+                <button onclick="basicFort()" class="af-btn">Basic Fort</button>
+                <select id="fontSel" onchange="change_font()" style="font-family: Jetbrains;font-size:11px;">
+                    <option value="DwarfFortress">DwarfFortress</option>
+                    <option value="Proggy">Proggy</option>
+                    <option value="Jetbrains">Jetbrains</option>
+                    <option value="IBM_Alt3">IBM Alt 3</option>
+                    <option value="Courier">Courier</option>
+                    <option value="Fixedsys">Fixedsys</option>
+                    <option value="monospace">monospace</option>
+                </select>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        //canvas setup
+        var canvas = document.getElementById("fortRend");
+        var ctx = canvas.getContext("2d");
+        canvas.width = 320;
+        canvas.height = 300;
+
+        // engine / fortress setup
+        var ENGINE = null;
+        var SEED = "hello world";
+        var cur_fortress = null;
+
+        var fontSize = 18;
+        var fontType = "monospace";
+        var charOff = {x: -5, y: 4};
+
+        // ui setup
+        var seedIn = document.getElementById("seedIn");
+        var playBtn = document.getElementById("playBtn");
+        var printLog = document.getElementById("printLog");
+        var fortTextIn = document.getElementById("fortTextIn");
+        var stepNo = document.getElementById("stepNo");
+        var fontSel = document.getElementById("fontSel");
+
+        // simulation setup
+        var sim_tt = null;          // timeout for simulation
+        var sim_fps = 2;            // steps per second
+
+
+        //////////////   SETUP FUNCTIONS   //////////////
+
+        // loads the fonts used on the canvas
+        // (dumb as fuck -- the CSS should load them already)
+        function loadFonts(){
+            let font_set = {
+                names:["DwarfFortress","IBM_Alt3","Proggy","Jetbrains","Fixedsys"], 
+                urls:["url(other/ibm_vga_9x8.ttf)","url(other/ibm_alt3_3.ttf)", "url(other/ProggySquare.ttf)", "url(other/jetbrains_mono.ttf)", "url(other/FSEX300.ttf)"]
+            }
+            for(let i=0;i<font_set.names.length;i++){
+                let new_font = new FontFace(font_set.names[i],font_set.urls[i]);
+                document.fonts.add(new_font);
+                new_font.load();
+            }
+        }
+
+
+
+        
+        //////////////   FORTRESS FUNCTIONS   //////////////
+
+
+        // imports a new fortress setup from the text area
+        function importFortress(){
+            if(ENGINE == null){
+                debugStr("Engine not initialized!");
+                return;
+            }
+            var fortText = fortTextIn.value;
+            var fort = ENGINE.setFortress(fortText);
+            if(fort == null){
+                debugStr("Invalid fortress!");
+                return;
+            }
+            cur_fortress = fort;
+            render();
+        }
+
+        
+        // renders the current fortress onto the canvas
+        function render(){
+            // check if fortress set
+            if(cur_fortress == null){
+                debugStr("No fortress set!");
+                return;
+            }
+
+            // clear the canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            //add background
+            ctx.fillStyle = "#090909";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // no fortress to draw
+            if(cur_fortress == null){
+                debugStr("No fortress set!");
+                return;
+            }
+
+            // draw the fortress
+            ctx.fillStyle = "#fff";
+            // ctx.font = fontSize + "px Proggy";
+            // ctx.font = fontSize + "px DwarfFortress";
+            // ctx.font = fontSize + "px JetbrainsBold";
+            ctx.font = fontSize + "px " + fontType;
+            ctx.textAlign = "center";
+            let w = cur_fortress.width-1;    // looks better with -1 
+            let h = cur_fortress.height-2;   // looks better with -2
+            var offset = {x:(canvas.width-(w*fontSize)-w*charOff.x)/2,y:(canvas.height-(h*fontSize)-h*charOff.y)/2}
+            var fort_arr = cur_fortress.fort2D();
+            for(var i = 0; i < cur_fortress.height; i++){
+                for(var j = 0; j < cur_fortress.width; j++){
+                    let c = fort_arr[i][j];
+                    ctx.fillText(
+                        c, 
+                        Math.floor(offset.x + j*(fontSize + charOff.x)), 
+                        Math.floor(offset.y + i*(fontSize + charOff.y))
+                    );
+                }
+            }
+
+            // set the step number
+            stepNo.innerHTML = "Step: " + cur_fortress.steps;
+        }
+
+
+
+        let template_fort = "@ - Dork\n-- NODES --\n0: idle\n1: move\n-- EDGES --\n0-1: step 3\n1-0: none\n\n\n\n-- INIT FORT --\n###############\n#.............#\n#.............#\n#......@......#\n#.............#\n#.............#\n#.............#\n###############";
+        let template_ent = "@ - Dork\n-- NODES --\n0: idle\n1: move\n2: add o\n-- EDGES --\n0-1: step 3\n1-0: none\n0-2: within & 3";
+        let drunk_soko_fort = "@\n-- NODES --\n1: push *\n-- EDGES --\n1-1: none\n\nX\n-- NODES --\n0: idle\n-- EDGES --\n0-0: none\n\n*\n-- NODES --\n0: idle\n1: take X\n2: transform O\n-- EDGES --\n0-1: touch X\n1-2: none\n\nO\n-- NODES --\n0: idle\n-- EDGES --\n0-0: none\n\n\n-- INIT FORT --\n###############\n#...X.....X...#\n#..X*X...X*X..#\n#...X.....X...#\n#...X..@..X...#\n#..X*X...X*X..#\n#...X.....X...#\n###############";
+        let hyrule = "L\n-- NODES --\n0: idle\n1: take $\n2: move_wall *\n3: chase $\n-- EDGES --\n0-1: touch $\n1-0: none\n0-2: step 2\n2-0: none\n0-3: within $ 5\n\nk\n-- NODES --\n0: idle\n1: transform $\n-- EDGES --\n0-1: nextTo L\n1-0: none\n\nX\n-- NODES --\n0: idle\n1: add $\n2: move\n-- EDGES --\n0-1: step 10\n0-2: step 4\n1-0: none\n2-0: none\n\nB\n-- NODES --\n0: idle\n1: take L\n2: move\n3: chase L\n-- EDGES --\n0-1: touch L\n1-0: none\n0-2: step 5\n2-0: none\n0-3: within L 5\n3-3: within L 5\n3-0: none\n3-1: touch L\n\nG\n-- NODES --\n0: idle\n1: push *\n2: move\n-- EDGES --\n0-1: nextTo *\n0-2: step 2\n1-0: none\n2-0: none\n\n*\n-- NODES --\n0: idle\n-- EDGES --\n0-0: none\n\n$\n-- NODES --\n0: idle\n-- EDGES --\n0-0: none\n\n\n\n-- INIT FORT --\n###############\n#..*.......B..#\n#.............#\n#..*..L...X...#\n#..........*.*#\n#..k.,...*..G.#\n#......*.G....#\n###############";
+
+
+
+        //////////////   SIM FUNCTIONS   //////////////
+
+        // set the speed of the simulation
+        function setFPS(){
+            sim_fps = fpsIn.value;
+            localStorage.setItem("fps",sim_fps);
+        }
+
+        // set the seed value
+        function setSeed(){
+            SEED = seedIn.value;
+            cur_fortress.setSeed(SEED);
+
+            // test seed - should be the same everytime
+            for(let i=0;i<3;i++)
+                console.log(Math.random());
+
+            render();
+
+            localStorage.setItem("seed",SEED);
+        }
+
+        // change the font for debugging
+        function change_font(){
+            fontType = fontSel.value;
+            if(fontType == "DwarfFortress"){
+                charOff = {x: -4, y: 8};
+                fontSize = 18;
+            }else if(fontType == "Proggy"){
+                charOff = {x: -7, y: 4};
+                fontSize = 20;
+            }else if(fontType == "IBM_Alt3"){
+                charOff = {x: -8, y: 2};
+                fontSize = 20;
+            }else{
+                fontSize = 18;
+                charOff = {x: -6, y: 4};
+            }
+            if(cur_fortress != null)
+                render();
+            localStorage.setItem("font",fontType);
+        }
+
+        // load local data
+        function importSettings(){
+            // load the seed
+            if(localStorage.getItem("seed") != null){
+                SEED = localStorage.getItem("seed");
+                seedIn.value = SEED;
+            }
+
+            // load the font
+            if(localStorage.getItem("font") != null){
+                fontType = localStorage.getItem("font");
+                fontSel.value = fontType;
+                change_font();
+            }
+
+            // load the fps
+            if(localStorage.getItem("fps") != null){
+                sim_fps = localStorage.getItem("fps");
+                fpsIn.value = sim_fps;
+                setFPS();
+            }
+        }
+
+        // print the fortress log to the console
+        function showLog(){
+            cur_fortress.printLog(20);
+        }
+
+        // export the fortress log to a text file
+        function exportLog(){
+            // no fortress to export
+            if(ENGINE == null || cur_fortress == null){
+                debugStr("No fortress set!");
+                return;
+            }
+
+            // export the log
+            let log_str = cur_fortress.exportLog();
+            let blob = new Blob([log_str], {type: "text/plain"});
+            let url = URL.createObjectURL(blob);
+            let a = document.createElement("a");
+            a.href = url;
+            let fort_name = cur_fortress.name || "fortress";
+            a.download = fort_name + "_log.txt";
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+
+        // starts / stop the simulation
+        function toggleSim(){
+            // start the simulation
+            if(sim_tt == null){
+                sim_tt = setInterval(simulate,1000/sim_fps);
+                playBtn.innerHTML = "||";
+                playBtn.style.backgroundColor = "#f00";
+            }else{
+                clearInterval(sim_tt);
+                sim_tt = null;
+                playBtn.innerHTML = ">>";
+                playBtn.style.backgroundColor = "#0f0";
+            }
+        }
+
+        // run the fortress simulation for one step
+        function simulate(){
+            // no fortress to simulate
+            if(ENGINE == null || cur_fortress == null){
+                debugStr("No fortress set!");
+                return;
+            }
+
+            ENGINE.update();            // update the fortress
+            render();                   // render the fortress
+            // console.log(cur_fortress.fortString());  // print the fortress to the console
+            stepNo.innerHTML = "Step: " + cur_fortress.steps;        // update the step number
+
+            
+        }
+
+        // resets the fortress to the initial state
+        function reset(){
+            // no fortress to reset
+            if(ENGINE == null || cur_fortress == null){
+                debugStr("No fortress set!");
+                return;
+            }
+
+            // reset the fortress
+            ENGINE.reset();
+            render();
+            stepNo.innerHTML = "Step: " + cur_fortress.steps;
+        }
+
+
+        // initialize the page
+        function init(){
+
+            // import saved settings
+            importSettings();
+
+            // load the fonts
+            loadFonts();
+
+            // set config
+            CONFIG = {
+                "width": 15,
+                "height": 8,
+                "seed": SEED,
+                "inactive_limit":100
+            }
+
+            // set engine
+            ENGINE = new Engine(CONFIG);
+            cur_fortress = ENGINE.fortress;
+        
+            // render (if fonts loaded)
+            document.fonts.ready.then(function() {
+                render();
+            });
+
+            // TOOD: remove
+            // basicFort();
+
+        }
+
+
+        //////////////   DEBUG FUNCTIONS   //////////////
+
+        // loads the template entity and shows its properties
+        function loadEntity(){
+            var ent = new Entity(cur_fortress,template_ent);
+            console.log(ent);
+        }
+        // loads the hyryle fortress and shows its properties
+        function hyruleFort(){
+            cur_fortress = ENGINE.setFortress(hyrule);
+            render();
+            // console.log(cur_fortress);
+        }
+        // loads the template fortress and shows its properties
+        function drunkFort(){
+            cur_fortress = ENGINE.setFortress(drunk_soko_fort);
+            render();
+            // console.log(cur_fortress);
+        }
+        function basicFort(){
+            cur_fortress = ENGINE.setFortress(template_fort);
+            render();
+            // console.log(cur_fortress);
+        }
+
+        // print to the debug string
+        function debugStr(s){
+            document.getElementById("debug").innerHTML = s;
+        }
+
+
+    </script>
+</html>
