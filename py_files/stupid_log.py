@@ -44,11 +44,11 @@ def randomLog(ents):
         "[E_] died",
         "[E_] cloned to [N_] at (Q_)",
         "[E_] took [O_]",
-        "[E_] moved to (P_) [target: (Q_)]",
+        "[E_] chased [O_]",
         "[E_] pushed [O_]",
-        "[E_] added [O_] at (Q_)",
-        "[E_] transformed into [O_] at (P_)",
-        "[E_] blocked by wall [O_]"
+        "[E_] added [O_] at (P_)",
+        "[E_] transformed into [O_]",
+        "[E_] blocked by [O_]"
     ]
 
     l = random.choice(log_set)
@@ -80,7 +80,7 @@ if __name__ == "__main__":
     fake_log = [f"=====    FORTRESS SEED: [{random.seed}]    =====", "Fortress initialized! - <0>", f">>> TIME: {d} <<<"]
     #print(ents)
 
-    for i in range(10):
+    for i in range(15):
         if random.random() > 0.2:
             fake_log.append(f"<{i}> {randomLog(ents)}")
         if random.random() > 0.9:           # chance of double log
@@ -88,6 +88,6 @@ if __name__ == "__main__":
 
     print("\n".join(fake_log))
 
-    with open("stupid_log.txt", "w+") as f:
+    with open("logs/stupid_log.txt", "w+") as f:
         f.write("\n".join(fake_log))
 

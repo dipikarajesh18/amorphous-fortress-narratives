@@ -208,7 +208,7 @@ class Entity{
         // check if the new position is valid
         if(e.fortress.validPos(new_pos[0], new_pos[1])){
             e.pos = new_pos;
-            e.fortress.addLog(`[${e.tostr()}] moved to ${new_pos} [target: ${target_pos}]`);
+            e.fortress.addLog(`[${e.tostr()}] chased [${other_ent.tostr()}]`);
         }else{
             // console.log(e.tostr() + " cant move")
         }
@@ -309,7 +309,7 @@ class Entity{
                 e.pos = new_pos;
                 e.fortress.addLog(`[${e.tostr()}] moved to ${new_pos}`);
             }else{
-                e.fortress.addLog(`[${e.tostr()}] blocked by wall [${eap.tostr()}]`);
+                e.fortress.addLog(`[${e.tostr()}] blocked by [${eap.tostr()}]`);
             }
         }
     }
