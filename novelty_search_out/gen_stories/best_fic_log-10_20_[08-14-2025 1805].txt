@@ -1,0 +1,15 @@
+=====    FORTRESS SEED: [791231]    =====
+Fortress initialized! - <0>
+>>> TIME: 2025-08-14 13:21:44 <<<
+<0> [parent] called into [child]
+<1> [child] suprise to [baby] at (44, 2)
+<2> [baby] laughed to (65, 47)
+<3> [child] believed to (65, 68)
+<5> [child] feared into [child]
+<6> [money] earned by [child]
+<7> [child] gave [family] at (55, 7)
+<8> [baby] needed to (50, 78)
+<9> [child] added [baby]
+<10> [child] drove [child]
+<11> [child] stayed [child] at (37, 88)
+<12> [money] obtained [parent]

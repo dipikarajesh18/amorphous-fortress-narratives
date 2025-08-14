@@ -1,0 +1,15 @@
+=====    FORTRESS SEED: [791231]    =====
+Fortress initialized! - <0>
+>>> TIME: 2025-08-14 13:21:44 <<<
+<0> [glue] held into [thing]
+<1> [object] belonged to [thing] at (44, 2)
+<2> [wood] used to (65, 47)
+<3> [thing] used to (65, 68)
+<5> [object] disappeared into [paper]
+<6> [thing] used by [thing]
+<7> [object] belonged [hoof] at (55, 7)
+<8> [wood] drove to (50, 78)
+<9> [paper] discussed [wood]
+<10> [thing] used [wood]
+<11> [piece] adjusted [object] at (37, 88)
+<12> [paper] cut [glue]

@@ -1,0 +1,37 @@
+{
+   "mc": "parent",
+   "ent": {
+      "[%.b29d]": "parent",
+      "[y.c9ae]": "child",
+      "[ .d474]": "child",
+      "[ .6adb]": "baby",
+      "[$.b14a]": "baby",
+      "[*.7b93]": "child",
+      "[|.c91d]": "child",
+      "[}.460f]": "money",
+      "[5.6b26]": "child",
+      "[S.d487]": "child",
+      "[!.fdaf]": "family",
+      "[Y.3a62]": "baby",
+      "[o.8829]": "child",
+      "[;.f34e]": "child",
+      "[9.547d]": "money"
+   },
+   "verbs": {
+      "3": "called",
+      "4": "suprise",
+      "5": "laughed",
+      "6": "believed",
+      "7": "feared",
+      "8": "earned",
+      "9": "gave",
+      "10": "needed",
+      "11": "added",
+      "12": "drove",
+      "13": "stayed",
+      "14": "obtained"
+   },
+   "fitness": 0.6086680142219848,
+   "story_file": "../logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [parent] called into [child]\n<1> [child] suprise to [baby] at (44, 2)\n<2> [baby] laughed to (65, 47)\n<3> [child] believed to (65, 68)\n<5> [child] feared into [child]\n<6> [money] earned by [child]\n<7> [child] gave [family] at (55, 7)\n<8> [baby] needed to (50, 78)\n<9> [child] added [baby]\n<10> [child] drove [child]\n<11> [child] stayed [child] at (37, 88)\n<12> [money] obtained [parent]"
+}

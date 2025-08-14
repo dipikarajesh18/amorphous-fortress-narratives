@@ -1,0 +1,113 @@
+[
+   {
+      "mc": "glue",
+      "ent": {
+         "[%.b29d]": "glue",
+         "[y.c9ae]": "thing",
+         "[ .d474]": "object",
+         "[ .6adb]": "thing",
+         "[$.b14a]": "wood",
+         "[*.7b93]": "thing",
+         "[|.c91d]": "paper",
+         "[}.460f]": "thing",
+         "[5.6b26]": "thing",
+         "[S.d487]": "object",
+         "[!.fdaf]": "hoof",
+         "[Y.3a62]": "wood",
+         "[o.8829]": "wood",
+         "[;.f34e]": "piece",
+         "[9.547d]": "paper"
+      },
+      "verbs": {
+         "3": "held",
+         "4": "belonged",
+         "5": "used",
+         "6": "used",
+         "7": "disappeared",
+         "8": "used",
+         "9": "belonged",
+         "10": "drove",
+         "11": "discussed",
+         "12": "used",
+         "13": "adjusted",
+         "14": "cut"
+      },
+      "fitness": 0.5502393592339523,
+      "story_file": "../logs/stupid_log.txt",
+      "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [glue] held into [thing]\n<1> [object] belonged to [thing] at (44, 2)\n<2> [wood] used to (65, 47)\n<3> [thing] used to (65, 68)\n<5> [object] disappeared into [paper]\n<6> [thing] used by [thing]\n<7> [object] belonged [hoof] at (55, 7)\n<8> [wood] drove to (50, 78)\n<9> [paper] discussed [wood]\n<10> [thing] used [wood]\n<11> [piece] adjusted [object] at (37, 88)\n<12> [paper] cut [glue]"
+   },
+   {
+      "mc": "holdall",
+      "ent": {
+         "[%.b29d]": "holdall",
+         "[y.c9ae]": "thing",
+         "[ .d474]": "lot",
+         "[ .6adb]": "item",
+         "[$.b14a]": "skater",
+         "[*.7b93]": "hotel",
+         "[|.c91d]": "contemplating",
+         "[}.460f]": "seatbelt",
+         "[5.6b26]": "lot",
+         "[S.d487]": "mentor",
+         "[!.fdaf]": "thing",
+         "[Y.3a62]": "customer",
+         "[o.8829]": "lawn mower",
+         "[;.f34e]": "birdsongs",
+         "[9.547d]": "pet"
+      },
+      "verbs": {
+         "3": "carried",
+         "4": "closed",
+         "5": "beloved",
+         "6": "stayed",
+         "7": "considered",
+         "8": "found",
+         "9": "offered",
+         "10": "contributed",
+         "11": "realised",
+         "12": "used",
+         "13": "provid",
+         "14": "belonged"
+      },
+      "fitness": 0.5095997246455201,
+      "story_file": "../logs/stupid_log.txt",
+      "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [holdall] carried into [thing]\n<1> [lot] closed to [item] at (44, 2)\n<2> [skater] beloved to (65, 47)\n<3> [hotel] stayed to (65, 68)\n<5> [lot] considered into [contemplating]\n<6> [seatbelt] found by [lot]\n<7> [mentor] offered [thing] at (55, 7)\n<8> [skater] contributed to (50, 78)\n<9> [contemplating] realised [customer]\n<10> [thing] used [lawn mower]\n<11> [birdsongs] provid [mentor] at (37, 88)\n<12> [pet] belonged [holdall]"
+   },
+   {
+      "mc": "flies",
+      "ent": {
+         "[%.b29d]": "flies",
+         "[y.c9ae]": "paper",
+         "[ .d474]": "paper",
+         "[ .6adb]": "paper",
+         "[$.b14a]": "trapper",
+         "[*.7b93]": "thermometer",
+         "[|.c91d]": "expoter",
+         "[}.460f]": "wedge",
+         "[5.6b26]": "paper",
+         "[S.d487]": "powder",
+         "[!.fdaf]": "society debut",
+         "[Y.3a62]": "solace",
+         "[o.8829]": "piper",
+         "[;.f34e]": "males",
+         "[9.547d]": "walnuts"
+      },
+      "verbs": {
+         "3": "flew",
+         "4": "taught",
+         "5": "inside",
+         "6": "determined",
+         "7": "wiped",
+         "8": "relocated",
+         "9": "solved",
+         "10": "hardened",
+         "11": "furthered",
+         "12": "cut",
+         "13": "held",
+         "14": "attacked"
+      },
+      "fitness": 0.5122788629508475,
+      "story_file": "../logs/stupid_log.txt",
+      "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [flies] flew into [paper]\n<1> [paper] taught to [paper] at (44, 2)\n<2> [trapper] inside to (65, 47)\n<3> [thermometer] determined to (65, 68)\n<5> [paper] wiped into [expoter]\n<6> [wedge] relocated by [paper]\n<7> [powder] solved [society debut] at (55, 7)\n<8> [trapper] hardened to (50, 78)\n<9> [expoter] furthered [solace]\n<10> [paper] cut [piper]\n<11> [males] held [powder] at (37, 88)\n<12> [walnuts] attacked [flies]"
+   }
+]
