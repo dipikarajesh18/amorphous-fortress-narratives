@@ -1,0 +1,30 @@
+<1> [T.73ab] moved to 3,6
+<2> [T.d89f] moved to 10,6
+<3> [T.73ab] moved to 4,6
+<4> [T.73ab] moved to 4,5
+<6> [K.fc7c] moved towards [T.d89f]
+<7> [T.76a3] moved to 6,6
+<8> [T.d89f] moved to 11,3
+<10> [T.73ab] took [$.1a6e]
+<13> [T.73ab] took [$.6d7b]
+<13> [T.76a3] moved to 5,5
+<14> [T.d89f] moved to 9,4
+<15> [K.fc7c] took [T.d89f]
+<15> [T.73ab] moved to 5,1
+<16> [T.76a3] moved to 3,6
+<21> [T.73ab] took [$.9fe4]
+<24> [T.73ab] moved to 7,1
+<24> [T.76a3] moved to 3,6
+<25> [T.73ab] took [$.1b0e]
+<25> [T.76a3] moved to 3,5
+<28> [T.73ab] moved to 8,1
+<29> [T.73ab] took [$.0bdf]
+<38> [T.73ab] took [$.6666]
+<41> [T.73ab] took [$.6924]
+<42> [K.fc7c] moved towards [T.73ab]
+<42> [T.73ab] moved to 11,1
+<43> [T.73ab] took [$.db0a]
+<46> [T.73ab] moved to 11,1
+<50> [T.73ab] moved to 10,1
+<51> [T.73ab] moved to 11,1
+<52> [K.fc7c] moved towards [T.73ab]
