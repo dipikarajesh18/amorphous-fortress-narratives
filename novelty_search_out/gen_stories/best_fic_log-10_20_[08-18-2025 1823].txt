@@ -1,0 +1,15 @@
+=====    FORTRESS SEED: [791231]    =====
+Fortress initialized! - <0>
+>>> TIME: 2025-08-14 13:21:44 <<<
+<0> [condition] frightened into [money]
+<1> [buyer] inspected to [money] at (44, 2)
+<2> [property] owned to (65, 47)
+<3> [property] owned to (65, 68)
+<5> [buyer] looked into [sheet]
+<6> [vrml] fenced by [condition]
+<7> [tax] charged [property] at (55, 7)
+<8> [property] owned to (50, 78)
+<9> [sheet] kept [property]
+<10> [money] obtained [sausage]
+<11> [firebomb] killed [tax] at (37, 88)
+<12> [caterpillar] turned [condition]

@@ -1,0 +1,37 @@
+{
+   "mc": "truck",
+   "ent": {
+      "[%.b29d]": "road",
+      "[y.c9ae]": "cow",
+      "[ .d474]": "truck",
+      "[ .6adb]": "trailer",
+      "[$.b14a]": "thing",
+      "[*.7b93]": "cargo",
+      "[|.c91d]": "street",
+      "[}.460f]": "buttle",
+      "[5.6b26]": "cow",
+      "[S.d487]": "mechanics",
+      "[!.fdaf]": "cargo",
+      "[Y.3a62]": "deisal fuel",
+      "[o.8829]": "street",
+      "[;.f34e]": "coaching",
+      "[9.547d]": "birds"
+   },
+   "verbs": {
+      "3": "recognized",
+      "4": "used",
+      "5": "used",
+      "6": "carried",
+      "7": "travelled",
+      "8": "contained",
+      "9": "made",
+      "10": "used",
+      "11": "drove",
+      "12": "produced",
+      "13": "did",
+      "14": "gathered"
+   },
+   "fitness": 0.5387097001907261,
+   "story_file": "../logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [road] recognized into [cow]\n<1> [truck] used to [trailer] at (44, 2)\n<2> [thing] used to (65, 47)\n<3> [cargo] carried to (65, 68)\n<5> [truck] travelled into [street]\n<6> [buttle] contained by [cow]\n<7> [mechanics] made [cargo] at (55, 7)\n<8> [thing] used to (50, 78)\n<9> [street] drove [deisal fuel]\n<10> [cow] produced [street]\n<11> [coaching] did [mechanics] at (37, 88)\n<12> [birds] gathered [road]"
+}

@@ -1,0 +1,37 @@
+{
+   "mc": "business",
+   "ent": {
+      "[%.b29d]": "community",
+      "[y.c9ae]": "money",
+      "[ .d474]": "business",
+      "[ .6adb]": "employment",
+      "[$.b14a]": "sale",
+      "[*.7b93]": "service",
+      "[|.c91d]": "service",
+      "[}.460f]": "consumer",
+      "[5.6b26]": "product",
+      "[S.d487]": "product",
+      "[!.fdaf]": "wealth",
+      "[Y.3a62]": "family wealth",
+      "[o.8829]": "money",
+      "[;.f34e]": "product",
+      "[9.547d]": "activity"
+   },
+   "verbs": {
+      "3": "committed",
+      "4": "provided",
+      "5": "made",
+      "6": "posted",
+      "7": "made",
+      "8": "saved",
+      "9": "cost",
+      "10": "reduced",
+      "11": "tilted",
+      "12": "paid",
+      "13": "cost",
+      "14": "prevented"
+   },
+   "fitness": 0.4794017406618691,
+   "story_file": "../logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [community] committed into [money]\n<1> [business] provided to [employment] at (44, 2)\n<2> [sale] made to (65, 47)\n<3> [service] posted to (65, 68)\n<5> [business] made into [service]\n<6> [consumer] saved by [product]\n<7> [product] cost [wealth] at (55, 7)\n<8> [sale] reduced to (50, 78)\n<9> [service] tilted [family wealth]\n<10> [money] paid [money]\n<11> [product] cost [product] at (37, 88)\n<12> [activity] prevented [community]"
+}

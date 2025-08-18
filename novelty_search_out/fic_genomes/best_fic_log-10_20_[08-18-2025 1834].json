@@ -1,0 +1,37 @@
+{
+   "mc": "faucet",
+   "ent": {
+      "[%.b29d]": "water",
+      "[y.c9ae]": "water",
+      "[ .d474]": "faucet",
+      "[ .6adb]": "water",
+      "[$.b14a]": "water",
+      "[*.7b93]": "bathroom",
+      "[|.c91d]": "water",
+      "[}.460f]": "shower",
+      "[5.6b26]": "dish",
+      "[S.d487]": "pail",
+      "[!.fdaf]": "flow",
+      "[Y.3a62]": "water",
+      "[o.8829]": "water",
+      "[;.f34e]": "water",
+      "[9.547d]": "dish"
+   },
+   "verbs": {
+      "3": "eroded",
+      "4": "operated",
+      "5": "put",
+      "6": "hung",
+      "7": "operated",
+      "8": "found",
+      "9": "held",
+      "10": "boiled",
+      "11": "parched",
+      "12": "found",
+      "13": "used",
+      "14": "transported"
+   },
+   "fitness": 0.36819412318339184,
+   "story_file": "../logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [water] eroded into [water]\n<1> [faucet] operated to [water] at (44, 2)\n<2> [water] put to (65, 47)\n<3> [bathroom] hung to (65, 68)\n<5> [faucet] operated into [water]\n<6> [shower] found by [dish]\n<7> [pail] held [flow] at (55, 7)\n<8> [water] boiled to (50, 78)\n<9> [water] parched [water]\n<10> [water] found [water]\n<11> [water] used [pail] at (37, 88)\n<12> [dish] transported [water]"
+}

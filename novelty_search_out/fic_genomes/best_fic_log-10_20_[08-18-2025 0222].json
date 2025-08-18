@@ -1,0 +1,37 @@
+{
+   "mc": "fishing",
+   "ent": {
+      "[%.b29d]": "family",
+      "[y.c9ae]": "activity",
+      "[ .d474]": "fishing",
+      "[ .6adb]": "time",
+      "[$.b14a]": "food",
+      "[*.7b93]": "living",
+      "[|.c91d]": "time",
+      "[}.460f]": "fish",
+      "[5.6b26]": "boat",
+      "[S.d487]": "tuna",
+      "[!.fdaf]": "dad",
+      "[Y.3a62]": "salmon",
+      "[o.8829]": "living",
+      "[;.f34e]": "stream",
+      "[9.547d]": "worm"
+   },
+   "verbs": {
+      "3": "bought",
+      "4": "did",
+      "5": "placed",
+      "6": "fulfilled",
+      "7": "spent",
+      "8": "formed",
+      "9": "implied",
+      "10": "cost",
+      "11": "measured",
+      "12": "vented",
+      "13": "melted",
+      "14": "turned"
+   },
+   "fitness": 0.5637209129019715,
+   "story_file": "../logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [family] bought into [activity]\n<1> [fishing] did to [time] at (44, 2)\n<2> [food] placed to (65, 47)\n<3> [living] fulfilled to (65, 68)\n<5> [fishing] spent into [time]\n<6> [fish] formed by [boat]\n<7> [tuna] implied [dad] at (55, 7)\n<8> [food] cost to (50, 78)\n<9> [time] measured [salmon]\n<10> [activity] vented [living]\n<11> [stream] melted [tuna] at (37, 88)\n<12> [worm] turned [family]"
+}

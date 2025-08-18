@@ -1,30 +1,30 @@
 <3> [G.6924] moved to 12,6
 <6> [B.5b49] moved to 12,1
-<7> [G.4709] moved to 11,5
-<11> [G.6924] moved to 11,5
-<11> [G.4709] moved to 11,5
+<11> [X.1a6e] added [$.3305] at 10,2
+<13> [G.6924] pushed [*.9fe4]
 <15> [L.6d7b] chased [$.3305]
-<18> [L.6d7b] chased [$.3305]
-<19> [B.5b49] chased [L.6d7b]
-<19> [L.6d7b] chased [$.3305]
+<16> [L.6d7b] chased [$.3305]
+<17> [L.6d7b] chased [$.3305]
 <21> [X.1a6e] added [$.6f30] at 8,1
-<21> [G.4709] moved to 9,6
 <22> [B.5b49] took [L.6d7b]
-<26> [B.5b49] moved to 10,1
+<23> [G.4709] pushed [*.6666]
 <27> [G.6924] pushed [*.9fe4]
+<29> [G.4709] pushed [*.6666]
 <31> [X.1a6e] added [$.ab76] at 8,3
-<36> [B.5b49] moved to 9,1
-<41> [G.4709] moved to 10,5
-<43> [G.4709] moved to 10,4
-<45> [G.4709] moved to 10,3
-<49> [G.6924] pushed [*.6666]
-<61> [G.6924] moved to 9,3
-<75> [G.4709] moved to 9,3
-<77> [G.4709] moved to 9,2
+<31> [G.6924] moved to 9,3
+<33> [G.4709] moved to 10,3
+<39> [G.4709] moved to 10,4
+<45> [X.1a6e] moved to 6,1
+<47> [G.6924] pushed [*.6666]
+<53> [G.4709] moved to 9,2
+<65> [G.4709] moved to 8,3
+<71> [X.1a6e] added [$.3c08] at 6,2
+<71> [G.4709] moved to 8,4
 <81> [X.1a6e] added [$.97eb] at 7,1
-<86> [B.5b49] moved to 9,3
+<85> [G.6924] moved to 9,5
 <91> [X.1a6e] added [$.f955] at 8,2
-<106> [B.5b49] moved to 7,1
-<125> [X.1a6e] moved to 5,2
+<131> [B.5b49] moved to 7,3
 <141> [X.1a6e] added [$.d0a5] at 3,2
-<145> [X.1a6e] moved to 3,2
+<151> [B.5b49] moved to 7,3
+<157> [X.1a6e] moved to 2,2
+<163> [G.4709] moved to 8,3

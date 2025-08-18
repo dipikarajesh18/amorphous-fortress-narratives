@@ -1,0 +1,37 @@
+{
+   "mc": "chest",
+   "ent": {
+      "[%.b29d]": "heart",
+      "[y.c9ae]": "clothing",
+      "[ .d474]": "chest",
+      "[ .6adb]": "organ",
+      "[$.b14a]": "attention",
+      "[*.7b93]": "family",
+      "[|.c91d]": "organ",
+      "[}.460f]": "thing",
+      "[5.6b26]": "clothe",
+      "[S.d487]": "book",
+      "[!.fdaf]": "heart",
+      "[Y.3a62]": "thing",
+      "[o.8829]": "boy",
+      "[;.f34e]": "august",
+      "[9.547d]": "campaign"
+   },
+   "verbs": {
+      "3": "made",
+      "4": "kept",
+      "5": "existed",
+      "6": "included",
+      "7": "kept",
+      "8": "used",
+      "9": "sought",
+      "10": "skeet",
+      "11": "called",
+      "12": "hung",
+      "13": "named",
+      "14": "raised"
+   },
+   "fitness": 0.5576579054658487,
+   "story_file": "../logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [heart] made into [clothing]\n<1> [chest] kept to [organ] at (44, 2)\n<2> [attention] existed to (65, 47)\n<3> [family] included to (65, 68)\n<5> [chest] kept into [organ]\n<6> [thing] used by [clothe]\n<7> [book] sought [heart] at (55, 7)\n<8> [attention] skeet to (50, 78)\n<9> [organ] called [thing]\n<10> [clothing] hung [boy]\n<11> [august] named [book] at (37, 88)\n<12> [campaign] raised [heart]"
+}

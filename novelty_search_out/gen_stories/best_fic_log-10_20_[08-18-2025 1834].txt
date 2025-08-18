@@ -1,0 +1,15 @@
+=====    FORTRESS SEED: [791231]    =====
+Fortress initialized! - <0>
+>>> TIME: 2025-08-14 13:21:44 <<<
+<0> [water] eroded into [water]
+<1> [faucet] operated to [water] at (44, 2)
+<2> [water] put to (65, 47)
+<3> [bathroom] hung to (65, 68)
+<5> [faucet] operated into [water]
+<6> [shower] found by [dish]
+<7> [pail] held [flow] at (55, 7)
+<8> [water] boiled to (50, 78)
+<9> [water] parched [water]
+<10> [water] found [water]
+<11> [water] used [pail] at (37, 88)
+<12> [dish] transported [water]
