@@ -1,0 +1,15 @@
+=====    FORTRESS SEED: [791231]    =====
+Fortress initialized! - <0>
+>>> TIME: 2025-08-14 13:21:44 <<<
+<0> [case] tried into [victim]
+<1> [criminal] visited to [criminal2] at (44, 2)
+<2> [police] hurried to (65, 47)
+<3> [people] prepared to (65, 68)
+<5> [criminal] picked into [gun]
+<6> [driver] started by [driver]
+<7> [crime] took [people] at (55, 7)
+<8> [police] carried to (50, 78)
+<9> [gun] injured [crime]
+<10> [victim] reported [grief]
+<11> [car] suffered [crime] at (37, 88)
+<12> [nerves] creamed [case]

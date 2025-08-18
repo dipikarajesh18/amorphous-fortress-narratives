@@ -1,0 +1,131 @@
+[
+   {
+      "mc": "cook",
+      "ent": {
+         "[%.b29d]": "dinner",
+         "[y.c9ae]": "meal",
+         "[ .d474]": "cheese",
+         "[ .6adb]": "cheese2",
+         "[$.b14a]": "cook",
+         "[*.7b93]": "order",
+         "[|.c91d]": "pot",
+         "[}.460f]": "stove",
+         "[5.6b26]": "shortening",
+         "[S.d487]": "dessert",
+         "[!.fdaf]": "eye",
+         "[Y.3a62]": "meal",
+         "[o.8829]": "pot",
+         "[;.f34e]": "pan",
+         "[9.547d]": "potato"
+      },
+      "verbs": {
+         "3": "included",
+         "4": "bought",
+         "5": "turned",
+         "6": "created",
+         "7": "got",
+         "8": "warmed",
+         "9": "followed",
+         "10": "cut",
+         "11": "raised",
+         "12": "served",
+         "13": "hit",
+         "14": "marked"
+      },
+      "fitness": 0.3768789570917568,
+      "fit_set": {
+         "intra": 0,
+         "inter": 0,
+         "ent": 0,
+         "verb": 0
+      },
+      "story_file": "../logs/stupid_log.txt",
+      "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [dinner] included into [meal]\n<1> [cheese] bought to [cheese2] at (44, 2)\n<2> [cook] turned to (65, 47)\n<3> [order] created to (65, 68)\n<5> [cheese] got into [pot]\n<6> [stove] warmed by [shortening]\n<7> [dessert] followed [eye] at (55, 7)\n<8> [cook] cut to (50, 78)\n<9> [pot] raised [meal]\n<10> [meal] served [pot]\n<11> [pan] hit [dessert] at (37, 88)\n<12> [potato] marked [dinner]"
+   },
+   {
+      "mc": "jury",
+      "ent": {
+         "[%.b29d]": "juror",
+         "[y.c9ae]": "life",
+         "[ .d474]": "person",
+         "[ .6adb]": "person2",
+         "[$.b14a]": "jury",
+         "[*.7b93]": "criminal",
+         "[|.c91d]": "people",
+         "[}.460f]": "court",
+         "[5.6b26]": "lawyer",
+         "[S.d487]": "lawyer",
+         "[!.fdaf]": "defendant",
+         "[Y.3a62]": "evidence",
+         "[o.8829]": "life",
+         "[;.f34e]": "trial",
+         "[9.547d]": "evidence"
+      },
+      "verbs": {
+         "3": "served",
+         "4": "inheritance",
+         "5": "found",
+         "6": "committed",
+         "7": "settled",
+         "8": "got",
+         "9": "got",
+         "10": "composed",
+         "11": "filled",
+         "12": "caused",
+         "13": "held",
+         "14": "tried"
+      },
+      "fitness": 0.3717600237876768,
+      "fit_set": {
+         "intra": 0,
+         "inter": 0,
+         "ent": 0,
+         "verb": 0
+      },
+      "story_file": "../logs/stupid_log.txt",
+      "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [juror] served into [life]\n<1> [person] inheritance to [person2] at (44, 2)\n<2> [jury] found to (65, 47)\n<3> [criminal] committed to (65, 68)\n<5> [person] settled into [people]\n<6> [court] got by [lawyer]\n<7> [lawyer] got [defendant] at (55, 7)\n<8> [jury] composed to (50, 78)\n<9> [people] filled [evidence]\n<10> [life] caused [life]\n<11> [trial] held [lawyer] at (37, 88)\n<12> [evidence] tried [juror]"
+   },
+   {
+      "mc": "clothing",
+      "ent": {
+         "[%.b29d]": "cloth",
+         "[y.c9ae]": "body",
+         "[ .d474]": "fabric",
+         "[ .6adb]": "fabric2",
+         "[$.b14a]": "clothing",
+         "[*.7b93]": "weather",
+         "[|.c91d]": "wardrobe",
+         "[}.460f]": "room",
+         "[5.6b26]": "room",
+         "[S.d487]": "jurors",
+         "[!.fdaf]": "fabric",
+         "[Y.3a62]": "weather",
+         "[o.8829]": "cloth",
+         "[;.f34e]": "sirens",
+         "[9.547d]": "necktie"
+      },
+      "verbs": {
+         "3": "washed",
+         "4": "made",
+         "5": "hung",
+         "6": "caused",
+         "7": "covered",
+         "8": "had",
+         "9": "isolated",
+         "10": "kept",
+         "11": "put",
+         "12": "made",
+         "13": "found",
+         "14": "caged"
+      },
+      "fitness": 0.3647474387053538,
+      "fit_set": {
+         "intra": 0,
+         "inter": 0,
+         "ent": 0,
+         "verb": 0
+      },
+      "story_file": "../logs/stupid_log.txt",
+      "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [cloth] washed into [body]\n<1> [fabric] made to [fabric2] at (44, 2)\n<2> [clothing] hung to (65, 47)\n<3> [weather] caused to (65, 68)\n<5> [fabric] covered into [wardrobe]\n<6> [room] had by [room]\n<7> [jurors] isolated [fabric] at (55, 7)\n<8> [clothing] kept to (50, 78)\n<9> [wardrobe] put [weather]\n<10> [body] made [cloth]\n<11> [sirens] found [jurors] at (37, 88)\n<12> [necktie] caged [cloth]"
+   }
+]

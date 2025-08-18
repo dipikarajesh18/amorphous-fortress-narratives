@@ -1,0 +1,43 @@
+{
+   "mc": "police",
+   "ent": {
+      "[%.b29d]": "case",
+      "[y.c9ae]": "victim",
+      "[ .d474]": "criminal",
+      "[ .6adb]": "criminal2",
+      "[$.b14a]": "police",
+      "[*.7b93]": "people",
+      "[|.c91d]": "gun",
+      "[}.460f]": "driver",
+      "[5.6b26]": "driver",
+      "[S.d487]": "crime",
+      "[!.fdaf]": "people",
+      "[Y.3a62]": "crime",
+      "[o.8829]": "grief",
+      "[;.f34e]": "car",
+      "[9.547d]": "nerves"
+   },
+   "verbs": {
+      "3": "tried",
+      "4": "visited",
+      "5": "hurried",
+      "6": "prepared",
+      "7": "picked",
+      "8": "started",
+      "9": "took",
+      "10": "carried",
+      "11": "injured",
+      "12": "reported",
+      "13": "suffered",
+      "14": "creamed"
+   },
+   "fitness": 0.36672817954547193,
+   "fit_set": {
+      "intra": 0.31605152728380986,
+      "inter": 0.3692590764590672,
+      "ent": 0.47699281573295593,
+      "verb": 0.3046092987060547
+   },
+   "story_file": "../logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [case] tried into [victim]\n<1> [criminal] visited to [criminal2] at (44, 2)\n<2> [police] hurried to (65, 47)\n<3> [people] prepared to (65, 68)\n<5> [criminal] picked into [gun]\n<6> [driver] started by [driver]\n<7> [crime] took [people] at (55, 7)\n<8> [police] carried to (50, 78)\n<9> [gun] injured [crime]\n<10> [victim] reported [grief]\n<11> [car] suffered [crime] at (37, 88)\n<12> [nerves] creamed [case]"
+}

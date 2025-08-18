@@ -1,0 +1,43 @@
+{
+   "mc": "mug",
+   "ent": {
+      "[%.b29d]": "beverage",
+      "[y.c9ae]": "drink",
+      "[ .d474]": "coffee",
+      "[ .6adb]": "coffee2",
+      "[$.b14a]": "mug",
+      "[*.7b93]": "beer",
+      "[|.c91d]": "pen",
+      "[}.460f]": "liquid",
+      "[5.6b26]": "tea",
+      "[S.d487]": "tea",
+      "[!.fdaf]": "pen",
+      "[Y.3a62]": "liquid",
+      "[o.8829]": "beverage",
+      "[;.f34e]": "egotist",
+      "[9.547d]": "lackey"
+   },
+   "verbs": {
+      "3": "rid",
+      "4": "made",
+      "5": "kept",
+      "6": "made",
+      "7": "woke",
+      "8": "screened",
+      "9": "grasped",
+      "10": "drank",
+      "11": "gave",
+      "12": "put",
+      "13": "signed",
+      "14": "used"
+   },
+   "fitness": 0.3810994361760834,
+   "fit_set": {
+      "intra": 0,
+      "inter": 0,
+      "ent": 0,
+      "verb": 0
+   },
+   "story_file": "../logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [beverage] rid into [drink]\n<1> [coffee] made to [coffee2] at (44, 2)\n<2> [mug] kept to (65, 47)\n<3> [beer] made to (65, 68)\n<5> [coffee] woke into [pen]\n<6> [liquid] screened by [tea]\n<7> [tea] grasped [pen] at (55, 7)\n<8> [mug] drank to (50, 78)\n<9> [pen] gave [liquid]\n<10> [drink] put [beverage]\n<11> [egotist] signed [tea] at (37, 88)\n<12> [lackey] used [beverage]"
+}

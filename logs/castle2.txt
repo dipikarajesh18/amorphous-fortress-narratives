@@ -13,14 +13,14 @@ Fortress initialized! - <0>
 <5> [T.73ab] moved to 5,5
 <5> [T.76a3] moved to 6,6
 <5> [T.d89f] moved to 12,5
-<6> [K.fc7c] moved towards [T.d89f]
+<6> [K.fc7c] chased [T.d89f]
 <6> [T.73ab] moved to 5,4
 <6> [T.76a3] moved to 6,5
 <6> [T.d89f] moved to 12,4
 <7> [T.73ab] moved to 5,3
 <7> [T.76a3] moved to 6,6
 <7> [T.d89f] moved to 11,4
-<8> [K.fc7c] moved towards [T.d89f]
+<8> [K.fc7c] chased [T.d89f]
 <8> [T.73ab] moved to 5,2
 <8> [T.76a3] moved to 6,5
 <8> [T.d89f] moved to 11,3
@@ -28,20 +28,20 @@ Fortress initialized! - <0>
 <9> [T.76a3] moved to 6,6
 <9> [T.d89f] blocked by [=.23f6]
 <10> [G.3305] died
-<10> [K.fc7c] moved towards [T.d89f]
+<10> [K.fc7c] chased [T.d89f]
 <10> [T.73ab] took [$.1a6e]
 <10> [T.76a3] moved to 5,6
 <10> [T.d89f] moved to 10,3
 <11> [T.76a3] moved to 5,5
 <11> [T.d89f] moved to 10,4
-<12> [K.fc7c] moved towards [T.d89f]
+<12> [K.fc7c] chased [T.d89f]
 <12> [T.73ab] moved to 4,1
 <12> [T.76a3] moved to 4,5
 <12> [T.d89f] moved to 9,4
 <13> [T.73ab] took [$.6d7b]
 <13> [T.76a3] moved to 5,5
 <13> [T.d89f] moved to 10,4
-<14> [K.fc7c] moved towards [T.d89f]
+<14> [K.fc7c] chased [T.d89f]
 <14> [T.76a3] moved to 4,5
 <14> [T.d89f] moved to 9,4
 <15> [K.fc7c] took [T.d89f]
@@ -51,19 +51,19 @@ Fortress initialized! - <0>
 <17> [T.73ab] moved to 5,2
 <18> [T.73ab] moved to 5,1
 <18> [T.76a3] moved to 2,6
-<20> [K.7479] moved towards [T.76a3]
+<20> [K.7479] chased [T.76a3]
 <20> [T.73ab] moved to 6,1
 <21> [T.73ab] took [$.9fe4]
-<22> [K.7479] moved towards [T.76a3]
+<22> [K.7479] chased [T.76a3]
 <22> [T.73ab] blocked by [=.2486]
 <22> [T.76a3] moved to 3,6
 <23> [T.76a3] moved to 4,6
-<24> [K.7479] moved towards [T.76a3]
+<24> [K.7479] chased [T.76a3]
 <24> [T.73ab] moved to 7,1
 <24> [T.76a3] moved to 3,6
 <25> [T.73ab] took [$.1b0e]
 <25> [T.76a3] moved to 3,5
-<26> [K.7479] moved towards [T.76a3]
+<26> [K.7479] chased [T.76a3]
 <26> [T.73ab] blocked by [=.0cc4]
 <26> [T.76a3] moved to 3,6
 <27> [T.73ab] blocked by [=.0cc4]
@@ -78,19 +78,19 @@ Fortress initialized! - <0>
 <38> [T.73ab] took [$.6666]
 <40> [T.73ab] moved to 10,1
 <41> [T.73ab] took [$.6924]
-<42> [K.fc7c] moved towards [T.73ab]
+<42> [K.fc7c] chased [T.73ab]
 <42> [T.73ab] moved to 11,1
 <43> [T.73ab] took [$.db0a]
-<44> [K.fc7c] moved towards [T.73ab]
+<44> [K.fc7c] chased [T.73ab]
 <44> [T.73ab] moved to 12,1
 <45> [T.73ab] took [$.4709]
-<46> [K.fc7c] moved towards [T.73ab]
+<46> [K.fc7c] chased [T.73ab]
 <46> [T.73ab] moved to 11,1
 <47> [T.73ab] moved to 12,1
-<48> [K.fc7c] moved towards [T.73ab]
+<48> [K.fc7c] chased [T.73ab]
 <49> [T.73ab] moved to 11,1
-<50> [K.fc7c] moved towards [T.73ab]
+<50> [K.fc7c] chased [T.73ab]
 <50> [T.73ab] moved to 10,1
 <51> [T.73ab] moved to 11,1
-<52> [K.fc7c] moved towards [T.73ab]
+<52> [K.fc7c] chased [T.73ab]
 <53> [K.fc7c] took [T.73ab]
