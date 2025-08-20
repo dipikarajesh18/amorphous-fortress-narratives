@@ -1,0 +1,4 @@
+drunk_sokoban - person | human | computer
+lock_n_key - person | car | dog
+castle2 - person | soldier | dog
+zelda - person | child | dog | cat | anyone
