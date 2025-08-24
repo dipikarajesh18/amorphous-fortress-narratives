@@ -1,0 +1,43 @@
+{
+   "mc": "swimming",
+   "ent": {
+      "[%.b29d]": "heart",
+      "[9.547d]": "heart2",
+      "[y.c9ae]": "swimming",
+      "[ .d474]": "heart",
+      "[ .6adb]": "heart2",
+      "[5.6b26]": "heart3",
+      "[$.b14a]": "heart",
+      "[o.8829]": "heart2",
+      "[;.f34e]": "heart3",
+      "[*.7b93]": "exercise",
+      "[|.c91d]": "sport",
+      "[}.460f]": "sport",
+      "[Y.3a62]": "sport2",
+      "[S.d487]": "ear",
+      "[!.fdaf]": "ear"
+   },
+   "verbs": {
+      "3": "went",
+      "4": "made",
+      "5": "opposed",
+      "6": "occurred",
+      "7": "sauteed",
+      "8": "played",
+      "9": "ate",
+      "10": "moved",
+      "11": "covered",
+      "12": "plugged",
+      "13": "had",
+      "14": "helped"
+   },
+   "fitness": 0.4009351731834825,
+   "fit_set": {
+      "intra": 0.310985243277102,
+      "inter": 0.48764660422291073,
+      "ent": 0.43791884183883667,
+      "verb": 0.36719000339508057
+   },
+   "story_file": "../logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [heart] went into [swimming]\n<1> [heart] made to [heart2] at (44, 2)\n<2> [heart] opposed to (65, 47)\n<3> [exercise] occurred to (65, 68)\n<5> [heart] sauteed into [sport]\n<6> [sport] played by [heart3]\n<7> [ear] ate [ear] at (55, 7)\n<8> [heart] moved to (50, 78)\n<9> [sport] covered [sport2]\n<10> [swimming] plugged [heart2]\n<11> [heart3] had [ear] at (37, 88)\n<12> [heart2] helped [heart]"
+}

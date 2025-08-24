@@ -1,0 +1,30 @@
+<1> [logger2] selected to 6,6
+<1> [logger] saw to 3,6
+<4> [logger2] charged to 11,5
+<6> [log] ducked [logger2]
+<6> [logger2] opened to 6,5
+<7> [logger2] reshaped to 11,4
+<9> [logger2] fogged by [log]
+<10> [logger] saw [log]
+<10> [clarinet] performed
+<12> [log] drained [logger2]
+<13> [logger2] ratified to 5,5
+<13> [logger] saw [log2]
+<15> [log] digested [logger2]
+<20> [log2] ascended [logger2]
+<21> [logger] saw [log3]
+<22> [logger] saw by [log2]
+<24> [log2] absentee [logger2]
+<25> [logger] saw [log4]
+<26> [logger] saw by [log3]
+<26> [log2] screamed [logger2]
+<29> [logger] saw [log5]
+<29> [log2] tracked [logger2]
+<32> [logger] saw to 8,1
+<38> [logger] saw [log6]
+<41> [logger] saw [log7]
+<43> [logger] saw [log8]
+<45> [logger] saw [log9]
+<49> [logger] saw to 11,1
+<50> [log] swung [logger]
+<53> [log] mended [logger]

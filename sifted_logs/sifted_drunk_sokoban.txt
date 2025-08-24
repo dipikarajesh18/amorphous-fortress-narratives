@@ -1,0 +1,30 @@
+<8> [@.46ae] pushed [*.66a4]
+<54> [@.bf99] pushed [*.efb1]
+<82> [@.aece] pushed [*.f6c2]
+<93> [@.bf99] moved to 11,1
+<186> [@.bf99] moved to 6,2
+<250> [@.aece] moved to 5,3
+<343> [@.bf99] moved to 4,5
+<458> [@.bf99] pushed [*.7dbb]
+<459> [@.bf99] pushed [*.7dbb]
+<462> [@.bf99] pushed [*.7dbb]
+<505> [@.1a7f] moved to 4,3
+<558> [@.aece] pushed [*.7dbb]
+<559> [*.7dbb] took [X.a0f1]
+<560> [*.7dbb] transformed into [O.48e7] at 1,6
+<648> [*.66a4] took [X.7597]
+<649> [*.66a4] transformed into [O.c1ca] at 13,1
+<703> [@.bf99] moved to 11,1
+<720> [@.aece] pushed [*.efb1]
+<759> [*.efb1] took [X.e61b]
+<760> [*.efb1] transformed into [O.c7ff] at 1,1
+<812> [@.1a7f] moved to 3,4
+<874> [@.1a7f] pushed [*.f6c2]
+<962> [@.1a7f] moved to 12,2
+<1004> [@.1a7f] moved to 11,1
+<1073> [@.aece] moved to 13,2
+<1116> [@.46ae] moved to 9,1
+<1196> [@.bf99] moved to 5,5
+<1201> [@.bf99] moved to 5,4
+<1202> [*.f6c2] took [X.700b]
+<1203> [*.f6c2] transformed into [O.ba86] at 13,6

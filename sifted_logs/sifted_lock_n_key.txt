@@ -1,0 +1,30 @@
+<1> [o.4114] moved to 7,4
+<2> [o.4114] moved to 6,4
+<3> [o.4114] moved to 7,4
+<4> [o.4114] moved to 8,4
+<5> [o.4114] moved to 8,3
+<6> [o.4114] moved to 8,2
+<7> [o.4114] moved to 8,3
+<8> [o.4114] moved to 9,3
+<9> [o.4114] moved to 9,4
+<10> [o.4114] moved to 9,5
+<11> [o.4114] chased [?.e7b5]
+<12> [o.4114] chased [?.e7b5]
+<13> [o.4114] chased [?.e7b5]
+<14> [o.4114] took [?.e7b5]
+<15> [o.4114] transformed into [O.c31a] at 11,6
+<16> [O.c31a] chased [>.34c6]
+<17> [O.c31a] chased [>.34c6]
+<18> [O.c31a] chased [>.34c6]
+<19> [O.c31a] chased [>.34c6]
+<20> [O.c31a] chased [>.34c6]
+<21> [O.c31a] chased [>.34c6]
+<22> [O.c31a] chased [>.34c6]
+<23> [O.c31a] chased [>.34c6]
+<24> [O.c31a] chased [>.34c6]
+<25> [O.c31a] chased [>.34c6]
+<26> [O.c31a] chased [>.34c6]
+<27> [O.c31a] chased [>.34c6]
+<28> [O.c31a] chased [>.34c6]
+<29> [O.c31a] chased [>.34c6]
+<30> [O.c31a] died

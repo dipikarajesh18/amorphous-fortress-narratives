@@ -1,0 +1,30 @@
+<1> [hero2] poisoned to 6,6
+<1> [hero] faced to 3,6
+<4> [hero2] purified to 11,5
+<6> [goblet] held [hero2]
+<6> [hero2] growled to 6,5
+<7> [hero2] ratified to 11,4
+<9> [hero2] guarded by [chivalry]
+<10> [hero] faced [ragtime]
+<10> [weeding] did
+<12> [goblet] held [hero2]
+<13> [hero2] formed to 5,5
+<13> [hero] faced [ragtime2]
+<15> [goblet] held [hero2]
+<20> [goblet2] imparted [hero2]
+<21> [hero] faced [ragtime3]
+<22> [hero] faced by [chivalry2]
+<24> [goblet2] kowtowed [hero2]
+<25> [hero] faced [ragtime4]
+<26> [hero] faced by [chivalry3]
+<26> [goblet2] based [hero2]
+<29> [hero] faced [ragtime5]
+<29> [goblet2] parched [hero2]
+<32> [hero] faced to 8,1
+<38> [hero] faced [ragtime6]
+<41> [hero] faced [ragtime7]
+<43> [hero] faced [ragtime8]
+<45> [hero] faced [ragtime9]
+<49> [hero] faced to 11,1
+<50> [goblet] held [hero]
+<53> [goblet] held [hero]

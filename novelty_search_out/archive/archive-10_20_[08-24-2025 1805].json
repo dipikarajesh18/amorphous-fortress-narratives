@@ -1,0 +1,45 @@
+[
+   {
+      "mc": "realtor",
+      "ent": {
+         "[%.b29d]": "house",
+         "[5.6b26]": "house2",
+         "[y.c9ae]": "house3",
+         "[Y.3a62]": "house4",
+         "[|.c91d]": "house5",
+         "[o.8829]": "house6",
+         "[!.fdaf]": "house",
+         "[;.f34e]": "house",
+         "[}.460f]": "house",
+         "[ .d474]": "house",
+         "[ .6adb]": "house2",
+         "[$.b14a]": "biopsy",
+         "[*.7b93]": "foulard",
+         "[S.d487]": "token",
+         "[9.547d]": "traffic"
+      },
+      "verbs": {
+         "3": "settled",
+         "4": "provided",
+         "5": "pressed",
+         "6": "prosecuted",
+         "7": "soaked",
+         "8": "hauled",
+         "9": "sold",
+         "10": "kidnapped",
+         "11": "named",
+         "12": "ensured",
+         "13": "provided",
+         "14": "covered"
+      },
+      "fitness": 0.3555509790405631,
+      "fit_set": {
+         "intra": 0.3013961971444743,
+         "inter": 0.3842549441116197,
+         "ent": 0.41466912627220154,
+         "verb": 0.3218836486339569
+      },
+      "story_file": "../logs/stupid_log.txt",
+      "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [house] settled into [house3]\n<1> [house] provided to [house2] at (44, 2)\n<2> [biopsy] pressed to (65, 47)\n<3> [foulard] prosecuted to (65, 68)\n<5> [house] soaked into [house5]\n<6> [house] hauled by [house2]\n<7> [token] sold [house] at (55, 7)\n<8> [biopsy] kidnapped to (50, 78)\n<9> [house5] named [house4]\n<10> [house3] ensured [house6]\n<11> [house] provided [token] at (37, 88)\n<12> [traffic] covered [house]"
+   }
+]

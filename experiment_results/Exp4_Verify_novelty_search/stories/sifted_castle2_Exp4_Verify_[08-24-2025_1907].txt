@@ -1,0 +1,30 @@
+<1> [person2] shopped to 6,6
+<1> [person] got to 3,6
+<4> [person2] rubbed to 11,5
+<6> [chess] indicated [person2]
+<6> [person2] transmitted to 6,5
+<7> [person2] explored to 11,4
+<9> [person2] sentenced by [accuser]
+<10> [person] hated [president]
+<10> [sausage] made
+<12> [chess] amplified [person2]
+<13> [person2] courted to 5,5
+<13> [person] raised [president2]
+<15> [chess] withstood [person2]
+<20> [chess2] looked [person2]
+<21> [person] missed [president3]
+<22> [person] lost by [accuser2]
+<24> [chess2] represented [person2]
+<25> [person] bugged [president4]
+<26> [person] gave by [accuser3]
+<26> [chess2] lugged [person2]
+<29> [person] deceived [president5]
+<29> [chess2] attached [person2]
+<32> [person] taught to 8,1
+<38> [person] blew [president6]
+<41> [person] watched [president7]
+<43> [person] left [president8]
+<45> [person] feared [president9]
+<49> [person] shared to 11,1
+<50> [chess] faced [person]
+<53> [chess] received [person]

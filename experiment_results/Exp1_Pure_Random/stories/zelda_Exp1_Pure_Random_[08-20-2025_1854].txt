@@ -1,0 +1,228 @@
+=====    FORTRESS SEED [run2]    =====
+Fortress initialized! - <0>
+>>> TIME: 8/14/2025, 1:14:46 PM <<<
+<2> [sale] reproduced to 10,6
+<3> [merchandise] paved to 12,6
+<3> [cornerback] growled to 5,3
+<5> [sale] patterned to 10,5
+<5> [cornerback] floated to 5,2
+<5> [critic] announced to 9,3
+<6> [joint] perpetuated to 12,1
+<7> [sale] dismissed to 11,5
+<7> [cornerback] solved to 5,3
+<9> [sale] pried to 12,5
+<9> [merchandise] crosscut to 11,6
+<9> [cornerback] settled to 5,4
+<9> [critic] staged to 9,2
+<11> [sale] moved to 11,5
+<11> [merchandise] chose to 11,5
+<11> [cornerback] published to 6,4
+<11> [critic] inrease [tear] at 10,2
+<13> [sale] milked to 11,6
+<13> [merchandise] inflated [trash]
+<13> [cornerback] packed to 7,4
+<13> [critic] provided to 9,1
+<15> [merchandise] signed to 10,4
+<15> [cornerback] sentenced [tear]
+<16> [cornerback] beautified [tear]
+<17> [merchandise] liked to 11,4
+<17> [cornerback] concentrated [tear]
+<18> [cornerback] reconsidered [tear]
+<19> [sale] exhilarated to 10,6
+<19> [merchandise] fulfilled to 10,4
+<19> [joint] fighe [cornerback]
+<19> [cornerback] crawled [tear]
+<20> [joint] hung [cornerback]
+<21> [sale] concealed to 9,6
+<21> [merchandise] candied to 10,5
+<21> [joint] recommended [cornerback]
+<21> [critic] assimilated [mystery] at 8,1
+<22> [joint] slapped [cornerback]
+<23> [sale] healed [technology]
+<23> [merchandise] fertilized to 10,4
+<25> [sale] imbibed to 8,5
+<25> [merchandise] harmed to 11,4
+<25> [critic] browsed to 9,2
+<26> [joint] shoveled to 10,1
+<27> [sale] swatted to 8,4
+<27> [merchandise] conditioned [trash]
+<29> [sale] fulfilled [technology]
+<29> [merchandise] chose to 10,3
+<29> [critic] knocked to 8,2
+<31> [sale] conjured to 9,3
+<31> [merchandise] regulated to 9,3
+<31> [critic] opener [intelligence] at 8,3
+<33> [sale] evaluated to 10,3
+<33> [merchandise] happened to 9,4
+<33> [critic] ruled to 7,2
+<35> [sale] faced to 11,3
+<35> [merchandise] accounted [technology]
+<36> [joint] bombed to 9,1
+<37> [sale] noticed to 10,3
+<37> [merchandise] canned to 9,4
+<37> [critic] targeted to 7,1
+<39> [sale] perpetuated to 10,4
+<39> [merchandise] baked to 10,4
+<41> [sale] subjected to 10,5
+<41> [merchandise] tailed [technology]
+<41> [joint] leve to 9,2
+<43> [sale] facilitated to 10,4
+<43> [merchandise] snorted to 11,5
+<45> [sale] committed to 10,3
+<45> [merchandise] gripped to 12,5
+<45> [critic] ground to 6,1
+<46> [joint] honored to 10,2
+<47> [sale] dropped to 9,3
+<47> [merchandise] expected [technology]
+<49> [sale] questioned to 9,2
+<49> [merchandise] traversed [technology]
+<51> [sale] inspired to 9,3
+<51> [merchandise] designated to 11,3
+<51> [joint] aided to 10,3
+<53> [sale] celibrate to 9,2
+<53> [merchandise] isolated [trash]
+<55> [sale] levelled to 9,3
+<56> [joint] sought to 10,4
+<57> [sale] caused to 8,3
+<57> [merchandise] flushed to 10,2
+<59> [sale] organized to 8,2
+<59> [merchandise] terminated to 10,3
+<61> [sale] clogged to 8,3
+<61> [merchandise] let to 9,3
+<61> [joint] tracked to 9,4
+<61> [critic] gouged [fingerprint] at 5,1
+<63> [sale] broiled to 7,3
+<63> [merchandise] insulted to 8,3
+<65> [sale] preserved to 8,3
+<65> [merchandise] enforced to 8,4
+<66> [joint] died to 8,4
+<67> [sale] prevented to 8,4
+<67> [merchandise] noted to 8,5
+<69> [sale] relaxed to 8,3
+<69> [merchandise] flave to 7,5
+<71> [sale] accumulated to 8,4
+<71> [merchandise] whined to 7,4
+<71> [joint] splashed to 9,4
+<71> [critic] cared [construction work] at 6,2
+<73> [sale] distributed to 8,3
+<73> [merchandise] fitted to 8,4
+<73> [critic] boxed to 7,1
+<75> [sale] stained to 9,3
+<75> [merchandise] put to 7,4
+<76> [joint] reconsidered to 9,3
+<77> [sale] borrowed to 9,2
+<77> [merchandise] adorned to 7,5
+<77> [critic] spinach to 7,2
+<79> [sale] accorded to 9,3
+<81> [sale] published to 10,3
+<81> [joint] clued to 8,3
+<81> [critic] set [fuel line] at 7,1
+<83> [sale] laundered to 10,2
+<83> [merchandise] propelled to 8,5
+<85> [sale] stranded to 10,1
+<85> [merchandise] childed to 9,5
+<85> [critic] supported to 7,1
+<86> [joint] governed to 9,3
+<87> [merchandise] ingredeint to 10,5
+<89> [sale] chil [trash]
+<89> [merchandise] hardened to 9,5
+<89> [critic] shopped to 8,1
+<91> [sale] irrigated to 11,2
+<91> [merchandise] chased to 9,4
+<91> [joint] forbade to 8,3
+<91> [critic] shook [mansion] at 8,2
+<93> [sale] tried [technology]
+<93> [merchandise] succeeded to 9,5
+<93> [critic] irritated to 7,1
+<95> [merchandise] horizon to 9,4
+<96> [joint] resolved to 8,2
+<97> [merchandise] dimensioned to 9,5
+<97> [critic] rode to 6,1
+<99> [sale] pta to 11,2
+<99> [merchandise] drove to 10,5
+<101> [sale] lighted to 10,2
+<101> [merchandise] sagged to 11,5
+<101> [joint] assembled to 8,1
+<103> [sale] posted to 10,1
+<103> [merchandise] dented to 11,4
+<105> [merchandise] skillet to 11,5
+<106> [joint] lugged to 7,1
+<107> [sale] obeyed to 9,1
+<107> [merchandise] withdrew to 11,6
+<109> [sale] browsed to 8,1
+<109> [merchandise] related to 10,6
+<109> [critic] banned to 5,1
+<111> [sale] resulted to 8,2
+<111> [merchandise] featured to 11,6
+<113> [sale] exerted to 8,1
+<113> [merchandise] relived to 11,5
+<113> [critic] releave to 5,2
+<115> [merchandise] borrowed to 12,5
+<116> [joint] lifeboat to 7,2
+<117> [merchandise] rid to 13,5
+<117> [critic] handled to 5,3
+<119> [merchandise] researched [stars twinkle]
+<121> [sale] convice to 7,1
+<121> [merchandise] powered to 12,4
+<121> [joint] wanted to 8,2
+<121> [critic] delevere [liver] at 5,2
+<123> [sale] disobeyed to 6,1
+<123> [merchandise] sucked to 12,5
+<125> [sale] alphabetized to 6,2
+<125> [merchandise] skilled to 12,6
+<125> [critic] smoothed to 5,2
+<126> [joint] appreciated to 8,3
+<127> [sale] pillowed to 6,1
+<129> [sale] affected to 7,1
+<129> [merchandise] hardened to 11,6
+<129> [critic] wheeled to 6,2
+<131> [sale] liked to 7,2
+<131> [merchandise] flowered to 10,6
+<131> [joint] extracted to 7,3
+<133> [sale] induced to 8,2
+<133> [merchandise] accesorize to 9,6
+<133> [critic] established to 5,2
+<135> [sale] alarmed to 7,2
+<135> [merchandise] sweatte to 10,6
+<136> [joint] accumulated to 6,3
+<137> [sale] lectured to 6,2
+<137> [merchandise] tattooed to 11,6
+<137> [critic] accepted to 4,2
+<139> [sale] fidgeted to 6,1
+<139> [merchandise] involved to 12,6
+<141> [merchandise] walled to 12,5
+<141> [joint] whined to 6,2
+<141> [critic] concealed [animal tracks] at 3,2
+<143> [sale] thanked to 7,1
+<143> [merchandise] solved to 12,6
+<145> [sale] sparked to 8,1
+<145> [merchandise] baited to 12,5
+<145> [critic] refunded to 3,2
+<146> [joint] called to 7,2
+<147> [sale] registered to 9,1
+<147> [merchandise] promised to 12,4
+<149> [merchandise] enriched to 12,5
+<149> [critic] dried to 3,3
+<151> [sale] bathed to 9,2
+<151> [merchandise] answered to 13,5
+<151> [joint] derived to 7,3
+<153> [sale] quieted to 9,3
+<153> [merchandise] stirred to 12,5
+<153> [critic] lectured to 3,2
+<155> [sale] exasperated to 10,3
+<155> [merchandise] warmed to 12,6
+<156> [joint] converted to 7,2
+<157> [sale] pinned to 9,3
+<157> [merchandise] determined to 12,5
+<157> [critic] defended to 2,2
+<159> [sale] doorstop to 8,3
+<159> [merchandise] raised to 12,4
+<161> [sale] embezzled to 8,4
+<161> [merchandise] obeyed to 12,5
+<161> [joint] sought to 7,3
+<163> [sale] hollowed to 8,3
+<163> [merchandise] beloved to 12,6
+<165> [sale] fielded to 7,3
+<165> [merchandise] downloaded to 11,6
+<165> [critic] coursed to 2,1
+<166> [joint] stung to 6,3

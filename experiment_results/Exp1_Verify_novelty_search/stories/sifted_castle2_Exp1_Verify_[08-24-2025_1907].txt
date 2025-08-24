@@ -1,0 +1,30 @@
+<1> [potato2] corned to 6,6
+<1> [potato] bombed to 3,6
+<4> [potato2] rejuvenated to 11,5
+<6> [countries] candled [potato2]
+<6> [potato2] enforced to 6,5
+<7> [potato2] rejuvenated to 11,4
+<9> [potato2] released by [flavor]
+<10> [potato] stared [tune]
+<10> [toothbrushes] sustained
+<12> [countries] decorated [potato2]
+<13> [potato2] flushed to 5,5
+<13> [potato] told [tune2]
+<15> [countries] drilled [potato2]
+<20> [countries2] hauled [potato2]
+<21> [potato] played [tune3]
+<22> [potato] declared by [flavor2]
+<24> [countries2] imbedded [potato2]
+<25> [potato] hunted [tune4]
+<26> [potato] consumed by [flavor3]
+<26> [countries2] placed [potato2]
+<29> [potato] hosted [tune5]
+<29> [countries2] shone [potato2]
+<32> [potato] delimited to 8,1
+<38> [potato] searched [tune6]
+<41> [potato] assumed [tune7]
+<43> [potato] accepted [tune8]
+<45> [potato] planned [tune9]
+<49> [potato] slithered to 11,1
+<50> [countries] diluted [potato]
+<53> [countries] compacted [potato]

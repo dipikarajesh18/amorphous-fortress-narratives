@@ -1,0 +1,30 @@
+<1> [coloring2] skipped to 6,6
+<1> [coloring] did to 3,6
+<4> [coloring2] bundled to 11,5
+<6> [water] washed [coloring2]
+<6> [coloring2] benefited to 6,5
+<7> [coloring2] wiggled to 11,4
+<9> [coloring2] limited by [water]
+<10> [coloring] added [crayon]
+<10> [crayon] protected
+<12> [water] gave [coloring2]
+<13> [coloring2] funded to 5,5
+<13> [coloring] did [crayon2]
+<15> [water] composed [coloring2]
+<20> [water2] stole [coloring2]
+<21> [coloring] did [crayon3]
+<22> [coloring] did by [water2]
+<24> [water2] warded [coloring2]
+<25> [coloring] did [crayon4]
+<26> [coloring] did by [water3]
+<26> [water2] revealed [coloring2]
+<29> [coloring] did [crayon5]
+<29> [water2] occupied [coloring2]
+<32> [coloring] added to 8,1
+<38> [coloring] added [crayon6]
+<41> [coloring] did [crayon7]
+<43> [coloring] added [crayon8]
+<45> [coloring] did [crayon9]
+<49> [coloring] added to 11,1
+<50> [water] gave [coloring]
+<53> [water] washed [coloring]
