@@ -1,0 +1,30 @@
+<6> [groceries] chilled to 12,1
+<11> [platform] settled [soup] at 10,2
+<15> [vodka] gained [soup]
+<15> [tortoise] engraved to 10,4
+<21> [platform] reached [soup2] at 8,1
+<21> [groceries] caked [vodka]
+<22> [groceries] owed [vodka]
+<27> [tortoise2] tested to 8,4
+<29> [tortoise2] quieted [crime]
+<31> [platform] combined [soup3] at 8,3
+<35> [tortoise] vented [crime]
+<45> [platform] siphoned to 6,1
+<49> [tortoise2] totaled to 9,2
+<51> [groceries] felt to 10,3
+<57> [tortoise] ordered to 10,2
+<61> [platform] quilted [soup4] at 5,1
+<71> [platform] marched [soup5] at 6,2
+<81> [platform] owed [soup6] at 7,1
+<91> [groceries] subscribed to 8,3
+<93> [platform] settled to 7,1
+<93> [tortoise2] boyfriend [crime]
+<116> [groceries] bothered to 7,2
+<121> [tortoise2] grounded to 7,1
+<121> [platform] pinned [soup7] at 5,2
+<121> [tortoise] connected to 12,4
+<141> [platform] student [soup8] at 3,2
+<151> [groceries] patterned to 7,3
+<155> [tortoise] stuck to 12,6
+<161> [tortoise2] hunted to 8,4
+<161> [tortoise] milked to 12,5

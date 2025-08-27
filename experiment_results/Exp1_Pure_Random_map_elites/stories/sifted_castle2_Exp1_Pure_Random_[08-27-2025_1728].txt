@@ -1,0 +1,30 @@
+<1> [gymnastics2] propped to 6,6
+<1> [gymnastics] replaced to 3,6
+<4> [gymnastics2] rearranged to 11,5
+<6> [lockers] marked [gymnastics2]
+<6> [gymnastics2] gathered to 6,5
+<7> [gymnastics2] reversed to 11,4
+<9> [gymnastics2] wiggled by [photographer]
+<10> [gymnastics] rushed [swing]
+<10> [pipette] compared
+<12> [lockers] fulfilled [gymnastics2]
+<13> [gymnastics2] copied to 5,5
+<13> [gymnastics] licked [swing2]
+<15> [lockers] got [gymnastics2]
+<20> [lockers2] experienced [gymnastics2]
+<21> [gymnastics] cremated [swing3]
+<22> [gymnastics] chilled by [photographer2]
+<24> [lockers2] defeated [gymnastics2]
+<25> [gymnastics] imbibed [swing4]
+<26> [gymnastics] sponsored by [photographer3]
+<26> [lockers2] insulted [gymnastics2]
+<29> [gymnastics] managed [swing5]
+<29> [lockers2] cultivated [gymnastics2]
+<32> [gymnastics] honest to 8,1
+<38> [gymnastics] ratified [swing6]
+<41> [gymnastics] trimmed [swing7]
+<43> [gymnastics] packed [swing8]
+<45> [gymnastics] flamed [swing9]
+<49> [gymnastics] conserved to 11,1
+<50> [lockers] clenched [gymnastics]
+<53> [lockers] oxygenated [gymnastics]

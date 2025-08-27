@@ -1,0 +1,30 @@
+<1> [what2] shrouded to 6,6
+<1> [what] did to 3,6
+<4> [what2] bathed to 11,5
+<6> [glass] cut [what2]
+<6> [what2] knew to 6,5
+<7> [what2] segregated to 11,4
+<9> [what2] interpreted by [glass]
+<10> [what] did [glass]
+<10> [glass] tallied
+<12> [glass] cut [what2]
+<13> [what2] surfaced to 5,5
+<13> [what] did [glass2]
+<15> [glass] cut [what2]
+<20> [glass2] socialized [what2]
+<21> [what] did [glass3]
+<22> [what] did by [glass2]
+<24> [glass2] maintained [what2]
+<25> [what] did [glass4]
+<26> [what] did by [glass3]
+<26> [glass2] nested [what2]
+<29> [what] did [glass5]
+<29> [glass2] misused [what2]
+<32> [what] did to 8,1
+<38> [what] did [glass6]
+<41> [what] did [glass7]
+<43> [what] did [glass8]
+<45> [what] did [glass9]
+<49> [what] did to 11,1
+<50> [glass] served [what]
+<53> [glass] rolled [what]
