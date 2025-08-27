@@ -1,0 +1,11 @@
+main_char: random
+other_ents: assoc
+mut_chance: 0.25
+mut_main_char: random
+mut_other_ents: assoc
+mut_verbs: assoc
+fit_threshold: 0.3
+novel_threshold: 0.5
+rand_perc: 0.2
+num_generations: 5       # Small for example
+pop_size: 5               # Small for example

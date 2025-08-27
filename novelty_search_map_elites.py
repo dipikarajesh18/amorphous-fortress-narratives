@@ -3,10 +3,15 @@ import numpy as np
 import json
 import spacy
 import re
-from datetime import datetime
-import pyinflect
+#from datetime import datetime
+#import pyinflect
 from sentence_transformers import SentenceTransformer
-import torch
+#import torch
+from tqdm import tqdm
+import yaml
+import sys
+import os
+import pickle
 
 # ===== GLOBAL VARIABLES ===== #
 # These will be initialized by the setup function
@@ -17,7 +22,8 @@ ALL_OBJS = None
 ALL_VERBS = None
 CN_GRAPH = None
 AF_VERBS = None
-all_af_verb_encs = None
+pre_verb_enc = None
+pre_ent_enc = None
 af_verb_enc_dict = None
 
 # Constants
@@ -31,7 +37,7 @@ NUM_GENERATIONS = 20
 def setup_models_and_data(data_path='bank_files'):
     """Initialize models and load data for the novelty search algorithm."""
     global nlp, st_model, ALL_SUBJS, ALL_OBJS, ALL_VERBS, CN_GRAPH
-    global AF_VERBS, all_af_verb_encs, af_verb_enc_dict
+    global AF_VERBS, af_verb_enc_dict
     
     # Set models for NLP tasks
     nlp = spacy.load("en_core_web_sm")
@@ -54,6 +60,52 @@ def setup_models_and_data(data_path='bank_files'):
     af_verb_enc_dict = {AF_VERBS[i]: all_af_verb_encs[i] for i in range(len(AF_VERBS))}
     
     print(f"Loaded data: {len(ALL_SUBJS)} subjects, {len(ALL_OBJS)} objects, {len(ALL_VERBS)} verbs")
+
+
+def pre_encode_data(use_file=True):
+    ''' Uses the sentence transformer to encode all the ents and verbs beforehand to reduce bottleneck'''
+    global pre_ent_enc, pre_verb_enc
+
+    # try to reload from file if exists
+    if use_file:
+        try:
+            if os.path.exists('bank_files/pre_encoded_data.pkl'):
+                with open('bank_files/pre_encoded_data.pkl', 'rb') as f:
+                    data = pickle.load(f)
+                    try:
+                        pre_ent_enc = data['entities']
+                        pre_verb_enc = data['verbs']
+
+                    except KeyError as e:
+                        print(f"Key error: {e}")
+                    finally:
+                        print(f"# (Imported) Entity Vecs: {len(pre_ent_enc)}")
+                        print(f"# (Imported) Verb Vecs: {len(pre_verb_enc)}")
+                        return
+        except Exception as e:
+            print("Unable to load data from file :(")
+            print(e)
+            print("Re-encoding all entities and verbs...")
+
+
+
+    # encode the combination of entities and verbs
+    pre_ent_enc = {}
+    pre_verb_enc = {}
+    for e in tqdm((ALL_SUBJS + ALL_OBJS), desc="Encoding entities"):
+        pre_ent_enc[e] = st_model.encode(e)
+    for v in tqdm(ALL_VERBS, desc="Encoding verbs"):
+        pre_verb_enc[v] = st_model.encode(v)
+
+    print(f"# (Encoded) Entity Vecs: {len(pre_ent_enc)}")
+    print(f"# (Encoded) Verb Vecs: {len(pre_verb_enc)}")
+
+
+
+    # export the encodings to a pickle file for quick reload
+    if use_file:
+        with open('bank_files/pre_encoded_data.pkl', 'wb') as f:
+            pickle.dump({'entities': pre_ent_enc, 'verbs': pre_verb_enc}, f)
 
 
 # ===== HELPER FUNCTIONS ===== #
@@ -85,7 +137,8 @@ def get_assoc_verbs(ent):
 
 def get_ent_encs(ents):
     """Gets the sentence transformer encodings for a list of entities"""
-    return {e: st_model.encode(re.sub(r'[0-9]+', '', e)) for e in ents}
+    # return {e: st_model.encode(re.sub(r'[0-9]+', '', e)) for e in ents}
+    return {e: pre_ent_enc.get(re.sub(r'[0-9]+', '', e)) for e in ents}   # PULL FROM PRE-ENCODED INSTEAD
 
 
 # ===== CLASSES ===== #
@@ -445,7 +498,7 @@ class FicGenome:
         if len(self.ent_encs) == 0 or af_story.mc_ent not in self.ent:
             ent_score = 0
         else:
-            mc_enc = st_model.encode(self.mc)
+            mc_enc = pre_ent_enc.get(self.mc) # st_model.encode(self.mc)  (PULL FROM PRE-ENCODED INSTEAD)
             cos_sims = []
             for e, enc in self.ent_encs.items():
                 if e == self.mc:        # skip the main character
@@ -464,11 +517,15 @@ class FicGenome:
         og_verbs = list(af_story.verb_set.values())
         fic_verbs = list(self.verbs.values())
         og_verb_vecs = [af_verb_enc_dict[v[1]] for v in og_verbs]
-        fic_verb_vecs = [st_model.encode(v) for v in fic_verbs]
+        #fic_verb_vecs = [st_model.encode(v) for v in fic_verbs]
+        fic_verb_vecs = [pre_verb_enc.get(v) for v in fic_verbs]        # pull from pre-encoded model instead
 
         # get cosine similarity between verb sets
         cos_sims = []
         for i in range(len(og_verb_vecs)):
+            if fic_verb_vecs[i] is None:
+                continue
+
             cos_sim = np.dot(og_verb_vecs[i], fic_verb_vecs[i]) / (np.linalg.norm(og_verb_vecs[i]) * np.linalg.norm(fic_verb_vecs[i]))
             cos_sims.append(cos_sim)
 
@@ -813,22 +870,18 @@ if __name__ == "__main__":
     # Example of how to use the module
     print("Setting up models and data...")
     setup_models_and_data(data_path='bank_files')
-    
+
+    print("Pre-encoding the entities and verbs...")
+    pre_encode_data(use_file=True)
+
     print("Running novelty search example...")
-    NOV_PARAMS = {
-        'main_char': 'random',
-        'other_ents': 'assoc',
-        'mut_chance': 0.25,
-        'mut_main_char': 'random',
-        'mut_other_ents': 'assoc',
-        'mut_verbs': 'assoc',
-        'fit_threshold': 0.35,
-        'novel_threshold': 0.5,
-        'rand_perc': 0.2,
-        'num_generations': 5,  # Small for example
-        'pop_size': 5          # Small for example
-    }
-    
+
+    CONFIG_FILE = sys.argv[1] if len(sys.argv) > 1 else 'exp_config/nov_test_config.yaml'
+    print(f"Importing experimental configuration file from {CONFIG_FILE}...")
+
+    with open(CONFIG_FILE, 'r') as f:
+        NOV_PARAMS = yaml.safe_load(f)
+
     # Run novelty search
     arc, best_fic, story = novelty_search('logs/stupid_log.txt', params=NOV_PARAMS)
     

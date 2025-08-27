@@ -3,3 +3,4 @@ venv/
 __pycache__/
 af-narrate/
 .DS_Store
+bank_files/pre_encoded_data.*
