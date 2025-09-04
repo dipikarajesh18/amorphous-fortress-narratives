@@ -1,0 +1,30 @@
+<6> [rock] stopped to 12,1
+<11> [cake] gained [bicycle] at 10,2
+<15> [spaghetti] missed [bicycle]
+<15> [bicycle9] went to 10,4
+<21> [cake] gained [bicycle2] at 8,1
+<21> [rock] broke [spaghetti]
+<22> [rock] made [spaghetti]
+<27> [bicycle10] assembled to 8,4
+<29> [bicycle10] roomed [telephone]
+<31> [cake] served [bicycle3] at 8,3
+<35> [bicycle9] moved [telephone]
+<45> [cake] served to 6,1
+<49> [bicycle10] aired to 9,2
+<51> [rock] broke to 10,3
+<57> [bicycle9] moved to 10,2
+<61> [cake] gained [bicycle4] at 5,1
+<71> [cake] gained [bicycle5] at 6,2
+<81> [cake] brought [bicycle6] at 7,1
+<91> [rock] detached to 8,3
+<93> [cake] brought to 7,1
+<93> [bicycle10] knew [telephone]
+<116> [rock] detached to 7,2
+<121> [bicycle10] carpentered to 7,1
+<121> [cake] gained [bicycle7] at 5,2
+<121> [bicycle9] moved to 12,4
+<141> [cake] gained [bicycle8] at 3,2
+<151> [rock] detached to 7,3
+<155> [bicycle9] moved to 12,6
+<161> [bicycle10] clowned to 8,4
+<161> [bicycle9] moved to 12,5

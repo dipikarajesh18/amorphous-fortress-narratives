@@ -1,0 +1,49 @@
+{
+   "mc": "person",
+   "ent": {
+      "[o.4114]": "revenge",
+      "[?.e7b5]": "mail",
+      "[O.c31a]": "person",
+      "[>.34c6]": "spaghetti"
+   },
+   "verbs": {
+      "0": "settled",
+      "1": "settled",
+      "2": "settled",
+      "3": "settled",
+      "4": "settled",
+      "5": "settled",
+      "6": "settled",
+      "7": "settled",
+      "8": "settled",
+      "9": "settled",
+      "10": "settled",
+      "11": "settled",
+      "12": "settled",
+      "13": "settled",
+      "14": "settled",
+      "15": "married",
+      "16": "made",
+      "17": "paid",
+      "18": "wrote",
+      "19": "tipped",
+      "20": "hated",
+      "21": "ran",
+      "22": "pushed",
+      "23": "reached",
+      "24": "suffered",
+      "25": "returned",
+      "26": "needled",
+      "27": "became",
+      "28": "faced",
+      "29": "washed"
+   },
+   "fitness": 0.6263496688213842,
+   "fit_set": {
+      "inter": 0.8127790699745047,
+      "ent": 0.241668239235878,
+      "verb": 0.3817180097103119
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [revenge] settled to 7,4\n<2> [revenge] settled to 6,4\n<3> [revenge] settled to 7,4\n<4> [revenge] settled to 8,4\n<5> [revenge] settled to 8,3\n<6> [revenge] settled to 8,2\n<7> [revenge] settled to 8,3\n<8> [revenge] settled to 9,3\n<9> [revenge] settled to 9,4\n<10> [revenge] settled to 9,5\n<11> [revenge] settled [mail]\n<12> [revenge] settled [mail]\n<13> [revenge] settled [mail]\n<14> [revenge] settled [mail]\n<15> [revenge] settled into [person] at 11,6\n<16> [person] married [spaghetti]\n<17> [person] made [spaghetti]\n<18> [person] paid [spaghetti]\n<19> [person] wrote [spaghetti]\n<20> [person] tipped [spaghetti]\n<21> [person] hated [spaghetti]\n<22> [person] ran [spaghetti]\n<23> [person] pushed [spaghetti]\n<24> [person] reached [spaghetti]\n<25> [person] suffered [spaghetti]\n<26> [person] returned [spaghetti]\n<27> [person] needled [spaghetti]\n<28> [person] became [spaghetti]\n<29> [person] faced [spaghetti]\n<30> [person] washed"
+}

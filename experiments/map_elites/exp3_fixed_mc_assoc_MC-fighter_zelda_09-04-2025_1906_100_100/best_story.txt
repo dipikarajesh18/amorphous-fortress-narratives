@@ -1,0 +1,30 @@
+<6> [human] moved to 12,1
+<11> [perfection] found [fighter] at 10,2
+<15> [terry] dogged [fighter]
+<15> [fighter] followed to 10,4
+<21> [perfection] found [fighter2] at 8,1
+<21> [human] fell [terry]
+<22> [human] stood [terry]
+<27> [fighter2] created to 8,4
+<29> [fighter2] extracted [campsite]
+<31> [perfection] found [fighter3] at 8,3
+<35> [fighter] followed [campsite]
+<45> [perfection] found to 6,1
+<49> [fighter2] moved to 9,2
+<51> [human] moved to 10,3
+<57> [fighter] followed to 10,2
+<61> [perfection] found [fighter4] at 5,1
+<71> [perfection] found [fighter5] at 6,2
+<81> [perfection] found [fighter6] at 7,1
+<91> [human] moved to 8,3
+<93> [perfection] found to 7,1
+<93> [fighter2] illuminated [campsite]
+<116> [human] moved to 7,2
+<121> [fighter2] matched to 7,1
+<121> [perfection] found [fighter7] at 5,2
+<121> [fighter] followed to 12,4
+<141> [perfection] found [fighter8] at 3,2
+<151> [human] moved to 7,3
+<155> [fighter] followed to 12,6
+<161> [fighter2] moved to 8,4
+<161> [fighter] followed to 12,5

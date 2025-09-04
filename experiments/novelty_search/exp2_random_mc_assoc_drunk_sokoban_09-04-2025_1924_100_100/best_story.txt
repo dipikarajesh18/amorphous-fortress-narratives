@@ -1,0 +1,30 @@
+<8> [camping2] communed [tent]
+<54> [camping] included [tent2]
+<82> [camping3] inside [tent3]
+<93> [camping] did to 11,1
+<186> [camping] included to 6,2
+<250> [camping3] propped to 5,3
+<343> [camping] did to 4,5
+<458> [camping] did [tent4]
+<459> [camping] included [tent4]
+<462> [camping] included [tent4]
+<505> [camping4] housed to 4,3
+<558> [camping3] kissed [tent4]
+<559> [tent4] sang [campground]
+<560> [tent4] retained into [campsite] at 1,6
+<648> [tent] set [campground2]
+<649> [tent] slept into [campsite2] at 13,1
+<703> [camping] included to 11,1
+<720> [camping3] ornamented [tent2]
+<759> [tent2] refunded [campground3]
+<760> [tent2] withstood into [campsite3] at 1,1
+<812> [camping4] withstood to 3,4
+<874> [camping4] listed [tent3]
+<962> [camping4] dressed to 12,2
+<1004> [camping4] lowered to 11,1
+<1073> [camping3] established to 13,2
+<1116> [camping2] buttered to 9,1
+<1196> [camping] did to 5,5
+<1201> [camping] did to 5,4
+<1202> [tent3] confessed [campground4]
+<1203> [tent3] licked into [campsite4] at 13,6

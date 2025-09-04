@@ -1,0 +1,30 @@
+<1> [cheese] detached to 6,6
+<1> [cheese2] happened to 3,6
+<4> [cheese3] occupied to 11,5
+<6> [trip] baptized [cheese3]
+<6> [cheese] skipped to 6,5
+<7> [cheese3] furthered to 11,4
+<9> [cheese3] herb by [rock]
+<10> [cheese2] cleaned [light]
+<10> [rock4] lived
+<12> [trip] pained [cheese3]
+<13> [cheese] detached to 5,5
+<13> [cheese2] derived [light2]
+<15> [trip] pieced [cheese3]
+<20> [trip2] sucked [cheese]
+<21> [cheese2] conned [light3]
+<22> [cheese2] occurred by [rock2]
+<24> [trip2] chased [cheese]
+<25> [cheese2] plunged [light4]
+<26> [cheese2] jumped by [rock3]
+<26> [trip2] slicked [cheese]
+<29> [cheese2] diluted [light5]
+<29> [trip2] circulated [cheese]
+<32> [cheese2] talked to 8,1
+<38> [cheese2] came [light6]
+<41> [cheese2] took [light7]
+<43> [cheese2] iced [light8]
+<45> [cheese2] took [light9]
+<49> [cheese2] moved to 11,1
+<50> [trip] hearsay [cheese2]
+<53> [trip] brought [cheese2]

@@ -1,0 +1,30 @@
+<1> [bricklayers] grew to 7,4
+<2> [bricklayers] grew to 6,4
+<3> [bricklayers] grew to 7,4
+<4> [bricklayers] grew to 8,4
+<5> [bricklayers] grew to 8,3
+<6> [bricklayers] grew to 8,2
+<7> [bricklayers] grew to 8,3
+<8> [bricklayers] grew to 9,3
+<9> [bricklayers] grew to 9,4
+<10> [bricklayers] grew to 9,5
+<11> [bricklayers] grew [continent]
+<12> [bricklayers] grew [continent]
+<13> [bricklayers] grew [continent]
+<14> [bricklayers] grew [continent]
+<15> [bricklayers] grew into [continent] at 11,6
+<16> [continent] treasured [territory]
+<17> [continent] treasured [territory]
+<18> [continent] treasured [territory]
+<19> [continent] covered [territory]
+<20> [continent] covered [territory]
+<21> [continent] covered [territory]
+<22> [continent] covered [territory]
+<23> [continent] covered [territory]
+<24> [continent] covered [territory]
+<25> [continent] covered [territory]
+<26> [continent] covered [territory]
+<27> [continent] covered [territory]
+<28> [continent] covered [territory]
+<29> [continent] kept [territory]
+<30> [continent] kept

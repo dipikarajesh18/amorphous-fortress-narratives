@@ -1,0 +1,30 @@
+<6> [beer] served to 12,1
+<11> [juice] made [drink] at 10,2
+<15> [water] filled [drink]
+<15> [drink] put to 10,4
+<21> [juice] pressed [drink2] at 8,1
+<21> [beer] served [water]
+<22> [beer] served [water]
+<27> [drink2] related to 8,4
+<29> [drink2] fed [baby]
+<31> [juice] pressed [drink3] at 8,3
+<35> [drink] put [baby]
+<45> [juice] pressed to 6,1
+<49> [drink2] scraped to 9,2
+<51> [beer] had to 10,3
+<57> [drink] meant to 10,2
+<61> [juice] made [drink4] at 5,1
+<71> [juice] made [drink5] at 6,2
+<81> [juice] made [drink6] at 7,1
+<91> [beer] made to 8,3
+<93> [juice] made to 7,1
+<93> [drink2] budded [baby]
+<116> [beer] stored to 7,2
+<121> [drink2] prepared to 7,1
+<121> [juice] pressed [drink7] at 5,2
+<121> [drink] put to 12,4
+<141> [juice] made [drink8] at 3,2
+<151> [beer] had to 7,3
+<155> [drink] meant to 12,6
+<161> [drink2] re to 8,4
+<161> [drink] meant to 12,5

@@ -1,0 +1,30 @@
+<6> [conquerer] printed to 12,1
+<11> [win] labeled [ship] at 10,2
+<15> [overeating] cracked [ship]
+<15> [auctioneer] subjected to 10,4
+<21> [win] experienced [ship2] at 8,1
+<21> [conquerer] trained [overeating]
+<22> [conquerer] transmitted [overeating]
+<27> [auctioneer2] separated to 8,4
+<29> [auctioneer2] presented [tarp]
+<31> [win] discarded [ship3] at 8,3
+<35> [auctioneer] scattered [tarp]
+<45> [win] constrained to 6,1
+<49> [auctioneer2] computed to 9,2
+<51> [conquerer] shut to 10,3
+<57> [auctioneer] admitted to 10,2
+<61> [win] comforted [ship4] at 5,1
+<71> [win] completed [ship5] at 6,2
+<81> [win] earned [ship6] at 7,1
+<91> [conquerer] ruined to 8,3
+<93> [win] conned to 7,1
+<93> [auctioneer2] gripped [tarp]
+<116> [conquerer] interpreted to 7,2
+<121> [auctioneer2] propelled to 7,1
+<121> [win] filed [ship7] at 5,2
+<121> [auctioneer] lowered to 12,4
+<141> [win] barbecued [ship8] at 3,2
+<151> [conquerer] candled to 7,3
+<155> [auctioneer] grabbed to 12,6
+<161> [auctioneer2] enhanced to 8,4
+<161> [auctioneer] picked to 12,5

@@ -1,0 +1,30 @@
+<8> [paycheck] exchanged [work]
+<54> [paycheck2] returned [work2]
+<82> [paycheck3] flamed [work3]
+<93> [paycheck2] rescued to 11,1
+<186> [paycheck2] tracked to 6,2
+<250> [paycheck3] moved to 5,3
+<343> [paycheck2] lugged to 4,5
+<458> [paycheck2] squirreled [work4]
+<459> [paycheck2] paged [work4]
+<462> [paycheck2] revealed [work4]
+<505> [paycheck4] viewed to 4,3
+<558> [paycheck3] soloed [work4]
+<559> [work4] seized [labor]
+<560> [work4] retrieved into [money] at 1,6
+<648> [work] went [labor2]
+<649> [work] returned into [money2] at 13,1
+<703> [paycheck2] pushed to 11,1
+<720> [paycheck3] pinned [work2]
+<759> [work2] owned [labor3]
+<760> [work2] ended into [money3] at 1,1
+<812> [paycheck4] blew to 3,4
+<874> [paycheck4] laid [work3]
+<962> [paycheck4] woke to 12,2
+<1004> [paycheck4] fixed to 11,1
+<1073> [paycheck3] relocated to 13,2
+<1116> [paycheck] stopped to 9,1
+<1196> [paycheck2] brought to 5,5
+<1201> [paycheck2] landed to 5,4
+<1202> [work3] trimmed [labor4]
+<1203> [work3] stretched into [money4] at 13,6

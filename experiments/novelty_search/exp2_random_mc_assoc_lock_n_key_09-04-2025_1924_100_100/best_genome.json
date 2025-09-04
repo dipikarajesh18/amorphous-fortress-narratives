@@ -1,0 +1,49 @@
+{
+   "mc": "trackballs",
+   "ent": {
+      "[o.4114]": "cursor",
+      "[?.e7b5]": "race",
+      "[O.c31a]": "trackballs",
+      "[>.34c6]": "product"
+   },
+   "verbs": {
+      "0": "moved",
+      "1": "moved",
+      "2": "moved",
+      "3": "moved",
+      "4": "moved",
+      "5": "moved",
+      "6": "moved",
+      "7": "moved",
+      "8": "moved",
+      "9": "moved",
+      "10": "moved",
+      "11": "moved",
+      "12": "moved",
+      "13": "moved",
+      "14": "moved",
+      "15": "moved",
+      "16": "moved",
+      "17": "moved",
+      "18": "moved",
+      "19": "moved",
+      "20": "moved",
+      "21": "moved",
+      "22": "moved",
+      "23": "moved",
+      "24": "moved",
+      "25": "moved",
+      "26": "moved",
+      "27": "moved",
+      "28": "moved",
+      "29": "moved"
+   },
+   "fitness": 0.7515345077062475,
+   "fit_set": {
+      "inter": 0.9305365003388504,
+      "ent": 0.27600327134132385,
+      "verb": 0.5520409345626831
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [cursor] moved to 7,4\n<2> [cursor] moved to 6,4\n<3> [cursor] moved to 7,4\n<4> [cursor] moved to 8,4\n<5> [cursor] moved to 8,3\n<6> [cursor] moved to 8,2\n<7> [cursor] moved to 8,3\n<8> [cursor] moved to 9,3\n<9> [cursor] moved to 9,4\n<10> [cursor] moved to 9,5\n<11> [cursor] moved [race]\n<12> [cursor] moved [race]\n<13> [cursor] moved [race]\n<14> [cursor] moved [race]\n<15> [cursor] moved into [trackballs] at 11,6\n<16> [trackballs] moved [product]\n<17> [trackballs] moved [product]\n<18> [trackballs] moved [product]\n<19> [trackballs] moved [product]\n<20> [trackballs] moved [product]\n<21> [trackballs] moved [product]\n<22> [trackballs] moved [product]\n<23> [trackballs] moved [product]\n<24> [trackballs] moved [product]\n<25> [trackballs] moved [product]\n<26> [trackballs] moved [product]\n<27> [trackballs] moved [product]\n<28> [trackballs] moved [product]\n<29> [trackballs] moved [product]\n<30> [trackballs] moved"
+}

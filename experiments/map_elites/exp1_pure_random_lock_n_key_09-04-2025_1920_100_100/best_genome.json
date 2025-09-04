@@ -1,0 +1,49 @@
+{
+   "mc": "troopers",
+   "ent": {
+      "[o.4114]": "paratroopers",
+      "[?.e7b5]": "smoke",
+      "[O.c31a]": "troopers",
+      "[>.34c6]": "responsibility"
+   },
+   "verbs": {
+      "0": "provided",
+      "1": "accompanied",
+      "2": "listed",
+      "3": "beat",
+      "4": "involved",
+      "5": "rewrote",
+      "6": "built",
+      "7": "surrounded",
+      "8": "communed",
+      "9": "directed",
+      "10": "swished",
+      "11": "conveyed",
+      "12": "did",
+      "13": "appeared",
+      "14": "acquired",
+      "15": "acquired",
+      "16": "rearranged",
+      "17": "located",
+      "18": "affixed",
+      "19": "generated",
+      "20": "sampled",
+      "21": "happened",
+      "22": "followed",
+      "23": "went",
+      "24": "pressed",
+      "25": "pranced",
+      "26": "informed",
+      "27": "demonstrated",
+      "28": "contracted",
+      "29": "buttered"
+   },
+   "fitness": 0.639276969946664,
+   "fit_set": {
+      "inter": 0.8445822555443336,
+      "ent": 0.40812554955482483,
+      "verb": 0.305716872215271
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [paratroopers] provided to 7,4\n<2> [paratroopers] accompanied to 6,4\n<3> [paratroopers] listed to 7,4\n<4> [paratroopers] beat to 8,4\n<5> [paratroopers] involved to 8,3\n<6> [paratroopers] rewrote to 8,2\n<7> [paratroopers] built to 8,3\n<8> [paratroopers] surrounded to 9,3\n<9> [paratroopers] communed to 9,4\n<10> [paratroopers] directed to 9,5\n<11> [paratroopers] swished [smoke]\n<12> [paratroopers] conveyed [smoke]\n<13> [paratroopers] did [smoke]\n<14> [paratroopers] appeared [smoke]\n<15> [paratroopers] acquired into [troopers] at 11,6\n<16> [troopers] acquired [responsibility]\n<17> [troopers] rearranged [responsibility]\n<18> [troopers] located [responsibility]\n<19> [troopers] affixed [responsibility]\n<20> [troopers] generated [responsibility]\n<21> [troopers] sampled [responsibility]\n<22> [troopers] happened [responsibility]\n<23> [troopers] followed [responsibility]\n<24> [troopers] went [responsibility]\n<25> [troopers] pressed [responsibility]\n<26> [troopers] pranced [responsibility]\n<27> [troopers] informed [responsibility]\n<28> [troopers] demonstrated [responsibility]\n<29> [troopers] contracted [responsibility]\n<30> [troopers] buttered"
+}

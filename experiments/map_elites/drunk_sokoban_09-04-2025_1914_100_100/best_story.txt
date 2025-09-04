@@ -1,0 +1,30 @@
+<8> [clothing] made [number]
+<54> [clothing2] slid [number2]
+<82> [clothing3] pushed [number3]
+<93> [clothing2] felt to 11,1
+<186> [clothing2] became to 6,2
+<250> [clothing3] wanted to 5,3
+<343> [clothing2] moved to 4,5
+<458> [clothing2] spun [number4]
+<459> [clothing2] planned [number4]
+<462> [clothing2] launched [number4]
+<505> [clothing4] relocated to 4,3
+<558> [clothing3] communicated [number4]
+<559> [number4] commented [ride]
+<560> [number4] rotted into [favor] at 1,6
+<648> [number] indicated [ride2]
+<649> [number] tracked into [favor2] at 13,1
+<703> [clothing2] bugged to 11,1
+<720> [clothing3] powered [number2]
+<759> [number2] bagged [ride3]
+<760> [number2] brightened into [favor3] at 1,1
+<812> [clothing4] cheated to 3,4
+<874> [clothing4] repaid [number3]
+<962> [clothing4] wiggled to 12,2
+<1004> [clothing4] perfected to 11,1
+<1073> [clothing3] kept to 13,2
+<1116> [clothing] kept to 9,1
+<1196> [clothing2] pushed to 5,5
+<1201> [clothing2] upgraded to 5,4
+<1202> [number3] instructed [ride4]
+<1203> [number3] tried into [favor4] at 13,6

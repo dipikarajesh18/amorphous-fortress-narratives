@@ -1,0 +1,30 @@
+<1> [clarinet] evaded to 6,6
+<1> [clarinet2] reported to 3,6
+<4> [clarinet3] sought to 11,5
+<6> [people] realised [clarinet3]
+<6> [clarinet] housed to 6,5
+<7> [clarinet3] fenced to 11,4
+<9> [clarinet3] sustained by [foot]
+<10> [clarinet2] reported [orchestra]
+<10> [screw] held
+<12> [people] missed [clarinet3]
+<13> [clarinet] settled to 5,5
+<13> [clarinet2] posted [orchestra2]
+<15> [people] held [clarinet3]
+<20> [people2] designated [clarinet]
+<21> [clarinet2] posted [orchestra3]
+<22> [clarinet2] posted by [foot2]
+<24> [people2] caused [clarinet]
+<25> [clarinet2] posted [orchestra4]
+<26> [clarinet2] allowed by [foot3]
+<26> [people2] singed [clarinet]
+<29> [clarinet2] posted [orchestra5]
+<29> [people2] mailed [clarinet]
+<32> [clarinet2] posted to 8,1
+<38> [clarinet2] reported [orchestra6]
+<41> [clarinet2] allowed [orchestra7]
+<43> [clarinet2] posted [orchestra8]
+<45> [clarinet2] allowed [orchestra9]
+<49> [clarinet2] allowed to 11,1
+<50> [people] injured [clarinet2]
+<53> [people] chose [clarinet2]

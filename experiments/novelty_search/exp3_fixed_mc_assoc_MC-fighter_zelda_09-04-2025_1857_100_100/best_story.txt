@@ -1,0 +1,30 @@
+<6> [warrior] fought to 12,1
+<11> [fighter] boxed [bout] at 10,2
+<15> [performer] recorded [bout]
+<15> [sabers] used to 10,4
+<21> [fighter] lost [bout2] at 8,1
+<21> [warrior] fought [performer]
+<22> [warrior] fought [performer]
+<27> [sabers2] furthered to 8,4
+<29> [sabers2] pounded [theatre]
+<31> [fighter] boxed [bout3] at 8,3
+<35> [sabers] used [theatre]
+<45> [fighter] boxed to 6,1
+<49> [sabers2] implied to 9,2
+<51> [warrior] fought to 10,3
+<57> [sabers] used to 10,2
+<61> [fighter] boxed [bout4] at 5,1
+<71> [fighter] lost [bout5] at 6,2
+<81> [fighter] boxed [bout6] at 7,1
+<91> [warrior] fought to 8,3
+<93> [fighter] lost to 7,1
+<93> [sabers2] pointed [theatre]
+<116> [warrior] fought to 7,2
+<121> [sabers2] achieved to 7,1
+<121> [fighter] cauliflower [bout7] at 5,2
+<121> [sabers] used to 12,4
+<141> [fighter] boxed [bout8] at 3,2
+<151> [warrior] fought to 7,3
+<155> [sabers] used to 12,6
+<161> [sabers2] limited to 8,4
+<161> [sabers] used to 12,5

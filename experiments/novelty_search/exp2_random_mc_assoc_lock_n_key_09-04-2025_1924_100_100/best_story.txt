@@ -1,0 +1,30 @@
+<1> [cursor] moved to 7,4
+<2> [cursor] moved to 6,4
+<3> [cursor] moved to 7,4
+<4> [cursor] moved to 8,4
+<5> [cursor] moved to 8,3
+<6> [cursor] moved to 8,2
+<7> [cursor] moved to 8,3
+<8> [cursor] moved to 9,3
+<9> [cursor] moved to 9,4
+<10> [cursor] moved to 9,5
+<11> [cursor] moved [race]
+<12> [cursor] moved [race]
+<13> [cursor] moved [race]
+<14> [cursor] moved [race]
+<15> [cursor] moved into [trackballs] at 11,6
+<16> [trackballs] moved [product]
+<17> [trackballs] moved [product]
+<18> [trackballs] moved [product]
+<19> [trackballs] moved [product]
+<20> [trackballs] moved [product]
+<21> [trackballs] moved [product]
+<22> [trackballs] moved [product]
+<23> [trackballs] moved [product]
+<24> [trackballs] moved [product]
+<25> [trackballs] moved [product]
+<26> [trackballs] moved [product]
+<27> [trackballs] moved [product]
+<28> [trackballs] moved [product]
+<29> [trackballs] moved [product]
+<30> [trackballs] moved

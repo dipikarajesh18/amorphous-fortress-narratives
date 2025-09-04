@@ -1,0 +1,30 @@
+<8> [cranberries2] completed [skater]
+<54> [cranberries] learned [skater2]
+<82> [cranberries3] backed [skater3]
+<93> [cranberries] deliberated to 11,1
+<186> [cranberries] categorized to 6,2
+<250> [cranberries3] nested to 5,3
+<343> [cranberries] ingested to 4,5
+<458> [cranberries] spread [skater4]
+<459> [cranberries] hollowed [skater4]
+<462> [cranberries] flowered [skater4]
+<505> [cranberries4] skilled to 4,3
+<558> [cranberries3] depth [skater4]
+<559> [skater4] beheaded [marmalade]
+<560> [skater4] wondered into [gem] at 1,6
+<648> [skater] explored [marmalade2]
+<649> [skater] diverted into [gem2] at 13,1
+<703> [cranberries] journeyed to 11,1
+<720> [cranberries3] donated [skater2]
+<759> [skater2] tallied [marmalade3]
+<760> [skater2] streaked into [gem3] at 1,1
+<812> [cranberries4] circled to 3,4
+<874> [cranberries4] pressed [skater3]
+<962> [cranberries4] helped to 12,2
+<1004> [cranberries4] introduced to 11,1
+<1073> [cranberries3] inflicted to 13,2
+<1116> [cranberries2] clouded to 9,1
+<1196> [cranberries] reinforced to 5,5
+<1201> [cranberries] threw to 5,4
+<1202> [skater3] assimilated [marmalade4]
+<1203> [skater3] kidnapped into [gem4] at 13,6

@@ -1,0 +1,49 @@
+{
+   "mc": "person",
+   "ent": {
+      "[o.4114]": "flute",
+      "[?.e7b5]": "drink",
+      "[O.c31a]": "soda",
+      "[>.34c6]": "guest"
+   },
+   "verbs": {
+      "0": "moved",
+      "1": "moved",
+      "2": "moved",
+      "3": "moved",
+      "4": "moved",
+      "5": "moved",
+      "6": "moved",
+      "7": "moved",
+      "8": "moved",
+      "9": "moved",
+      "10": "carried",
+      "11": "carried",
+      "12": "dissolved",
+      "13": "moved",
+      "14": "carried",
+      "15": "contained",
+      "16": "put",
+      "17": "put",
+      "18": "put",
+      "19": "contained",
+      "20": "contained",
+      "21": "contained",
+      "22": "contained",
+      "23": "contained",
+      "24": "contained",
+      "25": "contained",
+      "26": "contained",
+      "27": "contained",
+      "28": "contained",
+      "29": "succeeded"
+   },
+   "fitness": 0.7395981128873496,
+   "fit_set": {
+      "inter": 0.894330659817005,
+      "ent": 0.31056904792785645,
+      "verb": 0.5731427073478699
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [flute] moved to 7,4\n<2> [flute] moved to 6,4\n<3> [flute] moved to 7,4\n<4> [flute] moved to 8,4\n<5> [flute] moved to 8,3\n<6> [flute] moved to 8,2\n<7> [flute] moved to 8,3\n<8> [flute] moved to 9,3\n<9> [flute] moved to 9,4\n<10> [flute] moved to 9,5\n<11> [flute] carried [drink]\n<12> [flute] carried [drink]\n<13> [flute] dissolved [drink]\n<14> [flute] moved [drink]\n<15> [flute] carried into [soda] at 11,6\n<16> [soda] contained [guest]\n<17> [soda] put [guest]\n<18> [soda] put [guest]\n<19> [soda] put [guest]\n<20> [soda] contained [guest]\n<21> [soda] contained [guest]\n<22> [soda] contained [guest]\n<23> [soda] contained [guest]\n<24> [soda] contained [guest]\n<25> [soda] contained [guest]\n<26> [soda] contained [guest]\n<27> [soda] contained [guest]\n<28> [soda] contained [guest]\n<29> [soda] contained [guest]\n<30> [soda] succeeded"
+}

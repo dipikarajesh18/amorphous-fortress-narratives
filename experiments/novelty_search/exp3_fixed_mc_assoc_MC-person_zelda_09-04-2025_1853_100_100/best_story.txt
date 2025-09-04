@@ -1,0 +1,30 @@
+<6> [line] drew to 12,1
+<11> [person] doorbell [place] at 10,2
+<15> [knob] turned [place]
+<15> [text] held to 10,4
+<21> [person] walked [place2] at 8,1
+<21> [line] ran [knob]
+<22> [line] found [knob]
+<27> [text2] furnished to 8,4
+<29> [text2] sank [bill]
+<31> [person] travelled [place3] at 8,3
+<35> [text] passed [bill]
+<45> [person] pushed to 6,1
+<49> [text2] aired to 9,2
+<51> [line] straightened to 10,3
+<57> [text] held to 10,2
+<61> [person] beat [place4] at 5,1
+<71> [person] put [place5] at 6,2
+<81> [person] stuck [place6] at 7,1
+<91> [line] headed to 8,3
+<93> [person] drew to 7,1
+<93> [text2] mastered [bill]
+<116> [line] passed to 7,2
+<121> [text2] rested to 7,1
+<121> [person] slept [place7] at 5,2
+<121> [text] passed to 12,4
+<141> [person] entered [place8] at 3,2
+<151> [line] figured to 7,3
+<155> [text] held to 12,6
+<161> [text2] shone to 8,4
+<161> [text] taught to 12,5

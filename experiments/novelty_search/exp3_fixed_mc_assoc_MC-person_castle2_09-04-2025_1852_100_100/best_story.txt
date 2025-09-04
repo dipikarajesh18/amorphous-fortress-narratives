@@ -1,0 +1,30 @@
+<1> [person2] guarded to 6,6
+<1> [person] sniffed to 3,6
+<4> [person3] shoveled to 11,5
+<6> [desk] spilled [person3]
+<6> [person2] trained to 6,5
+<7> [person3] punched to 11,4
+<9> [person3] reshaped by [point]
+<10> [person] rose [people]
+<10> [statement] provided
+<12> [desk] sat [person3]
+<13> [person2] burned to 5,5
+<13> [person] floated [people2]
+<15> [desk] supported [person3]
+<20> [desk2] pried [person2]
+<21> [person] stepped [people3]
+<22> [person] resented by [point2]
+<24> [desk2] determined [person2]
+<25> [person] faced [people4]
+<26> [person] lifted by [point3]
+<26> [desk2] met [person2]
+<29> [person] solved [people5]
+<29> [desk2] detected [person2]
+<32> [person] allowed to 8,1
+<38> [person] sought [people6]
+<41> [person] suffered [people7]
+<43> [person] joined [people8]
+<45> [person] allowed [people9]
+<49> [person] friended to 11,1
+<50> [desk] sat [person]
+<53> [desk] put [person]

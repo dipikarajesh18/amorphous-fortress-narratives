@@ -1,0 +1,49 @@
+{
+   "mc": "explorer",
+   "ent": {
+      "[o.4114]": "bricklayers",
+      "[?.e7b5]": "continent",
+      "[O.c31a]": "continent",
+      "[>.34c6]": "territory"
+   },
+   "verbs": {
+      "0": "grew",
+      "1": "grew",
+      "2": "grew",
+      "3": "grew",
+      "4": "grew",
+      "5": "grew",
+      "6": "grew",
+      "7": "grew",
+      "8": "grew",
+      "9": "grew",
+      "10": "grew",
+      "11": "grew",
+      "12": "grew",
+      "13": "grew",
+      "14": "grew",
+      "15": "treasured",
+      "16": "treasured",
+      "17": "treasured",
+      "18": "covered",
+      "19": "covered",
+      "20": "covered",
+      "21": "covered",
+      "22": "covered",
+      "23": "covered",
+      "24": "covered",
+      "25": "covered",
+      "26": "covered",
+      "27": "covered",
+      "28": "kept",
+      "29": "kept"
+   },
+   "fitness": 0.6902950720540408,
+   "fit_set": {
+      "inter": 0.9216037022656408,
+      "ent": 0.2771878242492676,
+      "verb": 0.3653802275657654
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [bricklayers] grew to 7,4\n<2> [bricklayers] grew to 6,4\n<3> [bricklayers] grew to 7,4\n<4> [bricklayers] grew to 8,4\n<5> [bricklayers] grew to 8,3\n<6> [bricklayers] grew to 8,2\n<7> [bricklayers] grew to 8,3\n<8> [bricklayers] grew to 9,3\n<9> [bricklayers] grew to 9,4\n<10> [bricklayers] grew to 9,5\n<11> [bricklayers] grew [continent]\n<12> [bricklayers] grew [continent]\n<13> [bricklayers] grew [continent]\n<14> [bricklayers] grew [continent]\n<15> [bricklayers] grew into [continent] at 11,6\n<16> [continent] treasured [territory]\n<17> [continent] treasured [territory]\n<18> [continent] treasured [territory]\n<19> [continent] covered [territory]\n<20> [continent] covered [territory]\n<21> [continent] covered [territory]\n<22> [continent] covered [territory]\n<23> [continent] covered [territory]\n<24> [continent] covered [territory]\n<25> [continent] covered [territory]\n<26> [continent] covered [territory]\n<27> [continent] covered [territory]\n<28> [continent] covered [territory]\n<29> [continent] kept [territory]\n<30> [continent] kept"
+}

@@ -1,0 +1,30 @@
+<8> [spanish] chased [clown]
+<54> [spanish2] owned [clown2]
+<82> [spanish3] named [clown3]
+<93> [spanish2] met to 11,1
+<186> [spanish2] played to 6,2
+<250> [spanish3] plunged to 5,3
+<343> [spanish2] shored to 4,5
+<458> [spanish2] enjoyed [clown4]
+<459> [spanish2] jumped [clown4]
+<462> [spanish2] watched [clown4]
+<505> [spanish4] irritated to 4,3
+<558> [spanish3] kept [clown4]
+<559> [clown4] administered [tree]
+<560> [clown4] bred into [position] at 1,6
+<648> [clown] blew [tree2]
+<649> [clown] blew into [position2] at 13,1
+<703> [spanish2] dealt to 11,1
+<720> [spanish3] mesmerized [clown2]
+<759> [clown2] summarized [tree3]
+<760> [clown2] rewrote into [position3] at 1,1
+<812> [spanish4] painted to 3,4
+<874> [spanish4] urged [clown3]
+<962> [spanish4] reflected to 12,2
+<1004> [spanish4] talked to 11,1
+<1073> [spanish3] speared to 13,2
+<1116> [spanish] pushed to 9,1
+<1196> [spanish2] moved to 5,5
+<1201> [spanish2] rode to 5,4
+<1202> [clown3] piloted [tree4]
+<1203> [clown3] accomplished into [position4] at 13,6

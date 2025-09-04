@@ -1,0 +1,30 @@
+<1> [baths2] shifted to 6,6
+<1> [baths] took to 3,6
+<4> [baths3] relocated to 11,5
+<6> [hillbilly] held [baths3]
+<6> [baths2] owed to 6,5
+<7> [baths3] vacated to 11,4
+<9> [baths3] clogged by [place]
+<10> [baths] took [bathtub]
+<10> [bathtub] made
+<12> [hillbilly] held [baths3]
+<13> [baths2] packed to 5,5
+<13> [baths] took [bathtub2]
+<15> [hillbilly] took [baths3]
+<20> [hillbilly2] tripped [baths2]
+<21> [baths] took [bathtub3]
+<22> [baths] took by [place2]
+<24> [hillbilly2] kicked [baths2]
+<25> [baths] took [bathtub4]
+<26> [baths] took by [place3]
+<26> [hillbilly2] ducked [baths2]
+<29> [baths] took [bathtub5]
+<29> [hillbilly2] scared [baths2]
+<32> [baths] took to 8,1
+<38> [baths] took [bathtub6]
+<41> [baths] took [bathtub7]
+<43> [baths] took [bathtub8]
+<45> [baths] took [bathtub9]
+<49> [baths] took to 11,1
+<50> [hillbilly] accrued [baths]
+<53> [hillbilly] took [baths]

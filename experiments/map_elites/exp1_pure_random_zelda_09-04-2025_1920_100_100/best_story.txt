@@ -1,0 +1,30 @@
+<6> [nutrients] shoveled to 12,1
+<11> [food] wedged [stomach] at 10,2
+<15> [rationality] warmed [stomach]
+<15> [eating] brought to 10,4
+<21> [food] cooperated [stomach2] at 8,1
+<21> [nutrients] ate [rationality]
+<22> [nutrients] accounted [rationality]
+<27> [eating2] judged to 8,4
+<29> [eating2] rated [dozen]
+<31> [food] vended [stomach3] at 8,3
+<35> [eating] brightened [dozen]
+<45> [food] shifted to 6,1
+<49> [eating2] grazed to 9,2
+<51> [nutrients] studied to 10,3
+<57> [eating] exited to 10,2
+<61> [food] gonged [stomach4] at 5,1
+<71> [food] associated [stomach5] at 6,2
+<81> [food] noted [stomach6] at 7,1
+<91> [nutrients] enjoyed to 8,3
+<93> [food] indicated to 7,1
+<93> [eating2] passed [dozen]
+<116> [nutrients] named to 7,2
+<121> [eating2] packed to 7,1
+<121> [food] shifted [stomach7] at 5,2
+<121> [eating] plunged to 12,4
+<141> [food] blasted [stomach8] at 3,2
+<151> [nutrients] rescued to 7,3
+<155> [eating] provided to 12,6
+<161> [eating2] went to 8,4
+<161> [eating] collected to 12,5

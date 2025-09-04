@@ -1,0 +1,30 @@
+<8> [detonators] occupied [explosives]
+<54> [detonators2] rebuilt [explosives2]
+<82> [detonators3] focused [explosives3]
+<93> [detonators2] relieved to 11,1
+<186> [detonators2] said to 6,2
+<250> [detonators3] became to 5,3
+<343> [detonators2] murdered to 4,5
+<458> [detonators2] killed [explosives4]
+<459> [detonators2] left [explosives4]
+<462> [detonators2] realized [explosives4]
+<505> [detonators4] converted to 4,3
+<558> [detonators3] returned [explosives4]
+<559> [explosives4] manipulated [purpose]
+<560> [explosives4] bent into [list] at 1,6
+<648> [explosives] spread [purpose2]
+<649> [explosives] ste into [list2] at 13,1
+<703> [detonators2] embezzled to 11,1
+<720> [detonators3] noted [explosives2]
+<759> [explosives2] featured [purpose3]
+<760> [explosives2] percussed into [list3] at 1,1
+<812> [detonators4] took to 3,4
+<874> [detonators4] furthered [explosives3]
+<962> [detonators4] squirreled to 12,2
+<1004> [detonators4] wove to 11,1
+<1073> [detonators3] performed to 13,2
+<1116> [detonators] waited to 9,1
+<1196> [detonators2] accorded to 5,5
+<1201> [detonators2] shunted to 5,4
+<1202> [explosives3] secured [purpose4]
+<1203> [explosives3] obtained into [list4] at 13,6

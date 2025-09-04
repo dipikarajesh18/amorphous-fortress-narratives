@@ -60,20 +60,20 @@ if __name__ == "__main__":
     ]
 
     # # # Experiment 1: Pure Random
-    # print("Running Experiment 1: Pure Random")
-    # CONFIG_FILE = 'exp_config/pure_random_experiment.yaml'
-    # with multiprocessing.Pool(processes=2) as pool:
-    #     pool.starmap(run_experiment, [(story_file, CONFIG_FILE, False, "exp1_pure_random") for story_file in stories])
+    print("Running Experiment 1: Pure Random")
+    CONFIG_FILE = 'exp_config/pure_random_experiment.yaml'
+    with multiprocessing.Pool(processes=8) as pool:
+        pool.starmap(run_experiment, [(story_file, CONFIG_FILE, False, "exp1_pure_random") for story_file in stories])
 
     # # Experiment 2: Random MC + Associations
     print("Running Experiment 2: Random MC + Associations")
     CONFIG_FILE = 'exp_config/random_mc_assoc_experiment.yaml'
-    with multiprocessing.Pool(processes=2) as pool:
+    with multiprocessing.Pool(processes=8) as pool:
         pool.starmap(run_experiment, [(story_file, CONFIG_FILE, False, "exp2_random_mc_assoc") for story_file in stories])
 
     # # Experiment 3: Fixed MC + Associations
     # print("Running Experiment 3: Fixed MC + Associations")
     # CONFIG_FILE = 'exp_config/fixed_mc_assoc_experiment.yaml'
 
-    # with multiprocessing.Pool(processes=2) as pool:
+    # with multiprocessing.Pool(processes=6) as pool:
     #     pool.starmap(run_experiment, [(story_file, CONFIG_FILE, True, "exp3_fixed_mc_assoc") for story_file in stories])

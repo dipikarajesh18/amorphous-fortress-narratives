@@ -1,0 +1,30 @@
+<1> [propellers] inflicted to 6,6
+<1> [propellers2] grasped to 3,6
+<4> [propellers3] laid to 11,5
+<6> [soldiers] restrained [propellers3]
+<6> [propellers] removed to 6,5
+<7> [propellers3] eased to 11,4
+<9> [propellers3] lined by [fabric]
+<10> [propellers2] bagged [personnel]
+<10> [smiling] recovered
+<12> [soldiers] reserved [propellers3]
+<13> [propellers] regulated to 5,5
+<13> [propellers2] farmed [personnel2]
+<15> [soldiers] controlled [propellers3]
+<20> [soldiers2] added [propellers]
+<21> [propellers2] lighthouse [personnel3]
+<22> [propellers2] mitigated by [fabric2]
+<24> [soldiers2] called [propellers]
+<25> [propellers2] strewed [personnel4]
+<26> [propellers2] predicted by [fabric3]
+<26> [soldiers2] believed [propellers]
+<29> [propellers2] shored [personnel5]
+<29> [soldiers2] erased [propellers]
+<32> [propellers2] spent to 8,1
+<38> [propellers2] stepped [personnel6]
+<41> [propellers2] relied [personnel7]
+<43> [propellers2] ore [personnel8]
+<45> [propellers2] cared [personnel9]
+<49> [propellers2] swatted to 11,1
+<50> [soldiers] jotted [propellers2]
+<53> [soldiers] fetched [propellers2]

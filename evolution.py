@@ -1048,6 +1048,6 @@ if __name__ == "__main__":
 
     print("Pre-encoding the entities and verbs...")
     pre_encode_data(use_file=True)
-    CONFIG_FILE = sys.argv[1] if len(sys.argv) > 1 else 'exp_config/debug_random_mc_assoc_experiment.yaml'
+    CONFIG_FILE = sys.argv[1] if len(sys.argv) > 1 else 'exp_config/fixed_mc_assoc_experiment.yaml'
 
-    run_algorithm("novelty_search", 'sifted_logs/zelda.txt', CONFIG_FILE=CONFIG_FILE, export=True)
+    run_algorithm("map_elites", 'sifted_logs/drunk_sokoban.txt', CONFIG_FILE=CONFIG_FILE, export=True, set_mc='person')

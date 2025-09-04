@@ -1,0 +1,49 @@
+{
+   "mc": "parlor",
+   "ent": {
+      "[o.4114]": "waitresses",
+      "[?.e7b5]": "issue",
+      "[O.c31a]": "antibiotics",
+      "[>.34c6]": "beard"
+   },
+   "verbs": {
+      "0": "put",
+      "1": "shared",
+      "2": "percussed",
+      "3": "showed",
+      "4": "recommended",
+      "5": "accessorized",
+      "6": "injured",
+      "7": "beat",
+      "8": "jogged",
+      "9": "caked",
+      "10": "deiced",
+      "11": "guided",
+      "12": "explained",
+      "13": "reproduced",
+      "14": "flipped",
+      "15": "chased",
+      "16": "sponsored",
+      "17": "inside",
+      "18": "extended",
+      "19": "flushed",
+      "20": "minted",
+      "21": "fried",
+      "22": "augmented",
+      "23": "shone",
+      "24": "broadened",
+      "25": "committed",
+      "26": "premised",
+      "27": "issued",
+      "28": "neatened",
+      "29": "hit"
+   },
+   "fitness": 0.607835348053225,
+   "fit_set": {
+      "inter": 0.8124876967791853,
+      "ent": 0.24634869396686554,
+      "verb": 0.3190262019634247
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [waitresses] put to 7,4\n<2> [waitresses] shared to 6,4\n<3> [waitresses] percussed to 7,4\n<4> [waitresses] showed to 8,4\n<5> [waitresses] recommended to 8,3\n<6> [waitresses] accessorized to 8,2\n<7> [waitresses] injured to 8,3\n<8> [waitresses] beat to 9,3\n<9> [waitresses] jogged to 9,4\n<10> [waitresses] caked to 9,5\n<11> [waitresses] deiced [issue]\n<12> [waitresses] guided [issue]\n<13> [waitresses] explained [issue]\n<14> [waitresses] reproduced [issue]\n<15> [waitresses] flipped into [antibiotics] at 11,6\n<16> [antibiotics] chased [beard]\n<17> [antibiotics] sponsored [beard]\n<18> [antibiotics] inside [beard]\n<19> [antibiotics] extended [beard]\n<20> [antibiotics] flushed [beard]\n<21> [antibiotics] minted [beard]\n<22> [antibiotics] fried [beard]\n<23> [antibiotics] augmented [beard]\n<24> [antibiotics] shone [beard]\n<25> [antibiotics] broadened [beard]\n<26> [antibiotics] committed [beard]\n<27> [antibiotics] premised [beard]\n<28> [antibiotics] issued [beard]\n<29> [antibiotics] neatened [beard]\n<30> [antibiotics] hit"
+}

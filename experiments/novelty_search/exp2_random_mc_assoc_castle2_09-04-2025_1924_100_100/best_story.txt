@@ -1,0 +1,30 @@
+<1> [pilots2] posted to 6,6
+<1> [pilots] flew to 3,6
+<4> [pilots3] learned to 11,5
+<6> [helicopter] injured [pilots3]
+<6> [pilots2] enriched to 6,5
+<7> [pilots3] mined to 11,4
+<9> [pilots3] shopped by [jet]
+<10> [pilots] flew [airplane]
+<10> [plane] gained
+<12> [helicopter] injured [pilots3]
+<13> [pilots2] tried to 5,5
+<13> [pilots] went [airplane2]
+<15> [helicopter] injured [pilots3]
+<20> [helicopter2] alphabetized [pilots2]
+<21> [pilots] went [airplane3]
+<22> [pilots] flew by [jet2]
+<24> [helicopter2] overcame [pilots2]
+<25> [pilots] flew [airplane4]
+<26> [pilots] flew by [jet3]
+<26> [helicopter2] radiated [pilots2]
+<29> [pilots] flew [airplane5]
+<29> [helicopter2] filled [pilots2]
+<32> [pilots] went to 8,1
+<38> [pilots] flew [airplane6]
+<41> [pilots] went [airplane7]
+<43> [pilots] went [airplane8]
+<45> [pilots] flew [airplane9]
+<49> [pilots] went to 11,1
+<50> [helicopter] injured [pilots]
+<53> [helicopter] injured [pilots]

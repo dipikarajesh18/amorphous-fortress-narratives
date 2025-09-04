@@ -1,0 +1,30 @@
+<1> [paratroopers] provided to 7,4
+<2> [paratroopers] accompanied to 6,4
+<3> [paratroopers] listed to 7,4
+<4> [paratroopers] beat to 8,4
+<5> [paratroopers] involved to 8,3
+<6> [paratroopers] rewrote to 8,2
+<7> [paratroopers] built to 8,3
+<8> [paratroopers] surrounded to 9,3
+<9> [paratroopers] communed to 9,4
+<10> [paratroopers] directed to 9,5
+<11> [paratroopers] swished [smoke]
+<12> [paratroopers] conveyed [smoke]
+<13> [paratroopers] did [smoke]
+<14> [paratroopers] appeared [smoke]
+<15> [paratroopers] acquired into [troopers] at 11,6
+<16> [troopers] acquired [responsibility]
+<17> [troopers] rearranged [responsibility]
+<18> [troopers] located [responsibility]
+<19> [troopers] affixed [responsibility]
+<20> [troopers] generated [responsibility]
+<21> [troopers] sampled [responsibility]
+<22> [troopers] happened [responsibility]
+<23> [troopers] followed [responsibility]
+<24> [troopers] went [responsibility]
+<25> [troopers] pressed [responsibility]
+<26> [troopers] pranced [responsibility]
+<27> [troopers] informed [responsibility]
+<28> [troopers] demonstrated [responsibility]
+<29> [troopers] contracted [responsibility]
+<30> [troopers] buttered

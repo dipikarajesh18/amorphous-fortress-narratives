@@ -1,0 +1,30 @@
+<6> [plane] took to 12,1
+<11> [pilots] flew [jet] at 10,2
+<15> [helicopter] injured [jet]
+<15> [airplane] traversed to 10,4
+<21> [pilots] flew [jet2] at 8,1
+<21> [plane] went [helicopter]
+<22> [plane] gained [helicopter]
+<27> [airplane2] annoyed to 8,4
+<29> [airplane2] favored [kite]
+<31> [pilots] flew [jet3] at 8,3
+<35> [airplane] lifted [kite]
+<45> [pilots] flew to 6,1
+<49> [airplane2] repaid to 9,2
+<51> [plane] gained to 10,3
+<57> [airplane] crashed to 10,2
+<61> [pilots] flew [jet4] at 5,1
+<71> [pilots] went [jet5] at 6,2
+<81> [pilots] flew [jet6] at 7,1
+<91> [plane] travelled to 8,3
+<93> [pilots] flew to 7,1
+<93> [airplane2] warned [kite]
+<116> [plane] travelled to 7,2
+<121> [airplane2] shifted to 7,1
+<121> [pilots] went [jet7] at 5,2
+<121> [airplane] travelled to 12,4
+<141> [pilots] went [jet8] at 3,2
+<151> [plane] broke to 7,3
+<155> [airplane] crashed to 12,6
+<161> [airplane2] beat to 8,4
+<161> [airplane] visited to 12,5

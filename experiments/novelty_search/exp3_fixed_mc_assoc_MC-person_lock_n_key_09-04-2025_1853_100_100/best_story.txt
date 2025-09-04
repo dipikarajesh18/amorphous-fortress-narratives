@@ -1,0 +1,30 @@
+<1> [revenge] settled to 7,4
+<2> [revenge] settled to 6,4
+<3> [revenge] settled to 7,4
+<4> [revenge] settled to 8,4
+<5> [revenge] settled to 8,3
+<6> [revenge] settled to 8,2
+<7> [revenge] settled to 8,3
+<8> [revenge] settled to 9,3
+<9> [revenge] settled to 9,4
+<10> [revenge] settled to 9,5
+<11> [revenge] settled [mail]
+<12> [revenge] settled [mail]
+<13> [revenge] settled [mail]
+<14> [revenge] settled [mail]
+<15> [revenge] settled into [person] at 11,6
+<16> [person] married [spaghetti]
+<17> [person] made [spaghetti]
+<18> [person] paid [spaghetti]
+<19> [person] wrote [spaghetti]
+<20> [person] tipped [spaghetti]
+<21> [person] hated [spaghetti]
+<22> [person] ran [spaghetti]
+<23> [person] pushed [spaghetti]
+<24> [person] reached [spaghetti]
+<25> [person] suffered [spaghetti]
+<26> [person] returned [spaghetti]
+<27> [person] needled [spaghetti]
+<28> [person] became [spaghetti]
+<29> [person] faced [spaghetti]
+<30> [person] washed

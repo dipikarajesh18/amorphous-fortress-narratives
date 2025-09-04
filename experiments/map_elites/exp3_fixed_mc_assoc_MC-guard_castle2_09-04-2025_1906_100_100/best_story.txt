@@ -1,0 +1,30 @@
+<1> [billiards] played to 6,6
+<1> [billiards2] courted to 3,6
+<4> [billiards3] cracked to 11,5
+<6> [trouble] caused [billiards3]
+<6> [billiards] played to 6,5
+<7> [billiards3] kowtowed to 11,4
+<9> [billiards3] attached by [people]
+<10> [billiards2] named [activity]
+<10> [burglaries] caused
+<12> [trouble] caused [billiards3]
+<13> [billiards] played to 5,5
+<13> [billiards2] evaluated [activity2]
+<15> [trouble] caused [billiards3]
+<20> [trouble2] forgave [billiards]
+<21> [billiards2] allowed [activity3]
+<22> [billiards2] allowed by [people2]
+<24> [trouble2] honored [billiards]
+<25> [billiards2] funded [activity4]
+<26> [billiards2] marked by [people3]
+<26> [trouble2] caught [billiards]
+<29> [billiards2] perfected [activity5]
+<29> [trouble2] graded [billiards]
+<32> [billiards2] transferred to 8,1
+<38> [billiards2] contemplated [activity6]
+<41> [billiards2] provided [activity7]
+<43> [billiards2] diagnosed [activity8]
+<45> [billiards2] noted [activity9]
+<49> [billiards2] stung to 11,1
+<50> [trouble] caused [billiards2]
+<53> [trouble] caused [billiards2]

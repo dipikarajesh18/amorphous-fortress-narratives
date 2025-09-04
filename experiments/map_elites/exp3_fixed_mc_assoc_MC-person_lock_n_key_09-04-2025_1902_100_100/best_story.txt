@@ -1,0 +1,30 @@
+<1> [flute] moved to 7,4
+<2> [flute] moved to 6,4
+<3> [flute] moved to 7,4
+<4> [flute] moved to 8,4
+<5> [flute] moved to 8,3
+<6> [flute] moved to 8,2
+<7> [flute] moved to 8,3
+<8> [flute] moved to 9,3
+<9> [flute] moved to 9,4
+<10> [flute] moved to 9,5
+<11> [flute] carried [drink]
+<12> [flute] carried [drink]
+<13> [flute] dissolved [drink]
+<14> [flute] moved [drink]
+<15> [flute] carried into [soda] at 11,6
+<16> [soda] contained [guest]
+<17> [soda] put [guest]
+<18> [soda] put [guest]
+<19> [soda] put [guest]
+<20> [soda] contained [guest]
+<21> [soda] contained [guest]
+<22> [soda] contained [guest]
+<23> [soda] contained [guest]
+<24> [soda] contained [guest]
+<25> [soda] contained [guest]
+<26> [soda] contained [guest]
+<27> [soda] contained [guest]
+<28> [soda] contained [guest]
+<29> [soda] contained [guest]
+<30> [soda] succeeded
