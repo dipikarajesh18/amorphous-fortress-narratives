@@ -1,0 +1,43 @@
+{
+   "mc": "grooming",
+   "ent": {
+      "[%.b29d]": "attention",
+      "[}.460f]": "attention",
+      "[y.c9ae]": "female",
+      "[ .d474]": "grooming",
+      "[ .6adb]": "grooming2",
+      "[$.b14a]": "attention",
+      "[!.fdaf]": "attention2",
+      "[*.7b93]": "pet",
+      "[5.6b26]": "pet",
+      "[|.c91d]": "pet",
+      "[S.d487]": "sunset",
+      "[Y.3a62]": "pet",
+      "[o.8829]": "mate",
+      "[;.f34e]": "india",
+      "[9.547d]": "sheep"
+   },
+   "verbs": {
+      "3": "accounted",
+      "4": "won",
+      "5": "passed",
+      "6": "belonged",
+      "7": "kept",
+      "8": "bought",
+      "9": "mingled",
+      "10": "passed",
+      "11": "produced",
+      "12": "produced",
+      "13": "involved",
+      "14": "considered"
+   },
+   "fitness": 0.3288382926430533,
+   "fit_set": {
+      "intra": 0.31097866222538323,
+      "inter": 0.3579923553126199,
+      "ent": 0.3289364278316498,
+      "verb": 0.3174457252025604
+   },
+   "story_file": "logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [attention] accounted into [female]\n<1> [grooming] won to [grooming2] at (44, 2)\n<2> [attention] passed to (65, 47)\n<3> [pet] belonged to (65, 68)\n<5> [grooming] kept into [pet]\n<6> [attention] bought by [pet]\n<7> [sunset] mingled [attention2] at (55, 7)\n<8> [attention] passed to (50, 78)\n<9> [pet] produced [pet]\n<10> [female] produced [mate]\n<11> [india] involved [sunset] at (37, 88)\n<12> [sheep] considered [attention]"
+}

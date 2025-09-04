@@ -1,0 +1,43 @@
+{
+   "mc": "highway",
+   "ent": {
+      "[%.b29d]": "place",
+      "[y.c9ae]": "town",
+      "[ .d474]": "highway",
+      "[ .6adb]": "highway2",
+      "[$.b14a]": "place",
+      "[o.8829]": "place2",
+      "[*.7b93]": "town",
+      "[|.c91d]": "distance",
+      "[}.460f]": "bus",
+      "[!.fdaf]": "bus",
+      "[5.6b26]": "transportation",
+      "[S.d487]": "distance",
+      "[Y.3a62]": "place",
+      "[;.f34e]": "stretcher",
+      "[9.547d]": "donations"
+   },
+   "verbs": {
+      "3": "left",
+      "4": "drove",
+      "5": "lived",
+      "6": "went",
+      "7": "left",
+      "8": "rode",
+      "9": "killed",
+      "10": "lived",
+      "11": "measured",
+      "12": "contained",
+      "13": "carried",
+      "14": "helped"
+   },
+   "fitness": 0.38567307903081494,
+   "fit_set": {
+      "intra": 0.3081050267303116,
+      "inter": 0.39211512356996536,
+      "ent": 0.4578341841697693,
+      "verb": 0.3846379816532135
+   },
+   "story_file": "logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [place] left into [town]\n<1> [highway] drove to [highway2] at (44, 2)\n<2> [place] lived to (65, 47)\n<3> [town] went to (65, 68)\n<5> [highway] left into [distance]\n<6> [bus] rode by [transportation]\n<7> [distance] killed [bus] at (55, 7)\n<8> [place] lived to (50, 78)\n<9> [distance] measured [place]\n<10> [town] contained [place2]\n<11> [stretcher] carried [distance] at (37, 88)\n<12> [donations] helped [place]"
+}

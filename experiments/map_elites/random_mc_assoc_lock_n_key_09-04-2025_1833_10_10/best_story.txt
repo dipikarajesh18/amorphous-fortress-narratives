@@ -1,0 +1,30 @@
+<1> [paint] stored to 7,4
+<2> [paint] stored to 6,4
+<3> [paint] changed to 7,4
+<4> [paint] found to 8,4
+<5> [paint] kept to 8,3
+<6> [paint] put to 8,2
+<7> [paint] applied to 8,3
+<8> [paint] stored to 9,3
+<9> [paint] kept to 9,4
+<10> [paint] made to 9,5
+<11> [paint] stored [paint2]
+<12> [paint] found [paint2]
+<13> [paint] found [paint2]
+<14> [paint] changed [paint2]
+<15> [paint] stored into [paint3] at 11,6
+<16> [paint3] made [coat]
+<17> [paint3] objected [coat]
+<18> [paint3] objected [coat]
+<19> [paint3] objected [coat]
+<20> [paint3] made [coat]
+<21> [paint3] objected [coat]
+<22> [paint3] made [coat]
+<23> [paint3] made [coat]
+<24> [paint3] made [coat]
+<25> [paint3] objected [coat]
+<26> [paint3] objected [coat]
+<27> [paint3] made [coat]
+<28> [paint3] made [coat]
+<29> [paint3] objected [coat]
+<30> [paint3] changed

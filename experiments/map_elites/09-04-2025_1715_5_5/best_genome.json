@@ -1,0 +1,43 @@
+{
+   "mc": "lady",
+   "ent": {
+      "[%.b29d]": "procreation",
+      "[y.c9ae]": "lady",
+      "[ .d474]": "blue",
+      "[ .6adb]": "blue2",
+      "[$.b14a]": "jack",
+      "[*.7b93]": "movie",
+      "[|.c91d]": "pig",
+      "[}.460f]": "conversation",
+      "[5.6b26]": "procreation",
+      "[S.d487]": "lot",
+      "[!.fdaf]": "conversation",
+      "[Y.3a62]": "wife",
+      "[o.8829]": "pig",
+      "[;.f34e]": "networks",
+      "[9.547d]": "sloth"
+   },
+   "verbs": {
+      "3": "erected",
+      "4": "repeated",
+      "5": "looked",
+      "6": "considered",
+      "7": "flicked",
+      "8": "frightened",
+      "9": "considered",
+      "10": "looked",
+      "11": "found",
+      "12": "overcame",
+      "13": "constructed",
+      "14": "slept"
+   },
+   "fitness": 0.3243595184038871,
+   "fit_set": {
+      "intra": 0.30164713117653724,
+      "inter": 0.3365848202790533,
+      "ent": 0.33643925189971924,
+      "verb": 0.32276687026023865
+   },
+   "story_file": "logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [procreation] erected into [lady]\n<1> [blue] repeated to [blue2] at (44, 2)\n<2> [jack] looked to (65, 47)\n<3> [movie] considered to (65, 68)\n<5> [blue] flicked into [pig]\n<6> [conversation] frightened by [procreation]\n<7> [lot] considered [conversation] at (55, 7)\n<8> [jack] looked to (50, 78)\n<9> [pig] found [wife]\n<10> [lady] overcame [pig]\n<11> [networks] constructed [lot] at (37, 88)\n<12> [sloth] slept [procreation]"
+}

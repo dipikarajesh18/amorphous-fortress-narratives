@@ -1,0 +1,30 @@
+<1> [coupon] vented to 7,4
+<2> [coupon] leaked to 6,4
+<3> [coupon] delimited to 7,4
+<4> [coupon] affixed to 8,4
+<5> [coupon] barricaded to 8,3
+<6> [coupon] snapped to 8,2
+<7> [coupon] achieved to 8,3
+<8> [coupon] declared to 9,3
+<9> [coupon] deduced to 9,4
+<10> [coupon] rowed to 9,5
+<11> [coupon] folded [sword]
+<12> [coupon] shaded [sword]
+<13> [coupon] related [sword]
+<14> [coupon] pumped [sword]
+<15> [coupon] assisted into [pizza] at 11,6
+<16> [pizza] dammed [hunger]
+<17> [pizza] enhanced [hunger]
+<18> [pizza] tried [hunger]
+<19> [pizza] elected [hunger]
+<20> [pizza] counted [hunger]
+<21> [pizza] runway [hunger]
+<22> [pizza] skipped [hunger]
+<23> [pizza] bound [hunger]
+<24> [pizza] repeated [hunger]
+<25> [pizza] rid [hunger]
+<26> [pizza] announced [hunger]
+<27> [pizza] hammered [hunger]
+<28> [pizza] accrued [hunger]
+<29> [pizza] protected [hunger]
+<30> [pizza] confused

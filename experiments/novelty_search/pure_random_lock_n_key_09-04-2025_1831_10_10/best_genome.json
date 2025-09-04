@@ -1,0 +1,50 @@
+{
+   "mc": "jail",
+   "ent": {
+      "[o.4114]": "board",
+      "[?.e7b5]": "rent",
+      "[O.c31a]": "jail",
+      "[>.34c6]": "grass"
+   },
+   "verbs": {
+      "0": "projected",
+      "1": "relocated",
+      "2": "protected",
+      "3": "attempted",
+      "4": "copied",
+      "5": "bombed",
+      "6": "detected",
+      "7": "reported",
+      "8": "intended",
+      "9": "exterminated",
+      "10": "piloted",
+      "11": "laughed",
+      "12": "roomed",
+      "13": "adorned",
+      "14": "pancaked",
+      "15": "manufactured",
+      "16": "withdrew",
+      "17": "disappeared",
+      "18": "pushed",
+      "19": "intrigued",
+      "20": "billionaire",
+      "21": "exerted",
+      "22": "synchronized",
+      "23": "consumed",
+      "24": "berried",
+      "25": "quieted",
+      "26": "mopped",
+      "27": "laughed",
+      "28": "honest",
+      "29": "established"
+   },
+   "fitness": 0.4306096795442518,
+   "fit_set": {
+      "intra": 0.2982368895245923,
+      "inter": 0.742270958834681,
+      "ent": 0.36964312195777893,
+      "verb": 0.31228774785995483
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [board] projected to 7,4\n<2> [board] relocated to 6,4\n<3> [board] protected to 7,4\n<4> [board] attempted to 8,4\n<5> [board] copied to 8,3\n<6> [board] bombed to 8,2\n<7> [board] detected to 8,3\n<8> [board] reported to 9,3\n<9> [board] intended to 9,4\n<10> [board] exterminated to 9,5\n<11> [board] piloted [rent]\n<12> [board] laughed [rent]\n<13> [board] roomed [rent]\n<14> [board] adorned [rent]\n<15> [board] pancaked into [jail] at 11,6\n<16> [jail] manufactured [grass]\n<17> [jail] withdrew [grass]\n<18> [jail] disappeared [grass]\n<19> [jail] pushed [grass]\n<20> [jail] intrigued [grass]\n<21> [jail] billionaire [grass]\n<22> [jail] exerted [grass]\n<23> [jail] synchronized [grass]\n<24> [jail] consumed [grass]\n<25> [jail] berried [grass]\n<26> [jail] quieted [grass]\n<27> [jail] mopped [grass]\n<28> [jail] laughed [grass]\n<29> [jail] honest [grass]\n<30> [jail] established"
+}

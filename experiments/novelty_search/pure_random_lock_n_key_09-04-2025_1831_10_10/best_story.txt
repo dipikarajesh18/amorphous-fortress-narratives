@@ -1,0 +1,30 @@
+<1> [board] projected to 7,4
+<2> [board] relocated to 6,4
+<3> [board] protected to 7,4
+<4> [board] attempted to 8,4
+<5> [board] copied to 8,3
+<6> [board] bombed to 8,2
+<7> [board] detected to 8,3
+<8> [board] reported to 9,3
+<9> [board] intended to 9,4
+<10> [board] exterminated to 9,5
+<11> [board] piloted [rent]
+<12> [board] laughed [rent]
+<13> [board] roomed [rent]
+<14> [board] adorned [rent]
+<15> [board] pancaked into [jail] at 11,6
+<16> [jail] manufactured [grass]
+<17> [jail] withdrew [grass]
+<18> [jail] disappeared [grass]
+<19> [jail] pushed [grass]
+<20> [jail] intrigued [grass]
+<21> [jail] billionaire [grass]
+<22> [jail] exerted [grass]
+<23> [jail] synchronized [grass]
+<24> [jail] consumed [grass]
+<25> [jail] berried [grass]
+<26> [jail] quieted [grass]
+<27> [jail] mopped [grass]
+<28> [jail] laughed [grass]
+<29> [jail] honest [grass]
+<30> [jail] established

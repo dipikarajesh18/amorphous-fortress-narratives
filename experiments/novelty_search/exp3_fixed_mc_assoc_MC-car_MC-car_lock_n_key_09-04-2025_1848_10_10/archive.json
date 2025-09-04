@@ -1,0 +1,52 @@
+[
+   {
+      "mc": "car",
+      "ent": {
+         "[o.4114]": "shop",
+         "[?.e7b5]": "signal",
+         "[O.c31a]": "car",
+         "[>.34c6]": "place"
+      },
+      "verbs": {
+         "0": "bought",
+         "1": "made",
+         "2": "made",
+         "3": "met",
+         "4": "served",
+         "5": "made",
+         "6": "bought",
+         "7": "bought",
+         "8": "sold",
+         "9": "sold",
+         "10": "displayed",
+         "11": "bought",
+         "12": "bought",
+         "13": "bought",
+         "14": "met",
+         "15": "stopped",
+         "16": "came",
+         "17": "sold",
+         "18": "headed",
+         "19": "tailed",
+         "20": "suffered",
+         "21": "rushed",
+         "22": "sold",
+         "23": "came",
+         "24": "got",
+         "25": "waited",
+         "26": "cost",
+         "27": "killed",
+         "28": "waited",
+         "29": "lost"
+      },
+      "fitness": 0.43972721465112763,
+      "fit_set": {
+         "intra": 0.3164352517878568,
+         "inter": 0.7445249721921724,
+         "ent": 0.3855747878551483,
+         "verb": 0.3123738467693329
+      },
+      "story_file": "sifted_logs/lock_n_key.txt",
+      "new_story": "<1> [shop] bought to 7,4\n<2> [shop] made to 6,4\n<3> [shop] made to 7,4\n<4> [shop] met to 8,4\n<5> [shop] served to 8,3\n<6> [shop] made to 8,2\n<7> [shop] bought to 8,3\n<8> [shop] bought to 9,3\n<9> [shop] sold to 9,4\n<10> [shop] sold to 9,5\n<11> [shop] displayed [signal]\n<12> [shop] bought [signal]\n<13> [shop] bought [signal]\n<14> [shop] bought [signal]\n<15> [shop] met into [car] at 11,6\n<16> [car] stopped [place]\n<17> [car] came [place]\n<18> [car] sold [place]\n<19> [car] headed [place]\n<20> [car] tailed [place]\n<21> [car] suffered [place]\n<22> [car] rushed [place]\n<23> [car] sold [place]\n<24> [car] came [place]\n<25> [car] got [place]\n<26> [car] waited [place]\n<27> [car] cost [place]\n<28> [car] killed [place]\n<29> [car] waited [place]\n<30> [car] lost"
+   }
+]

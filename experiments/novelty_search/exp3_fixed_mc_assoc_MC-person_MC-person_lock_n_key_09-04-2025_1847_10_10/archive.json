@@ -1,0 +1,52 @@
+[
+   {
+      "mc": "person",
+      "ent": {
+         "[o.4114]": "milk",
+         "[?.e7b5]": "one",
+         "[O.c31a]": "person",
+         "[>.34c6]": "picture"
+      },
+      "verbs": {
+         "0": "produced",
+         "1": "found",
+         "2": "sold",
+         "3": "made",
+         "4": "found",
+         "5": "came",
+         "6": "infused",
+         "7": "made",
+         "8": "sold",
+         "9": "sold",
+         "10": "slept",
+         "11": "purchased",
+         "12": "stored",
+         "13": "infused",
+         "14": "purchased",
+         "15": "said",
+         "16": "parceled",
+         "17": "played",
+         "18": "distanced",
+         "19": "touched",
+         "20": "released",
+         "21": "brought",
+         "22": "cosby",
+         "23": "went",
+         "24": "crossed",
+         "25": "honest",
+         "26": "wore",
+         "27": "resented",
+         "28": "arranged",
+         "29": "skated"
+      },
+      "fitness": 0.4184085648687911,
+      "fit_set": {
+         "intra": 0.3224772765928948,
+         "inter": 0.6747873456313692,
+         "ent": 0.3767085075378418,
+         "verb": 0.29966112971305847
+      },
+      "story_file": "sifted_logs/lock_n_key.txt",
+      "new_story": "<1> [milk] produced to 7,4\n<2> [milk] found to 6,4\n<3> [milk] sold to 7,4\n<4> [milk] made to 8,4\n<5> [milk] found to 8,3\n<6> [milk] came to 8,2\n<7> [milk] infused to 8,3\n<8> [milk] made to 9,3\n<9> [milk] sold to 9,4\n<10> [milk] sold to 9,5\n<11> [milk] slept [one]\n<12> [milk] purchased [one]\n<13> [milk] stored [one]\n<14> [milk] infused [one]\n<15> [milk] purchased into [person] at 11,6\n<16> [person] said [picture]\n<17> [person] parceled [picture]\n<18> [person] played [picture]\n<19> [person] distanced [picture]\n<20> [person] touched [picture]\n<21> [person] released [picture]\n<22> [person] brought [picture]\n<23> [person] cosby [picture]\n<24> [person] went [picture]\n<25> [person] crossed [picture]\n<26> [person] honest [picture]\n<27> [person] wore [picture]\n<28> [person] resented [picture]\n<29> [person] arranged [picture]\n<30> [person] skated"
+   }
+]

@@ -1,0 +1,43 @@
+{
+   "mc": "cat",
+   "ent": {
+      "[%.b29d]": "king",
+      "[y.c9ae]": "rat",
+      "[ .d474]": "milk",
+      "[ .6adb]": "milk2",
+      "[$.b14a]": "dinner",
+      "[*.7b93]": "kitten",
+      "[|.c91d]": "cat",
+      "[}.460f]": "tree",
+      "[5.6b26]": "tree",
+      "[S.d487]": "bird",
+      "[!.fdaf]": "nap",
+      "[Y.3a62]": "foot",
+      "[o.8829]": "ball",
+      "[;.f34e]": "box",
+      "[9.547d]": "foot"
+   },
+   "verbs": {
+      "3": "reversed",
+      "4": "used",
+      "5": "cooked",
+      "6": "fell",
+      "7": "slept",
+      "8": "produced",
+      "9": "maintained",
+      "10": "ate",
+      "11": "took",
+      "12": "ate",
+      "13": "kept",
+      "14": "supported"
+   },
+   "fitness": 0.35043176086097166,
+   "fit_set": {
+      "intra": 0.31101176603603614,
+      "inter": 0.3544711651546614,
+      "ent": 0.4199865162372589,
+      "verb": 0.3162575960159302
+   },
+   "story_file": "logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [king] reversed into [rat]\n<1> [milk] used to [milk2] at (44, 2)\n<2> [dinner] cooked to (65, 47)\n<3> [kitten] fell to (65, 68)\n<5> [milk] slept into [cat]\n<6> [tree] produced by [tree]\n<7> [bird] maintained [nap] at (55, 7)\n<8> [dinner] ate to (50, 78)\n<9> [cat] took [foot]\n<10> [rat] ate [ball]\n<11> [box] kept [bird] at (37, 88)\n<12> [foot] supported [king]"
+}

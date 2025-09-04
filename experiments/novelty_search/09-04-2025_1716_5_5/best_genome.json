@@ -1,0 +1,43 @@
+{
+   "mc": "movies",
+   "ent": {
+      "[%.b29d]": "movies",
+      "[y.c9ae]": "video",
+      "[ .d474]": "book",
+      "[ .6adb]": "book2",
+      "[o.8829]": "book",
+      "[$.b14a]": "story",
+      "[!.fdaf]": "story",
+      "[*.7b93]": "theater",
+      "[|.c91d]": "cinema",
+      "[}.460f]": "theater",
+      "[5.6b26]": "theater",
+      "[S.d487]": "film",
+      "[Y.3a62]": "film",
+      "[;.f34e]": "video",
+      "[9.547d]": "story"
+   },
+   "verbs": {
+      "3": "watched",
+      "4": "sought",
+      "5": "entertained",
+      "6": "annoyed",
+      "7": "saw",
+      "8": "watched",
+      "9": "stored",
+      "10": "passed",
+      "11": "viewed",
+      "12": "watched",
+      "13": "streamed",
+      "14": "wore"
+   },
+   "fitness": 0.399761568618416,
+   "fit_set": {
+      "intra": 0.31125064458914853,
+      "inter": 0.42619955220392775,
+      "ent": 0.5670188069343567,
+      "verb": 0.2945772707462311
+   },
+   "story_file": "logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [movies] watched into [video]\n<1> [book] sought to [book2] at (44, 2)\n<2> [story] entertained to (65, 47)\n<3> [theater] annoyed to (65, 68)\n<5> [book] saw into [cinema]\n<6> [theater] watched by [theater]\n<7> [film] stored [story] at (55, 7)\n<8> [story] passed to (50, 78)\n<9> [cinema] viewed [film]\n<10> [video] watched [book]\n<11> [video] streamed [film] at (37, 88)\n<12> [story] wore [movies]"
+}

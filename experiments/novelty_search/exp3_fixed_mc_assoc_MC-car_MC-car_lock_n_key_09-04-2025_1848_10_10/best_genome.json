@@ -1,0 +1,50 @@
+{
+   "mc": "car",
+   "ent": {
+      "[o.4114]": "traffic",
+      "[?.e7b5]": "dollar",
+      "[O.c31a]": "car",
+      "[>.34c6]": "corner"
+   },
+   "verbs": {
+      "0": "moved",
+      "1": "moved",
+      "2": "moved",
+      "3": "moved",
+      "4": "moved",
+      "5": "moved",
+      "6": "moved",
+      "7": "moved",
+      "8": "moved",
+      "9": "moved",
+      "10": "moved",
+      "11": "moved",
+      "12": "moved",
+      "13": "moved",
+      "14": "moved",
+      "15": "parked",
+      "16": "hit",
+      "17": "killed",
+      "18": "entered",
+      "19": "carried",
+      "20": "required",
+      "21": "stopped",
+      "22": "turned",
+      "23": "needed",
+      "24": "rushed",
+      "25": "rushed",
+      "26": "stored",
+      "27": "went",
+      "28": "showed",
+      "29": "lost"
+   },
+   "fitness": 0.5232935914946042,
+   "fit_set": {
+      "intra": 0.3155521019713746,
+      "inter": 0.8346056157145006,
+      "ent": 0.3816871643066406,
+      "verb": 0.5613294839859009
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [traffic] moved to 7,4\n<2> [traffic] moved to 6,4\n<3> [traffic] moved to 7,4\n<4> [traffic] moved to 8,4\n<5> [traffic] moved to 8,3\n<6> [traffic] moved to 8,2\n<7> [traffic] moved to 8,3\n<8> [traffic] moved to 9,3\n<9> [traffic] moved to 9,4\n<10> [traffic] moved to 9,5\n<11> [traffic] moved [dollar]\n<12> [traffic] moved [dollar]\n<13> [traffic] moved [dollar]\n<14> [traffic] moved [dollar]\n<15> [traffic] moved into [car] at 11,6\n<16> [car] parked [corner]\n<17> [car] hit [corner]\n<18> [car] killed [corner]\n<19> [car] entered [corner]\n<20> [car] carried [corner]\n<21> [car] required [corner]\n<22> [car] stopped [corner]\n<23> [car] turned [corner]\n<24> [car] needed [corner]\n<25> [car] rushed [corner]\n<26> [car] rushed [corner]\n<27> [car] stored [corner]\n<28> [car] went [corner]\n<29> [car] showed [corner]\n<30> [car] lost"
+}

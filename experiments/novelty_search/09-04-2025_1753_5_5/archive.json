@@ -1,0 +1,62 @@
+[
+   {
+      "mc": "cat",
+      "ent": {
+         "[B.5b49]": "dinner",
+         "[X.1a6e]": "cat",
+         "[$.3305]": "tongue",
+         "[L.6d7b]": "time",
+         "[G.6924]": "parakeet",
+         "[$.6f30]": "tongue2",
+         "[G.4709]": "parakeet2",
+         "[*.6666]": "fish",
+         "[$.ab76]": "tongue3",
+         "[$.8a85]": "tongue4",
+         "[$.3c08]": "tongue5",
+         "[$.97eb]": "tongue6",
+         "[$.e832]": "tongue7",
+         "[$.d0a5]": "tongue8"
+      },
+      "verbs": {
+         "0": "ate",
+         "1": "hid",
+         "2": "said",
+         "3": "lay",
+         "4": "drank",
+         "5": "included",
+         "6": "included",
+         "7": "damaged",
+         "8": "managed",
+         "9": "attracted",
+         "10": "lay",
+         "11": "jumped",
+         "12": "startled",
+         "13": "ate",
+         "14": "lay",
+         "15": "played",
+         "16": "watched",
+         "17": "followed",
+         "18": "ate",
+         "19": "slept",
+         "20": "entered",
+         "21": "ate",
+         "22": "restricted",
+         "23": "drank",
+         "24": "lay",
+         "25": "needed",
+         "26": "ate",
+         "27": "lay",
+         "28": "fooled",
+         "29": "lay"
+      },
+      "fitness": 0.3653945427355889,
+      "fit_set": {
+         "intra": 0.2711620332223792,
+         "inter": 0.5070970459231015,
+         "ent": 0.37544044852256775,
+         "verb": 0.30787864327430725
+      },
+      "story_file": "sifted_logs/zelda.txt",
+      "new_story": "<6> [dinner] ate to 12,1\n<11> [cat] hid [tongue] at 10,2\n<15> [time] said [tongue]\n<15> [parakeet] lay to 10,4\n<21> [cat] drank [tongue2] at 8,1\n<21> [dinner] included [time]\n<22> [dinner] included [time]\n<27> [parakeet2] damaged to 8,4\n<29> [parakeet2] managed [fish]\n<31> [cat] attracted [tongue3] at 8,3\n<35> [parakeet] lay [fish]\n<45> [cat] jumped to 6,1\n<49> [parakeet2] startled to 9,2\n<51> [dinner] ate to 10,3\n<57> [parakeet] lay to 10,2\n<61> [cat] played [tongue4] at 5,1\n<71> [cat] watched [tongue5] at 6,2\n<81> [cat] followed [tongue6] at 7,1\n<91> [dinner] ate to 8,3\n<93> [cat] slept to 7,1\n<93> [parakeet2] entered [fish]\n<116> [dinner] ate to 7,2\n<121> [parakeet2] restricted to 7,1\n<121> [cat] drank [tongue7] at 5,2\n<121> [parakeet] lay to 12,4\n<141> [cat] needed [tongue8] at 3,2\n<151> [dinner] ate to 7,3\n<155> [parakeet] lay to 12,6\n<161> [parakeet2] fooled to 8,4\n<161> [parakeet] lay to 12,5"
+   }
+]

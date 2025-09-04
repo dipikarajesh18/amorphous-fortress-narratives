@@ -1,0 +1,52 @@
+[
+   {
+      "mc": "products",
+      "ent": {
+         "[o.4114]": "money",
+         "[?.e7b5]": "specification",
+         "[O.c31a]": "products",
+         "[>.34c6]": "money"
+      },
+      "verbs": {
+         "0": "took",
+         "1": "put",
+         "2": "increased",
+         "3": "solved",
+         "4": "solved",
+         "5": "collected",
+         "6": "got",
+         "7": "took",
+         "8": "earned",
+         "9": "spent",
+         "10": "took",
+         "11": "got",
+         "12": "made",
+         "13": "took",
+         "14": "collected",
+         "15": "met",
+         "16": "cost",
+         "17": "cost",
+         "18": "cost",
+         "19": "cost",
+         "20": "met",
+         "21": "cost",
+         "22": "met",
+         "23": "cost",
+         "24": "cost",
+         "25": "cost",
+         "26": "cost",
+         "27": "met",
+         "28": "met",
+         "29": "cost"
+      },
+      "fitness": 0.4496682607188064,
+      "fit_set": {
+         "intra": 0.3215108225204878,
+         "inter": 0.7948297940451523,
+         "ent": 0.38444703817367554,
+         "verb": 0.29788538813591003
+      },
+      "story_file": "sifted_logs/lock_n_key.txt",
+      "new_story": "<1> [money] took to 7,4\n<2> [money] put to 6,4\n<3> [money] increased to 7,4\n<4> [money] solved to 8,4\n<5> [money] solved to 8,3\n<6> [money] collected to 8,2\n<7> [money] got to 8,3\n<8> [money] took to 9,3\n<9> [money] earned to 9,4\n<10> [money] spent to 9,5\n<11> [money] took [specification]\n<12> [money] got [specification]\n<13> [money] made [specification]\n<14> [money] took [specification]\n<15> [money] collected into [products] at 11,6\n<16> [products] met [money]\n<17> [products] cost [money]\n<18> [products] cost [money]\n<19> [products] cost [money]\n<20> [products] cost [money]\n<21> [products] met [money]\n<22> [products] cost [money]\n<23> [products] met [money]\n<24> [products] cost [money]\n<25> [products] cost [money]\n<26> [products] cost [money]\n<27> [products] cost [money]\n<28> [products] met [money]\n<29> [products] met [money]\n<30> [products] cost"
+   }
+]

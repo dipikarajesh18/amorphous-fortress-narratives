@@ -1,0 +1,50 @@
+{
+   "mc": "courtroom",
+   "ent": {
+      "[o.4114]": "trial",
+      "[?.e7b5]": "trial",
+      "[O.c31a]": "courtroom",
+      "[>.34c6]": "court"
+   },
+   "verbs": {
+      "0": "determined",
+      "1": "determined",
+      "2": "determined",
+      "3": "held",
+      "4": "held",
+      "5": "held",
+      "6": "determined",
+      "7": "determined",
+      "8": "determined",
+      "9": "held",
+      "10": "determined",
+      "11": "held",
+      "12": "determined",
+      "13": "held",
+      "14": "determined",
+      "15": "held",
+      "16": "held",
+      "17": "held",
+      "18": "held",
+      "19": "tried",
+      "20": "tried",
+      "21": "tried",
+      "22": "tried",
+      "23": "tried",
+      "24": "held",
+      "25": "held",
+      "26": "held",
+      "27": "tried",
+      "28": "tried",
+      "29": "held"
+   },
+   "fitness": 0.5436164495955776,
+   "fit_set": {
+      "intra": 0.32775176627492464,
+      "inter": 0.861977887564692,
+      "ent": 0.6879005432128906,
+      "verb": 0.29683560132980347
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [trial] determined to 7,4\n<2> [trial] determined to 6,4\n<3> [trial] determined to 7,4\n<4> [trial] held to 8,4\n<5> [trial] held to 8,3\n<6> [trial] held to 8,2\n<7> [trial] determined to 8,3\n<8> [trial] determined to 9,3\n<9> [trial] determined to 9,4\n<10> [trial] held to 9,5\n<11> [trial] determined [trial]\n<12> [trial] held [trial]\n<13> [trial] determined [trial]\n<14> [trial] held [trial]\n<15> [trial] determined into [courtroom] at 11,6\n<16> [courtroom] held [court]\n<17> [courtroom] held [court]\n<18> [courtroom] held [court]\n<19> [courtroom] held [court]\n<20> [courtroom] tried [court]\n<21> [courtroom] tried [court]\n<22> [courtroom] tried [court]\n<23> [courtroom] tried [court]\n<24> [courtroom] tried [court]\n<25> [courtroom] held [court]\n<26> [courtroom] held [court]\n<27> [courtroom] held [court]\n<28> [courtroom] tried [court]\n<29> [courtroom] tried [court]\n<30> [courtroom] held"
+}

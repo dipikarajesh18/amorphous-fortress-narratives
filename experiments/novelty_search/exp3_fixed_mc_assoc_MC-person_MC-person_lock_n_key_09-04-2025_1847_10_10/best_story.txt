@@ -1,0 +1,30 @@
+<1> [wheelbarrow] moved to 7,4
+<2> [wheelbarrow] moved to 6,4
+<3> [wheelbarrow] moved to 7,4
+<4> [wheelbarrow] carried to 8,4
+<5> [wheelbarrow] carried to 8,3
+<6> [wheelbarrow] moved to 8,2
+<7> [wheelbarrow] carried to 8,3
+<8> [wheelbarrow] carried to 9,3
+<9> [wheelbarrow] moved to 9,4
+<10> [wheelbarrow] moved to 9,5
+<11> [wheelbarrow] carried [wood]
+<12> [wheelbarrow] carried [wood]
+<13> [wheelbarrow] carried [wood]
+<14> [wheelbarrow] moved [wood]
+<15> [wheelbarrow] carried into [person] at 11,6
+<16> [person] bottled [career]
+<17> [person] made [career]
+<18> [person] laughed [career]
+<19> [person] sealed [career]
+<20> [person] threw [career]
+<21> [person] caged [career]
+<22> [person] improved [career]
+<23> [person] gained [career]
+<24> [person] stored [career]
+<25> [person] hid [career]
+<26> [person] became [career]
+<27> [person] learned [career]
+<28> [person] stranded [career]
+<29> [person] put [career]
+<30> [person] lived

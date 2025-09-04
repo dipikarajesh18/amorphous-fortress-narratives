@@ -1,0 +1,45 @@
+[
+   {
+      "mc": "cat",
+      "ent": {
+         "[%.b29d]": "comfort",
+         "[y.c9ae]": "mat",
+         "[ .d474]": "mouse",
+         "[ .6adb]": "mouse2",
+         "[$.b14a]": "box",
+         "[*.7b93]": "fence",
+         "[|.c91d]": "cat",
+         "[}.460f]": "ball",
+         "[5.6b26]": "night",
+         "[S.d487]": "fish",
+         "[!.fdaf]": "fish",
+         "[Y.3a62]": "tree",
+         "[o.8829]": "nap",
+         "[;.f34e]": "life",
+         "[9.547d]": "paw"
+      },
+      "verbs": {
+         "3": "caused",
+         "4": "entered",
+         "5": "transported",
+         "6": "stole",
+         "7": "heard",
+         "8": "pilate",
+         "9": "flew",
+         "10": "put",
+         "11": "needed",
+         "12": "welcomed",
+         "13": "caused",
+         "14": "composed"
+      },
+      "fitness": 0.31517774676263494,
+      "fit_set": {
+         "intra": 0.30273749884316536,
+         "inter": 0.28720233642629217,
+         "ent": 0.3703250586986542,
+         "verb": 0.300446093082428
+      },
+      "story_file": "logs/stupid_log.txt",
+      "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [comfort] caused into [mat]\n<1> [mouse] entered to [mouse2] at (44, 2)\n<2> [box] transported to (65, 47)\n<3> [fence] stole to (65, 68)\n<5> [mouse] heard into [cat]\n<6> [ball] pilate by [night]\n<7> [fish] flew [fish] at (55, 7)\n<8> [box] put to (50, 78)\n<9> [cat] needed [tree]\n<10> [mat] welcomed [nap]\n<11> [life] caused [fish] at (37, 88)\n<12> [paw] composed [comfort]"
+   }
+]

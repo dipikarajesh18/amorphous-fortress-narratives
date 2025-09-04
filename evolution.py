@@ -3,10 +3,8 @@ import numpy as np
 import json
 import spacy
 import re
-#from datetime import datetime
-#import pyinflect
+import datetime
 from sentence_transformers import SentenceTransformer
-#import torch
 from tqdm import tqdm
 import yaml
 import sys
@@ -141,17 +139,14 @@ def get_ent_encs(ents):
     # return {e: st_model.encode(re.sub(r'[0-9]+', '', e)) for e in ents}
     return {e: pre_ent_enc.get(re.sub(r'[0-9]+', '', e)) for e in ents}   # PULL FROM PRE-ENCODED INSTEAD
 
-def plot_fitness(fitness_values, file_path):
-    save_dir = "fitness_graphs"
-    os.makedirs(save_dir, exist_ok=True)  # create directory if it doesn't exist
-    file_path = os.path.join(save_dir, file_path)
+def plot_fitness(fitness_values, file_path=None):
     plt.plot(fitness_values)
     plt.xlabel("Generation")
     plt.ylabel("Fitness")
     plt.title("Fitness over Generations")
-    plt.savefig(file_path)
+    if file_path:
+        plt.savefig(file_path)
     plt.close()
-
 
 # ===== CLASSES ===== #
 class AF_Story:
@@ -673,7 +668,7 @@ def is_novel(x, archive, threshold=0.5, debug=False):
     return min_distance >= threshold
 
 
-def export_archive(arx, out_file: str, story=None, output_dir='novelty_search_out/archive/'):
+def export_ns_archive(arx, out_file: str, story=None, output_dir='', sub_dir=None):
     """Exports the archive of FicGenome objects to a JSON file"""
     archive_data = [x.export_fic(story) for x in arx]
     with open(output_dir + out_file, 'w') as f:
@@ -712,7 +707,7 @@ def novelty_search(af_log, params={}):
     # 1. Initialize population and archive
     population = init_population(pop_size, story, main_char=init_main_char, others=init_other_ents)
     archive = []
-    fitnesses = []
+    fitness_values = []
 
     best_fitness = 0
     best_fic = None
@@ -765,14 +760,16 @@ def novelty_search(af_log, params={}):
             randos = init_population(rand_amt, story, main_char=init_main_char, others=init_other_ents)
             new_pop.extend(randos)
 
+        fitness_values.append(f"{population[0].fitness:.3f}")
+
         # update population
         population = new_pop
-        fitnesses.append(f"{best_fitness:.3f}")
+        
 
-    return archive, best_fic, story
+    return archive, best_fic, story, fitness_values
 
 
-def export_me_archive(arx, out_file: str, story=None, output_dir='map_elites_out/archive/'):
+def export_me_archive(arx, out_file: str, story=None, output_dir=''):
     """Exports the archive of FicGenome objects (from MAP-Elites experiment) to a JSON file"""
     archive_data = {}
     for k, v in arx.items():
@@ -815,6 +812,7 @@ def map_elites(af_log, params={}):
 
     best_fitness = 0
     best_fic = None
+    fitness_values = []
 
     for gen in range(num_generations):
         arx_fit = {f: f"{s[0].fit_set[f]:.3f} [fit={s[0].fitness:.3f}]" for f, s in archive.items()} if len(archive) > 0 else {}
@@ -873,13 +871,58 @@ def map_elites(af_log, params={}):
             randos = init_population(rand_amt, story, main_char=init_main_char, others=init_other_ents)
             new_pop.extend(randos)
 
+
+        fitness_values.append(f"{population[0].fitness:.3f}")
         # update population
         population = new_pop
 
-    return archive, best_fic, story
+    return archive, best_fic, story, fitness_values
+
+def run_algorithm(algorithm, story_file, CONFIG_FILE=None, export=True, experiment_name=None, set_mc=None):
+    if CONFIG_FILE:
+        try:
+            with open(CONFIG_FILE, 'r') as f:
+                NOV_PARAMS = yaml.safe_load(f)
+        except Exception as e:
+            print("Unable to load Config File")
+            print(e)
+
+    if set_mc:
+        NOV_PARAMS['main_char'] = set_mc
+        print(f"Setting main character to {set_mc}")
+        
+    story_name = story_file.split('/')[-1].replace('.txt', '')
+    
+    if algorithm == "novelty_search":
+        arc, best_fic, story, fitness_values = novelty_search(story_file, params=NOV_PARAMS)
+    
+    elif algorithm == "map_elites":
+         arc, best_fic, story, fitness_values = map_elites(story_file, params=NOV_PARAMS)
+    
+
+    if export:
+        timestamp = datetime.datetime.now().strftime("%m-%d-%Y_%H%M")
+        # save the best fic story
+        folder_name = f"{story_name}_{timestamp}_{NOV_PARAMS['pop_size']}_{NOV_PARAMS['num_generations']}"
+        if experiment_name:
+            if set_mc:
+                folder_name = f"{experiment_name}_MC-{set_mc}_{folder_name}"
+            else:
+                folder_name = f"{experiment_name}_{folder_name}"
 
 
-# ===== EXAMPLE USAGE ===== #
+        os.makedirs(f'experiments/{algorithm}/{folder_name}', exist_ok=True)
+        best_fic.export_fic(story, out_file=f'experiments/{algorithm}/{folder_name}/best_genome.json')
+        if algorithm == "novelty_search":
+            export_ns_archive(arc, out_file=f'experiments/{algorithm}/{folder_name}/archive.json', story=story)
+        elif algorithm == "map_elites":
+            export_me_archive(arc, out_file=f'experiments/{algorithm}/{folder_name}/archive.json', story=story)
+        bf_story = best_fic.generate_story(story, out_file=f'experiments/{algorithm}/{folder_name}/best_story.txt')
+
+        plot_fitness(fitness_values, file_path=f'experiments/{algorithm}/{folder_name}/fitness_plot.png')
+
+
+
 if __name__ == "__main__":
     # Example of how to use the module
     print("Setting up models and data...")
@@ -889,18 +932,4 @@ if __name__ == "__main__":
     pre_encode_data(use_file=True)
     CONFIG_FILE = sys.argv[1] if len(sys.argv) > 1 else 'exp_config/nov_test_config.yaml'
 
-    with open(CONFIG_FILE, 'r') as f:
-        NOV_PARAMS = yaml.safe_load(f)
-
-    # Run novelty search
-    arc, best_fic, story = novelty_search('logs/stupid_log.txt', params=NOV_PARAMS)
-
-    # Run map elites 
-    # arc, best_fic, story = map_elites('logs/stupid_log.txt', params=NOV_PARAMS)
-    
-    print(f"Archive size: {len(arc)}")
-    print(f"Best fitness: {best_fic.fitness:.3f}")
-    print("Best story:")
-    best_story = best_fic.generate_story(story)
-    for line in best_story[:5]:  # Show first 5 lines
-        print(line)
+    run_algorithm("novelty_search", 'sifted_logs/zelda.txt', CONFIG_FILE=CONFIG_FILE, export=True)

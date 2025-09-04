@@ -1,0 +1,43 @@
+{
+   "mc": "angels",
+   "ent": {
+      "[%.b29d]": "air",
+      "[y.c9ae]": "revolution",
+      "[ .d474]": "rabbit",
+      "[ .6adb]": "rabbit2",
+      "[$.b14a]": "soup",
+      "[*.7b93]": "dying",
+      "[|.c91d]": "exercising",
+      "[}.460f]": "orphan",
+      "[5.6b26]": "air",
+      "[S.d487]": "angels",
+      "[!.fdaf]": "quotation",
+      "[Y.3a62]": "activity",
+      "[o.8829]": "explosive",
+      "[;.f34e]": "inventors",
+      "[9.547d]": "art"
+   },
+   "verbs": {
+      "3": "hung",
+      "4": "found",
+      "5": "ate",
+      "6": "continued",
+      "7": "bit",
+      "8": "boarded",
+      "9": "flew",
+      "10": "ate",
+      "11": "loosed",
+      "12": "ended",
+      "13": "thought",
+      "14": "taught"
+   },
+   "fitness": 0.2930272748832783,
+   "fit_set": {
+      "intra": 0.3034308831098061,
+      "inter": 0.3081920785563333,
+      "ent": 0.278333455324173,
+      "verb": 0.2821526825428009
+   },
+   "story_file": "logs/stupid_log.txt",
+   "new_story": "=====    FORTRESS SEED: [791231]    =====\nFortress initialized! - <0>\n>>> TIME: 2025-08-14 13:21:44 <<<\n<0> [air] hung into [revolution]\n<1> [rabbit] found to [rabbit2] at (44, 2)\n<2> [soup] ate to (65, 47)\n<3> [dying] continued to (65, 68)\n<5> [rabbit] bit into [exercising]\n<6> [orphan] boarded by [air]\n<7> [angels] flew [quotation] at (55, 7)\n<8> [soup] ate to (50, 78)\n<9> [exercising] loosed [activity]\n<10> [revolution] ended [explosive]\n<11> [inventors] thought [angels] at (37, 88)\n<12> [art] taught [air]"
+}
