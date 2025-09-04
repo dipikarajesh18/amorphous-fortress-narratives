@@ -973,4 +973,4 @@ if __name__ == "__main__":
     pre_encode_data(use_file=True)
     CONFIG_FILE = sys.argv[1] if len(sys.argv) > 1 else 'exp_config/nov_test_config.yaml'
 
-    run_algorithm("novelty_search", 'sifted_logs/zelda.txt', CONFIG_FILE=CONFIG_FILE, export=True)
+    run_algorithm("map_elites", 'sifted_logs/zelda.txt', CONFIG_FILE=CONFIG_FILE, export=True)

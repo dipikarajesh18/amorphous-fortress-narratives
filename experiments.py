@@ -9,6 +9,8 @@ from evolution import (
     run_algorithm,
     plot_fitness
 )
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 def read_story_specific_mcs():
     """Read story-specific main characters from logs/ent_mc_names.txt"""
