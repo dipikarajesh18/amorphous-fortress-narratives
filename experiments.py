@@ -7,7 +7,7 @@ from evolution import (
     export_ns_archive,
     export_me_archive,
     run_algorithm,
-    plot_fitness
+    plot_graph
 )
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"

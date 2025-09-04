@@ -147,11 +147,20 @@ def get_ent_encs(ents):
         result[e] = encoding
     return result
 
-def plot_fitness(fitness_values, file_path=None):
-    plt.plot(fitness_values)
-    plt.xlabel("Generation")
-    plt.ylabel("Fitness")
-    plt.title("Fitness over Generations")
+# def plot_fitness(fitness_values, file_path=None):
+#     plt.plot(fitness_values)
+#     plt.xlabel("Generation")
+#     plt.ylabel("Fitness")
+#     plt.title("Fitness over Generations")
+#     if file_path:
+#         plt.savefig(file_path)
+#     plt.close()
+
+def plot_graph(values, x_label, y_label, file_path=None):
+    plt.plot(values)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    plt.title(f"{y_label} over {x_label}")
     if file_path:
         plt.savefig(file_path)
     plt.close()
@@ -809,6 +818,7 @@ def novelty_search(af_log, params={}):
     fitness_values = []
 
     best_fitness = 0
+    archive_size = []
     best_fic = None
 
     for gen in range(num_generations):
@@ -855,7 +865,7 @@ def novelty_search(af_log, params={}):
         new_pop = elites[:]  # Start with elites
         for parent in parents:
             child = parent.clone()
-            child.mutate(story, mut_chance=mut_chance, ent_form=mut_other_ents, verb_form=mut_verbs, debug=True)
+            child.mutate(story, mut_chance=mut_chance, ent_form=mut_other_ents, verb_form=mut_verbs, debug=False)
             new_pop.append(child)
 
         # 7. Add random individuals
@@ -865,12 +875,13 @@ def novelty_search(af_log, params={}):
             new_pop.extend(randos)
 
         fitness_values.append(f"{population[0].fitness:.3f}")
+        archive_size.append(len(archive))
 
         # update population
         population = new_pop
         
 
-    return archive, best_fic, story, fitness_values
+    return archive, best_fic, story, fitness_values, archive_size
 
 
 def export_me_archive(arx, out_file: str, story=None, output_dir=''):
@@ -987,7 +998,7 @@ def map_elites(af_log, params={}):
         # update population
         population = new_pop
 
-    return archive, best_fic, story, fitness_values
+    return archive, best_fic, story, fitness_values, None
 
 def run_algorithm(algorithm, story_file, CONFIG_FILE=None, export=True, experiment_name=None, set_mc=None):
     if CONFIG_FILE:
@@ -1005,11 +1016,10 @@ def run_algorithm(algorithm, story_file, CONFIG_FILE=None, export=True, experime
     story_name = story_file.split('/')[-1].replace('.txt', '')
     
     if algorithm == "novelty_search":
-        arc, best_fic, story, fitness_values = novelty_search(story_file, params=NOV_PARAMS)
+        arc, best_fic, story, fitness_values, archive_size = novelty_search(story_file, params=NOV_PARAMS)
     
     elif algorithm == "map_elites":
-         arc, best_fic, story, fitness_values = map_elites(story_file, params=NOV_PARAMS)
-    
+         arc, best_fic, story, fitness_values, archive_size = map_elites(story_file, params=NOV_PARAMS)
 
     if export:
         timestamp = datetime.datetime.now().strftime("%m-%d-%Y_%H%M")
@@ -1027,9 +1037,9 @@ def run_algorithm(algorithm, story_file, CONFIG_FILE=None, export=True, experime
             export_me_archive(arc, out_file=f'experiments/{algorithm}/{folder_name}/archive.json', story=story)
         bf_story = best_fic.generate_story(story, out_file=f'experiments/{algorithm}/{folder_name}/best_story.txt')
 
-        plot_fitness(fitness_values, file_path=f'experiments/{algorithm}/{folder_name}/fitness_plot.png')
-
-
+        plot_graph(fitness_values, "Generation", "Fitness", file_path=f'experiments/{algorithm}/{folder_name}/fitness_plot.png')
+        if archive_size:
+            plot_graph(archive_size, "Generation", "Archive Size", file_path=f'experiments/{algorithm}/{folder_name}/archive_size_plot.png')
 
 if __name__ == "__main__":
     # Example of how to use the module

@@ -1,4 +1,4 @@
-drunk_sokoban - person | human | computer | soldier
-lock_n_key - person | car | dog | computer
-castle2 - person | soldier | computer
-zelda - person | child | dog | cat | anyone | friend
+drunk_sokoban - person | worker
+lock_n_key - person | explorer
+castle2 - person | guard
+zelda - person | fighter

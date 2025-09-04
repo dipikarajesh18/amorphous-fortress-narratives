@@ -7,6 +7,6 @@ mut_verbs: assoc
 fit_threshold: 0.3
 novel_threshold: 1.0
 rand_perc: 0.2
-num_generations: 20
+num_generations: 100
 pop_size: 20
 elite_perc: 0.05
