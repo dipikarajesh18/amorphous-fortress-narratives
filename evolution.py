@@ -297,16 +297,19 @@ class FicGenome:
                 else:
                     new_ent[ent_id] = random.choice(local_objs)      # out of object entities
 
-            if new_ent[ent_id] in local_subjs:  
-                local_subjs.remove(new_ent[ent_id])     # remove copies of the newly added entity
 
-            if new_ent[ent_id] in local_objs:
-                local_objs.remove(new_ent[ent_id])      # remove copies of the newly added entity
+            added_ent = re.sub(r'[0-9]+', '', new_ent[ent_id])  # remove numbers from the entity
 
-            if new_ent[ent_id] in mc_objs: 
-                mc_objs.remove(new_ent[ent_id])        # remove copies of the newly added entity
-            if new_ent[ent_id] in mc_subjs:
-                mc_subjs.remove(new_ent[ent_id])        # remove copies of the newly added entity
+            if added_ent in local_subjs:  
+                local_subjs.remove(added_ent)     # remove copies of the newly added entity
+
+            if added_ent in local_objs:
+                local_objs.remove(added_ent)      # remove copies of the newly added entity
+
+            if added_ent in mc_objs: 
+                mc_objs.remove(added_ent)        # remove copies of the newly added entity
+            if added_ent in mc_subjs:
+                mc_subjs.remove(added_ent)        # remove copies of the newly added entity
 
             saved_ents[symbol] = {'ent': new_ent[ent_id], 'ct': 1}  # save the assigned entity for this symbol
 
