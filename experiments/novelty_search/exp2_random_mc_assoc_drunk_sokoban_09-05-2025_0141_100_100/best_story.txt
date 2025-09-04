@@ -1,0 +1,30 @@
+<8> [toast2] alarmed [toaster]
+<54> [toast] made [toaster2]
+<82> [toast2] considered [toaster3]
+<93> [toast] made to 11,1
+<186> [toast] dried to 6,2
+<250> [toast2] rolled to 5,3
+<343> [toast] dried to 4,5
+<458> [toast] made [toaster4]
+<459> [toast] dried [toaster4]
+<462> [toast] dried [toaster4]
+<505> [toast3] congregated to 4,3
+<558> [toast2] scored [toaster4]
+<559> [toaster4] inserted [toaster]
+<560> [toaster4] led into [bread] at 1,6
+<648> [toaster] toasted [toaster2]
+<649> [toaster] toasted into [bread2] at 13,1
+<703> [toast] dried to 11,1
+<720> [toast2] lighthouse [toaster2]
+<759> [toaster2] waved [toaster3]
+<760> [toaster2] scratched into [bread3] at 1,1
+<812> [toast3] tasted to 3,4
+<874> [toast3] hurt [toaster3]
+<962> [toast3] bombed to 12,2
+<1004> [toast3] downloaded to 11,1
+<1073> [toast2] cauliflower to 13,2
+<1116> [toast2] stabled to 9,1
+<1196> [toast] made to 5,5
+<1201> [toast] made to 5,4
+<1202> [toaster3] suited [toaster4]
+<1203> [toaster3] slicked into [bread4] at 13,6

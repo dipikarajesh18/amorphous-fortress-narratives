@@ -1,0 +1,30 @@
+<6> [state] filled to 12,1
+<11> [states] brought [state] at 10,2
+<15> [state] raised [state]
+<15> [state] flew to 10,4
+<21> [states] brought [state2] at 8,1
+<21> [state] vended [state]
+<22> [state] dammed [state]
+<27> [state2] accessorized to 8,4
+<29> [state2] protected [state]
+<31> [states] brought [state3] at 8,3
+<35> [state] flew [state]
+<45> [states] brought to 6,1
+<49> [state2] scrubbed to 9,2
+<51> [state] berried to 10,3
+<57> [state] allowed to 10,2
+<61> [states] brought [state4] at 5,1
+<71> [states] brought [state5] at 6,2
+<81> [states] brought [state6] at 7,1
+<91> [state] trained to 8,3
+<93> [states] brought to 7,1
+<93> [state2] entered [state]
+<116> [state] bottled to 7,2
+<121> [state2] recovered to 7,1
+<121> [states] brought [state7] at 5,2
+<121> [state] flew to 12,4
+<141> [states] brought [state8] at 3,2
+<151> [state] loosed to 7,3
+<155> [state] flew to 12,6
+<161> [state2] did to 8,4
+<161> [state] flew to 12,5

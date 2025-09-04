@@ -1,0 +1,30 @@
+<1> [envelope] bore to 6,6
+<1> [envelope2] bought to 3,6
+<4> [envelope3] meant to 11,5
+<6> [envelope] used [envelope3]
+<6> [envelope] scored to 6,5
+<7> [envelope3] defeated to 11,4
+<9> [envelope3] wasted by [envelope2]
+<10> [envelope2] bought [envelope6]
+<10> [envelope15] wrote
+<12> [envelope] communicated [envelope3]
+<13> [envelope] inserted to 5,5
+<13> [envelope2] placed [envelope7]
+<15> [envelope] put [envelope3]
+<20> [envelope3] fed [envelope]
+<21> [envelope2] bought [envelope8]
+<22> [envelope2] bought by [envelope4]
+<24> [envelope3] slipped [envelope]
+<25> [envelope2] placed [envelope9]
+<26> [envelope2] placed by [envelope5]
+<26> [envelope3] found [envelope]
+<29> [envelope2] placed [envelope10]
+<29> [envelope3] perfected [envelope]
+<32> [envelope2] placed to 8,1
+<38> [envelope2] placed [envelope11]
+<41> [envelope2] placed [envelope12]
+<43> [envelope2] placed [envelope13]
+<45> [envelope2] placed [envelope14]
+<49> [envelope2] placed to 11,1
+<50> [envelope] wrote [envelope2]
+<53> [envelope] wrote [envelope2]

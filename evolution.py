@@ -240,7 +240,8 @@ class FicGenome:
 
         # algorithm properties
         self.fitness = 0
-        self.fit_set = {'intra': 0, 'inter': 0, 'ent': 0, 'verb': 0}
+        # self.fit_set = {'intra': 0, 'inter': 0, 'ent': 0, 'verb': 0}
+        self.fit_set = {'inter': 0, 'ent': 0, 'verb': 0}
         self.genome = self.make_genome()
 
     # ----- MUTATION METHODS ----- #
@@ -488,27 +489,27 @@ class FicGenome:
         if debug:
             print(f"- Inter Cohesion: {inter_sentence_cohesion_score:.4f}")
 
-        # Intrasentence cohesion score: Within each sentence cohesion score
-        intra_scores = []
-        for sent in story_sentences:
-            words = [tok.strip("[]") for tok in sent.replace("]", " [").split() if tok.strip()]
+        # # Intrasentence cohesion score: Within each sentence cohesion score
+        # intra_scores = []
+        # for sent in story_sentences:
+        #     words = [tok.strip("[]") for tok in sent.replace("]", " [").split() if tok.strip()]
 
-            embeddings = st_model.encode(words)
-            # compute all pairwise similarities
-            sims = []
-            for i in range(len(embeddings)):
-                for j in range(i + 1, len(embeddings)):
-                    cos_sim = np.dot(embeddings[i], embeddings[j]) / (np.linalg.norm(embeddings[i]) * np.linalg.norm(embeddings[j]))
-                    sims.append(float(cos_sim))
+        #     embeddings = st_model.encode(words)
+        #     # compute all pairwise similarities
+        #     sims = []
+        #     for i in range(len(embeddings)):
+        #         for j in range(i + 1, len(embeddings)):
+        #             cos_sim = np.dot(embeddings[i], embeddings[j]) / (np.linalg.norm(embeddings[i]) * np.linalg.norm(embeddings[j]))
+        #             sims.append(float(cos_sim))
             
-                    if internal_debug:
-                        print(f"\t- Inter Sentence Cohesion ({i},{j}): {float(cos_sim):.4f}")
+        #             if internal_debug:
+        #                 print(f"\t- Inter Sentence Cohesion ({i},{j}): {float(cos_sim):.4f}")
                     
-            intra_scores.append(float(np.mean(sims)))
+        #     intra_scores.append(float(np.mean(sims)))
 
-        intra_cohesion = float(np.mean(intra_scores)) if intra_scores else 0.0
-        if debug:
-            print(f"- Intra Cohesion: {intra_cohesion:.4f}")
+        # intra_cohesion = float(np.mean(intra_scores)) if intra_scores else 0.0
+        # if debug:
+        #     print(f"- Intra Cohesion: {intra_cohesion:.4f}")
 
         # ENT SIMILARITY METRIC
         if len(self.ent_encs) == 0 or af_story.mc_ent not in self.ent:
@@ -571,10 +572,14 @@ class FicGenome:
 
         # set the fitness
         # self.fitness = (intra_cohesion + inter_sentence_cohesion_score + ent_score + verb_score) / 4.0
-        self.fitness = (intra_cohesion * 0.4) + (inter_sentence_cohesion_score * 0.4) + (ent_score * 0.1) + (verb_score * 0.1)
+        # self.fitness = (inter_sentence_cohesion_score + ent_score + verb_score) / 3.0
+
+        # self.fitness = (intra_cohesion * 0.4) + (inter_sentence_cohesion_score * 0.4) + (ent_score * 0.1) + (verb_score * 0.1)
+        self.fitness = (inter_sentence_cohesion_score * 0.6) + (ent_score * 0.1) + (verb_score * 0.3)
+
 
         self.fit_set = {
-            'intra': intra_cohesion,
+            # 'intra': intra_cohesion,
             'inter': inter_sentence_cohesion_score,
             'ent': ent_score,
             'verb': verb_score
@@ -587,7 +592,8 @@ class FicGenome:
         Uses a sentence embedding model from sentence-transformers to convert the genome to a vector
         for comparison with other genomes.
         """
-        all_words = list(self.ent.values()) + list(self.verbs.values())
+        # all_words = list(self.ent.values()) + list(self.verbs.values())
+        all_words = list(self.ent.values())
         all_words = ' '.join(all_words)
         genome = st_model.encode(all_words)
         return genome
@@ -973,6 +979,6 @@ if __name__ == "__main__":
 
     print("Pre-encoding the entities and verbs...")
     pre_encode_data(use_file=True)
-    CONFIG_FILE = sys.argv[1] if len(sys.argv) > 1 else 'exp_config/nov_test_config.yaml'
+    CONFIG_FILE = sys.argv[1] if len(sys.argv) > 1 else 'exp_config/debug_random_mc_assoc_experiment.yaml'
 
-    run_algorithm("novelty_search", 'sifted_logs/zelda.txt', CONFIG_FILE=CONFIG_FILE, export=True)
+    run_algorithm("map_elites", 'sifted_logs/zelda.txt', CONFIG_FILE=CONFIG_FILE, export=True)
