@@ -311,7 +311,8 @@ class FicGenome:
             if added_ent in mc_subjs:
                 mc_subjs.remove(added_ent)        # remove copies of the newly added entity
 
-            saved_ents[symbol] = {'ent': new_ent[ent_id], 'ct': 1}  # save the assigned entity for this symbol
+            if symbol not in saved_ents:
+                saved_ents[symbol] = {'ent': new_ent[ent_id], 'ct': 1}
 
         # assign new entities
         self.ent = new_ent
