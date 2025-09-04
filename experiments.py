@@ -54,7 +54,6 @@ if __name__ == "__main__":
 
     # Read story-specific MCs from file - now returns all options
     STORY_SPECIFIC_MCS = read_story_specific_mcs()
-    print("Story-specific MCs:", STORY_SPECIFIC_MCS)
     
     stories = [
         'castle2.txt', 

@@ -137,7 +137,15 @@ def get_assoc_verbs(ent):
 def get_ent_encs(ents):
     """Gets the sentence transformer encodings for a list of entities"""
     # return {e: st_model.encode(re.sub(r'[0-9]+', '', e)) for e in ents}
-    return {e: pre_ent_enc.get(re.sub(r'[0-9]+', '', e)) for e in ents}   # PULL FROM PRE-ENCODED INSTEAD
+    result = {}
+    for e in ents:
+        cleaned_e = re.sub(r'[0-9]+', '', e)
+        encoding = pre_ent_enc.get(cleaned_e)
+        if encoding is None:
+            # Encode on-the-fly if not found in pre-encoded data
+            encoding = st_model.encode(cleaned_e)
+        result[e] = encoding
+    return result
 
 def plot_fitness(fitness_values, file_path=None):
     plt.plot(fitness_values)
@@ -505,17 +513,25 @@ class FicGenome:
         if len(self.ent_encs) == 0 or af_story.mc_ent not in self.ent:
             ent_score = 0
         else:
-            mc_enc = pre_ent_enc.get(self.mc) # st_model.encode(self.mc)  (PULL FROM PRE-ENCODED INSTEAD)
+            mc_enc = pre_ent_enc.get(self.mc)
+            if mc_enc is None:
+                # Encode on-the-fly if not found in pre-encoded data
+                mc_enc = st_model.encode(self.mc)
+                if debug:
+                    print(f"  Warning: Main character '{self.mc}' not in pre-encoded data, encoding on-the-fly")
+            
             cos_sims = []
             for e, enc in self.ent_encs.items():
                 if e == self.mc:        # skip the main character
+                    continue
+                if enc is None:         # skip entities with no encoding
                     continue
                 cos_sim = np.dot(mc_enc, enc) / (np.linalg.norm(mc_enc) * np.linalg.norm(enc))
                 cos_sims.append(cos_sim)
 
                 if internal_debug:
                     print(f"\t- MC Ent: {self.mc} | Fic Ent: {e} | Cosine Sim: {float(cos_sim):.4f}")
-            ent_score = float(np.mean(cos_sims))    # between 0? and 1
+            ent_score = float(np.mean(cos_sims)) if cos_sims else 0.0    # between 0? and 1
         if debug:
             print(f"- Ent Score: {ent_score:.4f}")
 
@@ -525,12 +541,21 @@ class FicGenome:
         fic_verbs = list(self.verbs.values())
         og_verb_vecs = [af_verb_enc_dict[v[1]] for v in og_verbs]
         #fic_verb_vecs = [st_model.encode(v) for v in fic_verbs]
-        fic_verb_vecs = [pre_verb_enc.get(v) for v in fic_verbs]        # pull from pre-encoded model instead
+        fic_verb_vecs = []
+        for v in fic_verbs:
+            verb_enc = pre_verb_enc.get(v)
+            if verb_enc is None:
+                # Encode on-the-fly if not found in pre-encoded data
+                verb_enc = st_model.encode(v)
+                if debug:
+                    print(f"  Warning: Verb '{v}' not in pre-encoded data, encoding on-the-fly")
+            fic_verb_vecs.append(verb_enc)
 
         # get cosine similarity between verb sets
         cos_sims = []
-        for i in range(len(og_verb_vecs)):
-            if fic_verb_vecs[i] is None:
+        min_len = min(len(og_verb_vecs), len(fic_verb_vecs))
+        for i in range(min_len):
+            if fic_verb_vecs[i] is None or og_verb_vecs[i] is None:
                 continue
 
             cos_sim = np.dot(og_verb_vecs[i], fic_verb_vecs[i]) / (np.linalg.norm(og_verb_vecs[i]) * np.linalg.norm(fic_verb_vecs[i]))
@@ -539,7 +564,7 @@ class FicGenome:
             if internal_debug:
                 print(f"\t- OG Verb: {og_verbs[i][1]} | Fic Verb: {fic_verbs[i]} | Cosine Sim: {float(cos_sim):.4f}")
 
-        verb_score = float(np.mean(cos_sims)) # between 0? and 1
+        verb_score = float(np.mean(cos_sims)) if cos_sims else 0.0 # between 0? and 1
         if debug:
             print(f"- Verb Score: {verb_score:.4f}")
 
@@ -905,10 +930,7 @@ def run_algorithm(algorithm, story_file, CONFIG_FILE=None, export=True, experime
         # save the best fic story
         folder_name = f"{story_name}_{timestamp}_{NOV_PARAMS['pop_size']}_{NOV_PARAMS['num_generations']}"
         if experiment_name:
-            if set_mc:
-                folder_name = f"{experiment_name}_MC-{set_mc}_{folder_name}"
-            else:
-                folder_name = f"{experiment_name}_{folder_name}"
+            folder_name = f"{experiment_name}_{folder_name}"
 
 
         os.makedirs(f'experiments/{algorithm}/{folder_name}', exist_ok=True)

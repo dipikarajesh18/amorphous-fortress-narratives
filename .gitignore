@@ -4,3 +4,6 @@ __pycache__/
 af-narrate/
 .DS_Store
 bank_files/pre_encoded_data.*
+experiments/*
+map_elites_out/*
+novelty_search_out/*
