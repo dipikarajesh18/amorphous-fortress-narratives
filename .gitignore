@@ -6,3 +6,4 @@ af-narrate/
 bank_files/pre_encoded_data.*
 map_elites_out/*
 novelty_search_out/*
+experiments/novelty_search/zelda_09-04-2025*

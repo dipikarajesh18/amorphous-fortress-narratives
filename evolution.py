@@ -303,6 +303,11 @@ class FicGenome:
             if new_ent[ent_id] in local_objs:
                 local_objs.remove(new_ent[ent_id])      # remove copies of the newly added entity
 
+            if new_ent[ent_id] in mc_objs: 
+                mc_objs.remove(new_ent[ent_id])        # remove copies of the newly added entity
+            if new_ent[ent_id] in mc_subjs:
+                mc_subjs.remove(new_ent[ent_id])        # remove copies of the newly added entity
+
             saved_ents[symbol] = {'ent': new_ent[ent_id], 'ct': 1}  # save the assigned entity for this symbol
 
         # assign new entities
@@ -368,6 +373,8 @@ class FicGenome:
         mc_subjs = self.mc_dat['subj'][:] if self.mc_dat and ent_form == 'assoc' else []
         mc_objs = self.mc_dat['obj'][:] if self.mc_dat and ent_form == 'assoc' else []
 
+        full_set = list(set(mc_subjs + mc_objs))
+
         local_subjs = ALL_SUBJS[:]  # copy to avoid modifying the original list
         if self.mc and self.mc in local_subjs:
             local_subjs.remove(self.mc)  # remove the main character from the subject list
@@ -378,6 +385,9 @@ class FicGenome:
 
         random.shuffle(local_subjs)
         random.shuffle(local_objs)
+
+        if debug:
+            print(self.ent)
 
         # get all the unique entities and their associated ids
         unique_ents = {}
@@ -391,18 +401,43 @@ class FicGenome:
             if id != self.mc:
                 unique_ents[class_ent]['ids'].append(id)
 
+        if debug:
+            print(unique_ents)
+
+        # get all of the current entities in use and remove from possibilities as a new choice
+        current_ents = []
+        for e in self.ent.values():
+            if e not in current_ents:
+                current_ents.append(e)
+
+        # remove the in-use entities from the local lists
+        for e in current_ents:
+            e = re.sub(r'[0-9]+', '', e)
+            if e in local_subjs:
+                local_subjs.remove(e)
+            if e in local_objs:
+                local_objs.remove(e)
+            if e in mc_subjs:
+                mc_subjs.remove(e)
+            if e in mc_objs:
+                mc_objs.remove(e)
+
         # change entity groups
         changed_ent = []
         new_ent = {}
+        new_picks = []
         for class_ent, info in unique_ents.items():
+
             # change the entity group
             if random.random() < mut_chance:
                 if info['ent_type'] == 'subject':
                     ne = mc_subjs.pop() if ent_form == 'assoc' and len(mc_subjs) > 0 else random.choice(local_subjs)
+
                     for i in range(len(info['ids'])):
                         new_ent[info['ids'][i]] = ne + f"{i+1}" if i > 0 else ne
                 else:
                     ne = mc_objs.pop() if ent_form == 'assoc' and len(mc_objs) > 0 else random.choice(local_objs)
+
                     for i in range(len(info['ids'])):
                         new_ent[info['ids'][i]] = ne + f"{i+1}" if i > 0 else ne
                 changed_ent.append(info['ids'][0])
@@ -411,6 +446,12 @@ class FicGenome:
             else:
                 for i in range(len(info['ids'])):
                     new_ent[info['ids'][i]] = self.ent[info['ids'][i]]
+            
+
+        if debug:
+            print("~~ ~ ~ ~ ~ ~ ~ ~AA A A AS DSA SAD SADA ~ ~ ~ ~ ~ ~ ~ ~ ~")
+            print(new_ent.values())
+            
 
         if debug:
             print(f"# of changed entity groups: {len(changed_ent)} / {len(unique_ents)}")
@@ -796,7 +837,7 @@ def novelty_search(af_log, params={}):
         new_pop = elites[:]  # Start with elites
         for parent in parents:
             child = parent.clone()
-            child.mutate(story, mut_chance=mut_chance, ent_form=mut_other_ents, verb_form=mut_verbs)
+            child.mutate(story, mut_chance=mut_chance, ent_form=mut_other_ents, verb_form=mut_verbs, debug=True)
             new_pop.append(child)
 
         # 7. Add random individuals
@@ -981,4 +1022,4 @@ if __name__ == "__main__":
     pre_encode_data(use_file=True)
     CONFIG_FILE = sys.argv[1] if len(sys.argv) > 1 else 'exp_config/debug_random_mc_assoc_experiment.yaml'
 
-    run_algorithm("map_elites", 'sifted_logs/zelda.txt', CONFIG_FILE=CONFIG_FILE, export=True)
+    run_algorithm("novelty_search", 'sifted_logs/zelda.txt', CONFIG_FILE=CONFIG_FILE, export=True)
