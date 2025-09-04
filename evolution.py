@@ -755,7 +755,7 @@ def novelty_search(af_log, params={}):
             indiv.eval(story)
 
             # 3+4. Evaluate novelty against archive and add if novel and fit enough
-            if is_novel(indiv, archive, novel_threshold, True) and indiv.fitness > fit_threshold:
+            if is_novel(indiv, archive, novel_threshold) and indiv.fitness > fit_threshold:
                 archive.append(indiv.clone())
 
         # print some stats
