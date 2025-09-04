@@ -447,6 +447,7 @@ class FicGenome:
         self.ent = new_ent
         self.verbs = new_verbs
         self.ent_encs = get_ent_encs(list(self.ent.values()))
+        self.genome = self.make_genome()
 
     # ------ NOVELTY / EVOLUTION METHODS ------ #
     def clone(self):
@@ -754,7 +755,7 @@ def novelty_search(af_log, params={}):
             indiv.eval(story)
 
             # 3+4. Evaluate novelty against archive and add if novel and fit enough
-            if is_novel(indiv, archive, novel_threshold) and indiv.fitness > fit_threshold:
+            if is_novel(indiv, archive, novel_threshold, True) and indiv.fitness > fit_threshold:
                 archive.append(indiv.clone())
 
         # print some stats
@@ -973,4 +974,4 @@ if __name__ == "__main__":
     pre_encode_data(use_file=True)
     CONFIG_FILE = sys.argv[1] if len(sys.argv) > 1 else 'exp_config/nov_test_config.yaml'
 
-    run_algorithm("map_elites", 'sifted_logs/zelda.txt', CONFIG_FILE=CONFIG_FILE, export=True)
+    run_algorithm("novelty_search", 'sifted_logs/zelda.txt', CONFIG_FILE=CONFIG_FILE, export=True)
