@@ -435,11 +435,25 @@ class FicGenome:
             if random.random() < mut_chance:
                 if info['ent_type'] == 'subject':
                     ne = mc_subjs.pop() if ent_form == 'assoc' and len(mc_subjs) > 0 else random.choice(local_subjs)
+                    added_ent = re.sub(r'[0-9]+', '', ne)  # remove numbers from the entity
+                    if added_ent in local_subjs:
+                        local_subjs.remove(added_ent)
+                    if added_ent in local_objs:
+                        local_objs.remove(added_ent)
+                    if added_ent in mc_objs:
+                        mc_objs.remove(added_ent)
 
                     for i in range(len(info['ids'])):
                         new_ent[info['ids'][i]] = ne + f"{i+1}" if i > 0 else ne
                 else:
                     ne = mc_objs.pop() if ent_form == 'assoc' and len(mc_objs) > 0 else random.choice(local_objs)
+                    added_ent = re.sub(r'[0-9]+', '', ne)  # remove numbers from the entity
+                    if added_ent in local_objs:
+                        local_objs.remove(added_ent)
+                    if added_ent in local_objs:
+                        local_objs.remove(added_ent)
+                    if added_ent in mc_objs:
+                        mc_objs.remove(added_ent)
 
                     for i in range(len(info['ids'])):
                         new_ent[info['ids'][i]] = ne + f"{i+1}" if i > 0 else ne
