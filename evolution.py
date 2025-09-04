@@ -645,6 +645,11 @@ class FicGenome:
 
 
 # ===== ALGORITHM FUNCTIONS ===== #
+def calculate_elite_count(pop_size, elite_percentage=0.05):
+    """Calculate number of elites based on population size"""
+    return max(1, int(pop_size * elite_percentage))
+
+
 def init_population(size, story, main_char='random', others='random'):
     """Initializes a population of FicGenome objects based on the given AF_Story object 
     
@@ -722,9 +727,11 @@ def novelty_search(af_log, params={}):
     fit_threshold = params.get('fit_threshold', 0.5)
     novel_threshold = params.get('novel_threshold', 0.5)
     rand_perc = params.get('rand_perc', 0.2)
+    elite_perc = params.get('elite_perc', 0.05)  # Default 5% elitism
 
     num_generations = params.get('num_generations', NUM_GENERATIONS)
     pop_size = params.get('pop_size', POP_SIZE)
+    elite_count = calculate_elite_count(pop_size, elite_perc)
 
     # 0. Initialize story representation
     story = AF_Story(af_log)
@@ -766,23 +773,28 @@ def novelty_search(af_log, params={}):
             best_fic = population[0].clone()
             print(f"  New best fitness: {best_fitness:.3f}")
 
+        # Extract elites before creating new population
+        elites = [indiv.clone() for indiv in population[:elite_count]]
+
         # 5. Select new parents from novelty archive
+        # Adjust parent count to account for elites
+        parent_count = int((pop_size - elite_count) * (1 - rand_perc))
         if len(archive) > 0:
-            parents = random.choices(archive, k=int(pop_size*(1-rand_perc)))
+            parents = random.choices(archive, k=parent_count)
         else:
-            parents = random.choices(population, k=int(pop_size*(1-rand_perc)))
+            parents = random.choices(population, k=parent_count)
 
         # 6. Mutate children from parents
-        new_pop = []
+        new_pop = elites[:]  # Start with elites
         for parent in parents:
             child = parent.clone()
             child.mutate(story, mut_chance=mut_chance, ent_form=mut_other_ents, verb_form=mut_verbs)
             new_pop.append(child)
 
         # 7. Add random individuals
-        rand_amt = (pop_size - len(new_pop))
-        for _ in range(int(pop_size*rand_perc)):
-            randos = init_population(rand_amt, story, main_char=init_main_char, others=init_other_ents)
+        random_count = pop_size - len(new_pop)
+        if random_count > 0:
+            randos = init_population(random_count, story, main_char=init_main_char, others=init_other_ents)
             new_pop.extend(randos)
 
         fitness_values.append(f"{population[0].fitness:.3f}")
@@ -823,10 +835,12 @@ def map_elites(af_log, params={}):
     mut_verbs = params.get('mut_verbs', 'random')
 
     rand_perc = params.get('rand_perc', 0.2)
+    elite_perc = params.get('elite_perc', 0.05)  # Default 5% elitism
     arx_cell_size = params.get('arx_cell_size', 5)
 
     num_generations = params.get('num_generations', NUM_GENERATIONS)
     pop_size = params.get('pop_size', POP_SIZE)
+    elite_count = calculate_elite_count(pop_size, elite_perc)
 
     # 0. Initialize story representation
     story = AF_Story(af_log)
@@ -876,24 +890,29 @@ def map_elites(af_log, params={}):
             best_fic = population[0].clone()
             print(f"  New best fitness: {best_fitness:.3f}")
 
+        # Extract elites before creating new population
+        elites = [indiv.clone() for indiv in population[:elite_count]]
+
         # 5. Select new parents from novelty archive
+        # Adjust parent count to account for elites
+        parent_count = int((pop_size - elite_count) * (1 - rand_perc))
         if len(archive) > 0:
             arx_stories = [s for sublist in archive.values() for s in sublist]
-            parents = random.choices(arx_stories, k=int(pop_size*(1-rand_perc)))
+            parents = random.choices(arx_stories, k=parent_count)
         else:
-            parents = random.choices(population, k=int(pop_size*(1-rand_perc)))
+            parents = random.choices(population, k=parent_count)
 
         # 6. Mutate children from parents
-        new_pop = []
+        new_pop = elites[:]  # Start with elites
         for parent in parents:
             child = parent.clone()
             child.mutate(story, mut_chance=mut_chance, ent_form=mut_other_ents, verb_form=mut_verbs)
             new_pop.append(child)
 
         # 7. Add random individuals
-        rand_amt = (pop_size - len(new_pop))
-        for _ in range(int(pop_size*rand_perc)):
-            randos = init_population(rand_amt, story, main_char=init_main_char, others=init_other_ents)
+        random_count = pop_size - len(new_pop)
+        if random_count > 0:
+            randos = init_population(random_count, story, main_char=init_main_char, others=init_other_ents)
             new_pop.extend(randos)
 
 

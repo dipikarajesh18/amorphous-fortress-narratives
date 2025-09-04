@@ -7,5 +7,6 @@ mut_verbs: random
 fit_threshold: 0.3
 novel_threshold: 0.5
 rand_perc: 0.2
-num_generations: 200
-pop_size: 25
+num_generations: 100
+pop_size: 10
+elite_perc: 0.05

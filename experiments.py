@@ -62,17 +62,17 @@ if __name__ == "__main__":
         'lock_n_key.txt'
     ]
 
-    # Experiment 1: Pure Random
-    print("Running Experiment 1: Pure Random")
-    CONFIG_FILE = 'exp_config/pure_random_experiment.yaml'
-    run_experiment(stories, CONFIG_FILE, experiment_name="exp1_pure_random")
+    # # Experiment 1: Pure Random
+    # print("Running Experiment 1: Pure Random")
+    # CONFIG_FILE = 'exp_config/pure_random_experiment.yaml'
+    # run_experiment(stories, CONFIG_FILE, experiment_name="exp1_pure_random")
 
     # # Experiment 2: Random MC + Associations
     # print("Running Experiment 2: Random MC + Associations")
     # CONFIG_FILE = 'exp_config/random_mc_assoc_experiment.yaml'
     # run_experiment(stories, CONFIG_FILE, experiment_name="exp2_random_mc_assoc")
 
-    # # Experiment 3: Fixed MC + Associations
-    # print("Running Experiment 3: Fixed MC + Associations")
-    # CONFIG_FILE = 'exp_config/fixed_mc_assoc_experiment.yaml'
-    # run_experiment(stories, CONFIG_FILE, set_mc=True, experiment_name="exp3_fixed_mc_assoc")
+    # Experiment 3: Fixed MC + Associations
+    print("Running Experiment 3: Fixed MC + Associations")
+    CONFIG_FILE = 'exp_config/fixed_mc_assoc_experiment.yaml'
+    run_experiment(stories, CONFIG_FILE, set_mc=True, experiment_name="exp3_fixed_mc_assoc")

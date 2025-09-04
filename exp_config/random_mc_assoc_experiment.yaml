@@ -9,3 +9,4 @@ novel_threshold: 0.5
 rand_perc: 0.2
 num_generations: 200
 pop_size: 25
+elite_perc: 0.05
