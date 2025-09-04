@@ -34,29 +34,24 @@ def read_story_specific_mcs():
         }
     return story_mcs
 
-def run_experiment(stories, CONFIG_FILE, set_mc=False, experiment_name="experiment"):
+def run_experiment(story_file, CONFIG_FILE, set_mc=False, experiment_name="experiment"):
+    # Initialize models and data for each worker process
+    setup_models_and_data(data_path='bank_files')
+    pre_encode_data(use_file=True)
+    
     for algorithm in ['novelty_search', 'map_elites']:
-        for story in stories:
-            print(f"Running {experiment_name} with {algorithm} for {story}...")
-            if set_mc:
-                # Set the MC to the first option from the story-specific MCs
-                if story in STORY_SPECIFIC_MCS:
-                    mc_options = STORY_SPECIFIC_MCS[story]
-                    for mc in mc_options:
-                        run_algorithm(algorithm, f'sifted_logs/{story}', CONFIG_FILE=CONFIG_FILE, export=True, experiment_name=f"{experiment_name}_MC-{mc}", set_mc=mc)
-            else:
-                run_algorithm(algorithm, f'sifted_logs/{story}', CONFIG_FILE=CONFIG_FILE, export=True, experiment_name=experiment_name)
+        print(f"Running {experiment_name} with {algorithm} for {story_file}...")
+        if set_mc:
+            # Set the MC to the first option from the story-specific MCs
+            STORY_SPECIFIC_MCS = read_story_specific_mcs()
+            if story_file in STORY_SPECIFIC_MCS:
+                mc_options = STORY_SPECIFIC_MCS[story_file]
+                for mc in mc_options:
+                    run_algorithm(algorithm, f'sifted_logs/{story_file}', CONFIG_FILE=CONFIG_FILE, export=True, experiment_name=f"{experiment_name}_MC-{mc}", set_mc=mc)
+        else:
+            run_algorithm(algorithm, f'sifted_logs/{story_file}', CONFIG_FILE=CONFIG_FILE, export=True, experiment_name=experiment_name)
 
 if __name__ == "__main__":
-    print("Setting up models and data...")
-    setup_models_and_data(data_path='bank_files')
-
-    print("Pre-encoding the entities and verbs...")
-    pre_encode_data(use_file=True)
-
-    # Read story-specific MCs from file - now returns all options
-    STORY_SPECIFIC_MCS = read_story_specific_mcs()
-    
     stories = [
         'castle2.txt', 
         'drunk_sokoban.txt', 
@@ -65,16 +60,20 @@ if __name__ == "__main__":
     ]
 
     # # Experiment 1: Pure Random
-    # print("Running Experiment 1: Pure Random")
-    # CONFIG_FILE = 'exp_config/pure_random_experiment.yaml'
-    # run_experiment(stories, CONFIG_FILE, experiment_name="exp1_pure_random")
+    print("Running Experiment 1: Pure Random")
+    CONFIG_FILE = 'exp_config/pure_random_experiment.yaml'
+    with multiprocessing.Pool(processes=2) as pool:
+        pool.starmap(run_experiment, [(story_file, CONFIG_FILE, False, "exp1_pure_random") for story_file in stories])
 
     # # Experiment 2: Random MC + Associations
-    # print("Running Experiment 2: Random MC + Associations")
-    # CONFIG_FILE = 'exp_config/random_mc_assoc_experiment.yaml'
-    # run_experiment(stories, CONFIG_FILE, experiment_name="exp2_random_mc_assoc")
+    print("Running Experiment 2: Random MC + Associations")
+    CONFIG_FILE = 'exp_config/random_mc_assoc_experiment.yaml'
+    with multiprocessing.Pool(processes=2) as pool:
+        pool.starmap(run_experiment, [(story_file, CONFIG_FILE, False, "exp2_random_mc_assoc") for story_file in stories])
 
-    # Experiment 3: Fixed MC + Associations
-    print("Running Experiment 3: Fixed MC + Associations")
-    CONFIG_FILE = 'exp_config/fixed_mc_assoc_experiment.yaml'
-    run_experiment(stories, CONFIG_FILE, set_mc=True, experiment_name="exp3_fixed_mc_assoc")
+    # # Experiment 3: Fixed MC + Associations
+    # print("Running Experiment 3: Fixed MC + Associations")
+    # CONFIG_FILE = 'exp_config/fixed_mc_assoc_experiment.yaml'
+
+    # with multiprocessing.Pool(processes=2) as pool:
+    #     pool.starmap(run_experiment, [(story_file, CONFIG_FILE, True, "exp3_fixed_mc_assoc") for story_file in stories])

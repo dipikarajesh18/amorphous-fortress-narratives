@@ -570,7 +570,8 @@ class FicGenome:
             print(f"- Verb Score: {verb_score:.4f}")
 
         # set the fitness
-        self.fitness = (intra_cohesion + inter_sentence_cohesion_score + ent_score + verb_score) / 4.0
+        # self.fitness = (intra_cohesion + inter_sentence_cohesion_score + ent_score + verb_score) / 4.0
+        self.fitness = (intra_cohesion * 0.4) + (inter_sentence_cohesion_score * 0.4) + (ent_score * 0.1) + (verb_score * 0.1)
 
         self.fit_set = {
             'intra': intra_cohesion,
