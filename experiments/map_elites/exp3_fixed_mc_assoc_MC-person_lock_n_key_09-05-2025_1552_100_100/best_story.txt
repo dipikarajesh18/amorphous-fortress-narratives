@@ -1,0 +1,30 @@
+<1> [wheelbarrow] moved to 7,4
+<2> [wheelbarrow] moved to 6,4
+<3> [wheelbarrow] moved to 7,4
+<4> [wheelbarrow] moved to 8,4
+<5> [wheelbarrow] moved to 8,3
+<6> [wheelbarrow] moved to 8,2
+<7> [wheelbarrow] moved to 8,3
+<8> [wheelbarrow] moved to 9,3
+<9> [wheelbarrow] moved to 9,4
+<10> [wheelbarrow] moved to 9,5
+<11> [wheelbarrow] carried [wallet]
+<12> [wheelbarrow] carried [wallet]
+<13> [wheelbarrow] carried [wallet]
+<14> [wheelbarrow] moved [wallet]
+<15> [wheelbarrow] moved into [O.c31a] at 11,6
+<16> [O.c31a] avoided [hotdog]
+<17> [O.c31a] killed [hotdog]
+<18> [O.c31a] gripped [hotdog]
+<19> [O.c31a] guided [hotdog]
+<20> [O.c31a] boiled [hotdog]
+<21> [O.c31a] tracked [hotdog]
+<22> [O.c31a] cooked [hotdog]
+<23> [O.c31a] brought [hotdog]
+<24> [O.c31a] rid [hotdog]
+<25> [O.c31a] jogged [hotdog]
+<26> [O.c31a] justified [hotdog]
+<27> [O.c31a] chased [hotdog]
+<28> [O.c31a] trapped [hotdog]
+<29> [O.c31a] travelled [hotdog]
+<30> [O.c31a] did

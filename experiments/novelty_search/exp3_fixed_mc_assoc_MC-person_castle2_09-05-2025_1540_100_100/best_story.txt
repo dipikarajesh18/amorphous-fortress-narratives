@@ -1,0 +1,30 @@
+<1> [person2] puzzled to 6,6
+<1> [person] followed to 3,6
+<4> [person3] misspelled to 11,5
+<6> [fact] destroyed [person3]
+<6> [person2] smelled to 6,5
+<7> [person3] consumed to 11,4
+<9> [person3] slept by [people]
+<10> [person] arranged [star]
+<10> [name] labeled
+<12> [fact] destroyed [person3]
+<13> [person2] understood to 5,5
+<13> [person] reported [star2]
+<15> [fact] considered [person3]
+<20> [fact2] removed [person2]
+<21> [person] ran [star3]
+<22> [person] shot by [people2]
+<24> [fact2] accounted [person2]
+<25> [person] read [star4]
+<26> [person] sentece by [people3]
+<26> [fact2] avenged [person2]
+<29> [person] killed [star5]
+<29> [fact2] wiggled [person2]
+<32> [person] reached to 8,1
+<38> [person] lived [star6]
+<41> [person] sniffed [star7]
+<43> [person] controlled [star8]
+<45> [person] pushed [star9]
+<49> [person] did to 11,1
+<50> [fact] considered [person]
+<53> [fact] considered [person]

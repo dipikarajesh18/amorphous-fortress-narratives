@@ -1,0 +1,30 @@
+<6> [change] brought to 12,1
+<11> [X.1a6e] tilled [sushi] at 10,2
+<15> [mountain] put [sushi]
+<15> [sushi] moved to 10,4
+<21> [X.1a6e] forgot [sushi2] at 8,1
+<21> [change] led [mountain]
+<22> [change] led [mountain]
+<27> [sushi2] clipped to 8,4
+<29> [sushi2] wrapped [color]
+<31> [X.1a6e] ordered [sushi3] at 8,3
+<35> [sushi] moved [color]
+<45> [X.1a6e] required to 6,1
+<49> [sushi2] crashed to 9,2
+<51> [change] brought to 10,3
+<57> [sushi] moved to 10,2
+<61> [X.1a6e] billed [sushi4] at 5,1
+<71> [X.1a6e] hosted [sushi5] at 6,2
+<81> [X.1a6e] increased [sushi6] at 7,1
+<91> [change] moved to 8,3
+<93> [X.1a6e] relocated to 7,1
+<93> [sushi2] upgraded [color]
+<116> [change] led to 7,2
+<121> [sushi2] equalled to 7,1
+<121> [X.1a6e] did [sushi7] at 5,2
+<121> [sushi] lifted to 12,4
+<141> [X.1a6e] gated [sushi8] at 3,2
+<151> [change] led to 7,3
+<155> [sushi] moved to 12,6
+<161> [sushi2] bought to 8,4
+<161> [sushi] moved to 12,5

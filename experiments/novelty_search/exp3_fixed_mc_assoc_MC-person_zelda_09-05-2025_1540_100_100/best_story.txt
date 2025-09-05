@@ -1,0 +1,30 @@
+<6> [tape] placed to 12,1
+<11> [person] stood [companionship] at 10,2
+<15> [home] had [companionship]
+<15> [revenge] settled to 10,4
+<21> [person] served [companionship2] at 8,1
+<21> [tape] backed [home]
+<22> [tape] backed [home]
+<27> [revenge2] accompanied to 8,4
+<29> [revenge2] spent [lorry]
+<31> [person] sent [companionship3] at 8,3
+<35> [revenge] settled [lorry]
+<45> [person] wore to 6,1
+<49> [revenge2] sanitized to 9,2
+<51> [tape] stuck to 10,3
+<57> [revenge] settled to 10,2
+<61> [person] walled [companionship4] at 5,1
+<71> [person] met [companionship5] at 6,2
+<81> [person] tied [companionship6] at 7,1
+<91> [tape] backed to 8,3
+<93> [person] ran to 7,1
+<93> [revenge2] resulted [lorry]
+<116> [tape] fixed to 7,2
+<121> [revenge2] excreted to 7,1
+<121> [person] ducked [companionship7] at 5,2
+<121> [revenge] settled to 12,4
+<141> [person] repaid [companionship8] at 3,2
+<151> [tape] placed to 7,3
+<155> [revenge] settled to 12,6
+<161> [revenge2] dated to 8,4
+<161> [revenge] settled to 12,5

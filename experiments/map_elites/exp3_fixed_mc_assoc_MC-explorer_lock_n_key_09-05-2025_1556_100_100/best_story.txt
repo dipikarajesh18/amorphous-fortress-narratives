@@ -1,0 +1,30 @@
+<1> [land] grew to 7,4
+<2> [land] grew to 6,4
+<3> [land] grew to 7,4
+<4> [land] grew to 8,4
+<5> [land] grew to 8,3
+<6> [land] grew to 8,2
+<7> [land] grew to 8,3
+<8> [land] grew to 9,3
+<9> [land] grew to 9,4
+<10> [land] grew to 9,5
+<11> [land] grew [record]
+<12> [land] grew [record]
+<13> [land] grew [record]
+<14> [land] grew [record]
+<15> [land] grew into [explorer] at 11,6
+<16> [explorer] lost [territory]
+<17> [explorer] lost [territory]
+<18> [explorer] treasured [territory]
+<19> [explorer] discovered [territory]
+<20> [explorer] journeyed [territory]
+<21> [explorer] journeyed [territory]
+<22> [explorer] journeyed [territory]
+<23> [explorer] journeyed [territory]
+<24> [explorer] journeyed [territory]
+<25> [explorer] lost [territory]
+<26> [explorer] kept [territory]
+<27> [explorer] discovered [territory]
+<28> [explorer] lost [territory]
+<29> [explorer] lost [territory]
+<30> [explorer] lost

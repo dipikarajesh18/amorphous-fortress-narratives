@@ -1,0 +1,30 @@
+<6> [case] tried to 12,1
+<11> [fighter] cauliflower [bout] at 10,2
+<15> [recycle] detailed [bout]
+<15> [fist] hit to 10,4
+<21> [fighter] boxed [bout2] at 8,1
+<21> [case] tried [recycle]
+<22> [case] tried [recycle]
+<27> [fist2] canned to 8,4
+<29> [fist2] warned [collection]
+<31> [fighter] cauliflower [bout3] at 8,3
+<35> [fist] hit [collection]
+<45> [fighter] lost to 6,1
+<49> [fist2] stabled to 9,2
+<51> [case] tried to 10,3
+<57> [fist] hit to 10,2
+<61> [fighter] cauliflower [bout4] at 5,1
+<71> [fighter] cauliflower [bout5] at 6,2
+<81> [fighter] cauliflower [bout6] at 7,1
+<91> [case] tried to 8,3
+<93> [fighter] cauliflower to 7,1
+<93> [fist2] stuffed [collection]
+<116> [case] tried to 7,2
+<121> [fist2] gained to 7,1
+<121> [fighter] boxed [bout7] at 5,2
+<121> [fist] hit to 12,4
+<141> [fighter] boxed [bout8] at 3,2
+<151> [case] tried to 7,3
+<155> [fist] hit to 12,6
+<161> [fist2] supervised to 8,4
+<161> [fist] hit to 12,5

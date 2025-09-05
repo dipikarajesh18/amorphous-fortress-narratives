@@ -1,0 +1,30 @@
+<8> [person2] welded [chalkboard]
+<54> [person] gathered [chalkboard2]
+<82> [person3] sinned [chalkboard3]
+<93> [person] picked to 11,1
+<186> [person] measured to 6,2
+<250> [person3] woke to 5,3
+<343> [person] checked to 4,5
+<458> [person] tasted [chalkboard4]
+<459> [person] saw [chalkboard4]
+<462> [person] allowed [chalkboard4]
+<505> [person4] forged to 4,3
+<558> [person3] opened [chalkboard4]
+<559> [chalkboard4] went [people]
+<560> [chalkboard4] wrote into [man] at 1,6
+<648> [chalkboard] found [people2]
+<649> [chalkboard] told into [man2] at 13,1
+<703> [person] arranged to 11,1
+<720> [person3] tried [chalkboard2]
+<759> [chalkboard2] schooled [people3]
+<760> [chalkboard2] projected into [man3] at 1,1
+<812> [person4] owed to 3,4
+<874> [person4] noticed [chalkboard3]
+<962> [person4] invited to 12,2
+<1004> [person4] behaved to 11,1
+<1073> [person3] urinated to 13,2
+<1116> [person2] shooed to 9,1
+<1196> [person] took to 5,5
+<1201> [person] inheritance to 5,4
+<1202> [chalkboard3] launched [people4]
+<1203> [chalkboard3] gonged into [man4] at 13,6

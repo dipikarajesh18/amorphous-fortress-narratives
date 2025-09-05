@@ -371,7 +371,7 @@ class FicGenome:
         # remake the genome based on new values
         self.genome = self.make_genome()
 
-    def mutate(self, story, mut_chance=0.25, ent_form='random', verb_form='random', debug=False):
+    def mutate(self, story, mut_chance=0.25, ent_form='random', verb_form='random', change_mc=False, debug=False):
         """Keeps the main character the same but any verb or entity has a chance to be randomly replaced 
         Does not use associated entities
         
@@ -440,6 +440,8 @@ class FicGenome:
         new_ent = {}
         new_picks = []
         for class_ent, info in unique_ents.items():
+            if class_ent == re.sub(r'[0-9]+', '', self.mc) and not change_mc:   # skip the main character
+                continue
 
             # change the entity group
             if random.random() < mut_chance:
@@ -476,8 +478,9 @@ class FicGenome:
             
 
         if debug:
-            print("~~ ~ ~ ~ ~ ~ ~ ~AA A A AS DSA SAD SADA ~ ~ ~ ~ ~ ~ ~ ~ ~")
+            print("\n~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~\n")
             print(new_ent.values())
+            print("\n~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~\n")
             
 
         if debug:
@@ -865,7 +868,7 @@ def novelty_search(af_log, params={}):
         new_pop = elites[:]  # Start with elites
         for parent in parents:
             child = parent.clone()
-            child.mutate(story, mut_chance=mut_chance, ent_form=mut_other_ents, verb_form=mut_verbs, debug=False)
+            child.mutate(story, mut_chance=mut_chance, ent_form=mut_other_ents, verb_form=mut_verbs, change_mc=(init_main_char == 'random'), debug=False)
             new_pop.append(child)
 
         # 7. Add random individuals
@@ -984,7 +987,7 @@ def map_elites(af_log, params={}):
         new_pop = elites[:]  # Start with elites
         for parent in parents:
             child = parent.clone()
-            child.mutate(story, mut_chance=mut_chance, ent_form=mut_other_ents, verb_form=mut_verbs)
+            child.mutate(story, mut_chance=mut_chance, ent_form=mut_other_ents, verb_form=mut_verbs, change_mc=(init_main_char == 'random'))
             new_pop.append(child)
 
         # 7. Add random individuals

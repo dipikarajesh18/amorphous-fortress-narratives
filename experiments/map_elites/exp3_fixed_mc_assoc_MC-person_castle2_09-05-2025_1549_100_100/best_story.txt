@@ -1,0 +1,30 @@
+<1> [person2] completed to 6,6
+<1> [person] used to 3,6
+<4> [person3] included to 11,5
+<6> [room] had [person3]
+<6> [person2] dived to 6,5
+<7> [person3] registered to 11,4
+<9> [person3] carried by [experience]
+<10> [person] bugged [character]
+<10> [rain] made
+<12> [room] stored [person3]
+<13> [person2] lettered to 5,5
+<13> [person] improved [character2]
+<15> [room] had [person3]
+<20> [room2] accompanied [person2]
+<21> [person] meant [character3]
+<22> [person] happened by [experience2]
+<24> [room2] easter [person2]
+<25> [person] looked [character4]
+<26> [person] stranded by [experience3]
+<26> [room2] undertook [person2]
+<29> [person] did [character5]
+<29> [room2] erected [person2]
+<32> [person] tripped to 8,1
+<38> [person] sat [character6]
+<41> [person] bought [character7]
+<43> [person] sealed [character8]
+<45> [person] coursed [character9]
+<49> [person] dropped to 11,1
+<50> [room] did [person]
+<53> [room] did [person]

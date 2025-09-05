@@ -1,0 +1,30 @@
+<1> [guard2] ported to 6,6
+<1> [guard] posted to 3,6
+<4> [guard3] mixed to 11,5
+<6> [people] hurried [guard3]
+<6> [guard2] said to 6,5
+<7> [guard3] touched to 11,4
+<9> [guard3] blinded by [activity]
+<10> [guard] posted [man]
+<10> [thorn] squeezed
+<12> [people] fidgeted [guard3]
+<13> [guard2] ironed to 5,5
+<13> [guard] allowed [man2]
+<15> [people] died [guard3]
+<20> [people2] forgave [guard2]
+<21> [guard] posted [man3]
+<22> [guard] reported by [activity2]
+<24> [people2] prevented [guard2]
+<25> [guard] posted [man4]
+<26> [guard] posted by [activity3]
+<26> [people2] brightened [guard2]
+<29> [guard] posted [man5]
+<29> [people2] obscured [guard2]
+<32> [guard] reported to 8,1
+<38> [guard] reported [man6]
+<41> [guard] reported [man7]
+<43> [guard] reported [man8]
+<45> [guard] reported [man9]
+<49> [guard] posted to 11,1
+<50> [people] attracted [guard]
+<53> [people] gathered [guard]

@@ -1,0 +1,49 @@
+{
+   "mc": "person",
+   "ent": {
+      "[o.4114]": "wheelbarrow",
+      "[?.e7b5]": "place",
+      "[O.c31a]": "person",
+      "[>.34c6]": "bird"
+   },
+   "verbs": {
+      "0": "moved",
+      "1": "moved",
+      "2": "moved",
+      "3": "moved",
+      "4": "carried",
+      "5": "moved",
+      "6": "moved",
+      "7": "moved",
+      "8": "carried",
+      "9": "carried",
+      "10": "moved",
+      "11": "carried",
+      "12": "moved",
+      "13": "carried",
+      "14": "moved",
+      "15": "broke",
+      "16": "shook",
+      "17": "arrived",
+      "18": "traded",
+      "19": "took",
+      "20": "happened",
+      "21": "missed",
+      "22": "helped",
+      "23": "thought",
+      "24": "lost",
+      "25": "carried",
+      "26": "subjected",
+      "27": "swam",
+      "28": "lifted",
+      "29": "ate"
+   },
+   "fitness": 0.6397838494901,
+   "fit_set": {
+      "inter": 0.7675711995568769,
+      "ent": 0.2873254716396332,
+      "verb": 0.5016952753067017
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [wheelbarrow] moved to 7,4\n<2> [wheelbarrow] moved to 6,4\n<3> [wheelbarrow] moved to 7,4\n<4> [wheelbarrow] moved to 8,4\n<5> [wheelbarrow] carried to 8,3\n<6> [wheelbarrow] moved to 8,2\n<7> [wheelbarrow] moved to 8,3\n<8> [wheelbarrow] moved to 9,3\n<9> [wheelbarrow] carried to 9,4\n<10> [wheelbarrow] carried to 9,5\n<11> [wheelbarrow] moved [place]\n<12> [wheelbarrow] carried [place]\n<13> [wheelbarrow] moved [place]\n<14> [wheelbarrow] carried [place]\n<15> [wheelbarrow] moved into [person] at 11,6\n<16> [person] broke [bird]\n<17> [person] shook [bird]\n<18> [person] arrived [bird]\n<19> [person] traded [bird]\n<20> [person] took [bird]\n<21> [person] happened [bird]\n<22> [person] missed [bird]\n<23> [person] helped [bird]\n<24> [person] thought [bird]\n<25> [person] lost [bird]\n<26> [person] carried [bird]\n<27> [person] subjected [bird]\n<28> [person] swam [bird]\n<29> [person] lifted [bird]\n<30> [person] ate"
+}

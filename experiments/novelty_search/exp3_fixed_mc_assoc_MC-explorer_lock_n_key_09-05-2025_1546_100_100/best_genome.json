@@ -1,0 +1,49 @@
+{
+   "mc": "explorer",
+   "ent": {
+      "[o.4114]": "land",
+      "[?.e7b5]": "continent",
+      "[O.c31a]": "explorer",
+      "[>.34c6]": "territory"
+   },
+   "verbs": {
+      "0": "grew",
+      "1": "grew",
+      "2": "grew",
+      "3": "grew",
+      "4": "grew",
+      "5": "grew",
+      "6": "grew",
+      "7": "grew",
+      "8": "grew",
+      "9": "grew",
+      "10": "grew",
+      "11": "grew",
+      "12": "grew",
+      "13": "grew",
+      "14": "grew",
+      "15": "discovered",
+      "16": "discovered",
+      "17": "discovered",
+      "18": "lost",
+      "19": "journeyed",
+      "20": "lost",
+      "21": "journeyed",
+      "22": "treasured",
+      "23": "journeyed",
+      "24": "journeyed",
+      "25": "journeyed",
+      "26": "journeyed",
+      "27": "journeyed",
+      "28": "lost",
+      "29": "journeyed"
+   },
+   "fitness": 0.6727679010095268,
+   "fit_set": {
+      "inter": 0.8886514100535162,
+      "ent": 0.29225146770477295,
+      "verb": 0.3678396940231323
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [land] grew to 7,4\n<2> [land] grew to 6,4\n<3> [land] grew to 7,4\n<4> [land] grew to 8,4\n<5> [land] grew to 8,3\n<6> [land] grew to 8,2\n<7> [land] grew to 8,3\n<8> [land] grew to 9,3\n<9> [land] grew to 9,4\n<10> [land] grew to 9,5\n<11> [land] grew [continent]\n<12> [land] grew [continent]\n<13> [land] grew [continent]\n<14> [land] grew [continent]\n<15> [land] grew into [explorer] at 11,6\n<16> [explorer] discovered [territory]\n<17> [explorer] discovered [territory]\n<18> [explorer] discovered [territory]\n<19> [explorer] lost [territory]\n<20> [explorer] journeyed [territory]\n<21> [explorer] lost [territory]\n<22> [explorer] journeyed [territory]\n<23> [explorer] treasured [territory]\n<24> [explorer] journeyed [territory]\n<25> [explorer] journeyed [territory]\n<26> [explorer] journeyed [territory]\n<27> [explorer] journeyed [territory]\n<28> [explorer] journeyed [territory]\n<29> [explorer] lost [territory]\n<30> [explorer] journeyed"
+}

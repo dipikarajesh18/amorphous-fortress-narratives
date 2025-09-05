@@ -1,0 +1,30 @@
+<8> [worker2] framed [paycheck]
+<54> [worker] met [paycheck2]
+<82> [worker3] cooled [paycheck3]
+<93> [worker] drove to 11,1
+<186> [worker] counted to 6,2
+<250> [worker3] made to 5,3
+<343> [worker] dug to 4,5
+<458> [worker] dug [paycheck4]
+<459> [worker] advanced [paycheck4]
+<462> [worker] built [paycheck4]
+<505> [worker4] timed to 4,3
+<558> [worker3] illustrated [paycheck4]
+<559> [paycheck4] categorized [labor]
+<560> [paycheck4] cooperated into [work] at 1,6
+<648> [paycheck] exchanged [labor2]
+<649> [paycheck] exchanged into [work2] at 13,1
+<703> [worker] met to 11,1
+<720> [worker3] pleased [paycheck2]
+<759> [paycheck2] returned [labor3]
+<760> [paycheck2] exported into [work3] at 1,1
+<812> [worker4] augmented to 3,4
+<874> [worker4] began [paycheck3]
+<962> [worker4] lifted to 12,2
+<1004> [worker4] began to 11,1
+<1073> [worker3] sounded to 13,2
+<1116> [worker2] gored to 9,1
+<1196> [worker] waited to 5,5
+<1201> [worker] built to 5,4
+<1202> [paycheck3] projected [labor4]
+<1203> [paycheck3] takeoff into [work4] at 13,6

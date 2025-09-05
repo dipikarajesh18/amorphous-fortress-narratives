@@ -1,0 +1,30 @@
+<1> [guard2] toasted to 6,6
+<1> [guard] allowed to 3,6
+<4> [guard3] marked to 11,5
+<6> [people] watched [guard3]
+<6> [guard2] resolved to 6,5
+<7> [guard3] hosted to 11,4
+<9> [guard3] banned by [activity]
+<10> [guard] allowed [man]
+<10> [hallway] placed
+<12> [people] looked [guard3]
+<13> [guard2] flowered to 5,5
+<13> [guard] allowed [man2]
+<15> [people] fought [guard3]
+<20> [people2] engaged [guard2]
+<21> [guard] reported [man3]
+<22> [guard] posted by [activity2]
+<24> [people2] browsed [guard2]
+<25> [guard] posted [man4]
+<26> [guard] reported by [activity3]
+<26> [people2] puzzled [guard2]
+<29> [guard] allowed [man5]
+<29> [people2] deflected [guard2]
+<32> [guard] posted to 8,1
+<38> [guard] reported [man6]
+<41> [guard] allowed [man7]
+<43> [guard] reported [man8]
+<45> [guard] posted [man9]
+<49> [guard] posted to 11,1
+<50> [people] injured [guard]
+<53> [people] touched [guard]

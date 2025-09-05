@@ -1,0 +1,30 @@
+<1> [wheelbarrow] moved to 7,4
+<2> [wheelbarrow] moved to 6,4
+<3> [wheelbarrow] moved to 7,4
+<4> [wheelbarrow] moved to 8,4
+<5> [wheelbarrow] carried to 8,3
+<6> [wheelbarrow] moved to 8,2
+<7> [wheelbarrow] moved to 8,3
+<8> [wheelbarrow] moved to 9,3
+<9> [wheelbarrow] carried to 9,4
+<10> [wheelbarrow] carried to 9,5
+<11> [wheelbarrow] moved [place]
+<12> [wheelbarrow] carried [place]
+<13> [wheelbarrow] moved [place]
+<14> [wheelbarrow] carried [place]
+<15> [wheelbarrow] moved into [person] at 11,6
+<16> [person] broke [bird]
+<17> [person] shook [bird]
+<18> [person] arrived [bird]
+<19> [person] traded [bird]
+<20> [person] took [bird]
+<21> [person] happened [bird]
+<22> [person] missed [bird]
+<23> [person] helped [bird]
+<24> [person] thought [bird]
+<25> [person] lost [bird]
+<26> [person] carried [bird]
+<27> [person] subjected [bird]
+<28> [person] swam [bird]
+<29> [person] lifted [bird]
+<30> [person] ate

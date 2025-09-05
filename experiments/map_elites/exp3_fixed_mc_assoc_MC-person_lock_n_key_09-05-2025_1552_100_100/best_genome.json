@@ -1,0 +1,48 @@
+{
+   "mc": "person",
+   "ent": {
+      "[o.4114]": "wheelbarrow",
+      "[?.e7b5]": "wallet",
+      "[>.34c6]": "hotdog"
+   },
+   "verbs": {
+      "0": "moved",
+      "1": "moved",
+      "2": "moved",
+      "3": "moved",
+      "4": "moved",
+      "5": "moved",
+      "6": "moved",
+      "7": "moved",
+      "8": "moved",
+      "9": "moved",
+      "10": "carried",
+      "11": "carried",
+      "12": "carried",
+      "13": "moved",
+      "14": "moved",
+      "15": "avoided",
+      "16": "killed",
+      "17": "gripped",
+      "18": "guided",
+      "19": "boiled",
+      "20": "tracked",
+      "21": "cooked",
+      "22": "brought",
+      "23": "rid",
+      "24": "jogged",
+      "25": "justified",
+      "26": "chased",
+      "27": "trapped",
+      "28": "travelled",
+      "29": "did"
+   },
+   "fitness": 0.6830468613525916,
+   "fit_set": {
+      "inter": 0.8255671591594301,
+      "ent": 0,
+      "verb": 0.6256885528564453
+   },
+   "story_file": "sifted_logs/lock_n_key.txt",
+   "new_story": "<1> [wheelbarrow] moved to 7,4\n<2> [wheelbarrow] moved to 6,4\n<3> [wheelbarrow] moved to 7,4\n<4> [wheelbarrow] moved to 8,4\n<5> [wheelbarrow] moved to 8,3\n<6> [wheelbarrow] moved to 8,2\n<7> [wheelbarrow] moved to 8,3\n<8> [wheelbarrow] moved to 9,3\n<9> [wheelbarrow] moved to 9,4\n<10> [wheelbarrow] moved to 9,5\n<11> [wheelbarrow] carried [wallet]\n<12> [wheelbarrow] carried [wallet]\n<13> [wheelbarrow] carried [wallet]\n<14> [wheelbarrow] moved [wallet]\n<15> [wheelbarrow] moved into [O.c31a] at 11,6\n<16> [O.c31a] avoided [hotdog]\n<17> [O.c31a] killed [hotdog]\n<18> [O.c31a] gripped [hotdog]\n<19> [O.c31a] guided [hotdog]\n<20> [O.c31a] boiled [hotdog]\n<21> [O.c31a] tracked [hotdog]\n<22> [O.c31a] cooked [hotdog]\n<23> [O.c31a] brought [hotdog]\n<24> [O.c31a] rid [hotdog]\n<25> [O.c31a] jogged [hotdog]\n<26> [O.c31a] justified [hotdog]\n<27> [O.c31a] chased [hotdog]\n<28> [O.c31a] trapped [hotdog]\n<29> [O.c31a] travelled [hotdog]\n<30> [O.c31a] did"
+}
